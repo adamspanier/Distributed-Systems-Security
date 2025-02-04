@@ -1,3 +1,4 @@
+# Initial Proposal
 [HOME](https://github.com/adamspanier/Distributed-Systems-Security/tree/main)
 
 ### Problem
