@@ -47,3 +47,6 @@ flushing, computers would stop running, lights would stop shining, and numerous 
 would fail leading to untold amounts of human suffering. A more effective approach to DCS security not
 only provides stability for businesses, governments, and utilities, but also for every human life. To
 mitigate the probability of these events is to bolster public safety for all people.
+
+### Diagram
+![Diagram](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/DCS-grey.drawio.png)
