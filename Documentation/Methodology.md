@@ -17,6 +17,10 @@ Based on the keywords above, the following search strings will be used:
 3. _Programmable Logic Controller Blockchain_
 4. _Programmable Logic Controller Fingerprinting_
 
+The following terms are used due to emergent terminology in applying the search method:
+1. _IIoT_
+2. _Industry 4.0_
+
 The following Databases will be used in this literature search:
 1. _IEEE Xplore_
 2._ The ACM Digital Library_
