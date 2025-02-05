@@ -56,4 +56,4 @@ Upon completion of the research corpus, the included literature will be analyzed
 
 ### 2.1 Review Results
 
-After conduction the systematic literature review described above, ___ relevant pieces of literature were added to the research corpus. From these works, _____ categories emerged.
+After conduction the systematic literature review described above, twenty (20) relevant pieces of literature were added to the research corpus. From these works, _____ categories emerged.
