@@ -1,5 +1,7 @@
 # Annotated Bibliography
 
+[METHODOLOGY](https://github.com/adamspanier/Distributed-Systems-Security/edit/main/Documentation/Methodology.md)
+
 ### Title: [A Novel Monitoring System for the Data Integrity of Reactor Protection System Using Blockchain Technology](https://ieeexplore.ieee.org/document/9126779)
 
 **Reference:**
