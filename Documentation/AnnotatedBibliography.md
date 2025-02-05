@@ -1,20 +1,44 @@
 # Annotated Bibliography
 
-## Title: [A Novel Monitoring System for the Data Integrity of Reactor Protection System Using Blockchain Technology](https://ieeexplore.ieee.org/document/9126779)
-### Ref: M. K. Choi, C. Y. Yeun and P. H. Seong, "A Novel Monitoring System for the Data Integrity of Reactor Protection System Using Blockchain Technology," in IEEE Access, vol. 8, pp. 118732-118740, 2020, doi: 10.1109/ACCESS.2020.3005134. 
-### Summary:
+### Title: [A Novel Monitoring System for the Data Integrity of Reactor Protection System Using Blockchain Technology](https://ieeexplore.ieee.org/document/9126779)
 
-## Title: [Blockchain architecture for process-level traceability of continuous mixing process in battery cell production](https://ieeexplore.ieee.org/document/10586718)
-### Ref: S. Otte, L. Reuscher, D. Keller and J. Fleischer, "Blockchain architecture for process-level traceability of continuous mixing process in battery cell production," 2024 1st International Conference on Production Technologies and Systems for E-Mobility (EPTS), Bamberg, Germany, 2024, pp. 1-14, doi: 10.1109/EPTS61482.2024.10586718.
-### Summary: 
+**Reference:**
 
-## Title: [Blockchain application in simulated environment for Cyber-Physical Systems Security](https://ieeexplore.ieee.org/document/9557446)
-### Ref: R. Colelli, C. Foglietta, R. Fusacchia, S. Panzieri and F. Pascucci, "Blockchain application in simulated environment for Cyber-Physical Systems Security," 2021 IEEE 19th International Conference on Industrial Informatics (INDIN), Palma de Mallorca, Spain, 2021, pp. 1-7, doi: 10.1109/INDIN45523.2021.9557446.
-### Summary: 
+M. K. Choi, C. Y. Yeun and P. H. Seong, "A Novel Monitoring System for the Data Integrity of Reactor Protection System Using Blockchain Technology," in IEEE Access, vol. 8, pp. 118732-118740, 2020, doi: 10.1109/ACCESS.2020.3005134. 
 
-## Title: [Protection against Ransomware in Industrial Control Systems through Decentralization using Blockchain](https://ieeexplore.ieee.org/document/10320188)
-### Ref: A. Parvizimosaed, H. Azad, D. Amyot and J. Mylopoulos, "Protection against Ransomware in Industrial Control Systems through Decentralization using Blockchain," 2023 20th Annual International Conference on Privacy, Security and Trust (PST), Copenhagen, Denmark, 2023, pp. 1-5, doi: 10.1109/PST58708.2023.10320188.
-### Summary: 
+**Summary:**
+
+<hr/>
+
+### Title: [Blockchain architecture for process-level traceability of continuous mixing process in battery cell production](https://ieeexplore.ieee.org/document/10586718)
+
+**Reference:**
+
+S. Otte, L. Reuscher, D. Keller and J. Fleischer, "Blockchain architecture for process-level traceability of continuous mixing process in battery cell production," 2024 1st International Conference on Production Technologies and Systems for E-Mobility (EPTS), Bamberg, Germany, 2024, pp. 1-14, doi: 10.1109/EPTS61482.2024.10586718.
+
+**Summary:**
+
+<hr/>
+
+### Title: [Blockchain application in simulated environment for Cyber-Physical Systems Security](https://ieeexplore.ieee.org/document/9557446)
+
+**Reference:**
+
+R. Colelli, C. Foglietta, R. Fusacchia, S. Panzieri and F. Pascucci, "Blockchain application in simulated environment for Cyber-Physical Systems Security," 2021 IEEE 19th International Conference on Industrial Informatics (INDIN), Palma de Mallorca, Spain, 2021, pp. 1-7, doi: 10.1109/INDIN45523.2021.9557446.
+
+**Summary:**
+
+<hr/>
+
+### Title: [Protection against Ransomware in Industrial Control Systems through Decentralization using Blockchain](https://ieeexplore.ieee.org/document/10320188)
+
+**Reference:**
+
+A. Parvizimosaed, H. Azad, D. Amyot and J. Mylopoulos, "Protection against Ransomware in Industrial Control Systems through Decentralization using Blockchain," 2023 20th Annual International Conference on Privacy, Security and Trust (PST), Copenhagen, Denmark, 2023, pp. 1-5, doi: 10.1109/PST58708.2023.10320188.
+
+**Summary:**
+
+<hr/>
 
 ## Title: [Toward a Failures Model for Communication of Decentralized Applications with Blockchain Networks Applied in the Industrial Environment](https://ieeexplore.ieee.org/document/9857810)
 ### Ref: C. T. B. Garrocho, K. N. Oliveira, A. L. d. Santos, C. F. M. da Cunha Cavalcanti and R. A. R. Oliveira, "Toward a Failures Model for Communication of Decentralized Applications with Blockchain Networks Applied in the Industrial Environment," in IEEE Wireless Communications, vol. 29, no. 3, pp. 40-46, June 2022, doi: 10.1109/MWC.001.2100572.
