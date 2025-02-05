@@ -17,7 +17,7 @@ Based on the keywords above, the following search strings will be used:
 3. _Programmable Logic Controller Blockchain_
 4. _Programmable Logic Controller Fingerprinting_
 
-The following terms are used due to emergent terminology in applying the search method:
+The following terms are used due to the discovery of emergent terminology in applying the search method:
 1. _IIoT_
 2. _Industry 4.0_
 
