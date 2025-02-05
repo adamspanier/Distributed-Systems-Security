@@ -33,7 +33,7 @@ Based on the keywords above, the following search strings are used:
 
 The following Databases will be used in this literature search:
 1. _IEEE Xplore_
-2._ The ACM Digital Library_
+2. _The ACM Digital Library_
 
 During the search, snowballing will be used to add pertinent literature to the selection candidates.
 
