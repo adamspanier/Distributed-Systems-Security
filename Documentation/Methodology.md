@@ -1,13 +1,13 @@
 # Project Methodology
 [HOME](https://github.com/adamspanier/Distributed-Systems-Security)
 
-## 1.0 Review methodology
+## 1.0 Literature Review Methodology
 
 This research uses a three step literature review methodology to generate a literature corpus for further analysis. The three steps used are: 1) the literature search, 2) literature selection, and 3) literature synthesis. The literature search will see a keyword-based search string applied to two research databases. The literature selection process will apply specific criteria to each pertinent paper for inclusion into the research corpus. Finally, the literature synthesis section will discuss the findings of the literature search.
 
 The literature review will see a set of keywords combined into logical search strings. These strings will be applied to specific databases. The query results will be analyzed and literature that meets selection criteria will be added to a research corpus. Upon the completion of the corpus, all added literature will be analyzed, grouped, categorized, and discussed regarding relevance to the topic of this research.
 
-## 1.1 Literature Search
+### 1.1 Literature Search
 
 The literature search will use the following keywords: 1) PLC, 2) Programmable Logic Controller, 3) Blockchain, and 4) Fingerprinting. These keywords are used due to their relevance to the topic at hand. Terms one (1) and two (2) relate to PLCs and terms three (3) and four (4) relate to decentralized cryptographic applications.
 
@@ -23,7 +23,7 @@ The following Databases will be used in this literature search:
 
 During the search, snowballing will be used to add pertinent literature to the selection candidates.
 
-## 1.2 Literature selection
+### 1.2 Literature selection
 
 To be added to the research corpus, each relevant literature candidate must be:
 1. relevant to the research topic
@@ -33,6 +33,12 @@ To be added to the research corpus, each relevant literature candidate must be:
 
 Upon addition to the research corpus, snowballing can be used to add related works to the literature corpus for review.
 
-## 1.3 Literature Synthesis
+### 1.3 Literature Synthesis
 
 Upon completion of the research corpus, the included literature will be analyzed for common themes. Literature with similar themes will be grouped together. Each grouping will be categorized and given a name. Each category will be described briefly based on the literature included, and an overview of the findings will be discussed.
+
+## 2.0 Literature Review
+
+### 2.1 Review Results
+
+After conduction the systematic literature review described above, ___ relevant pieces of literature were added to the research corpus. From these works, _____ categories emerged.
