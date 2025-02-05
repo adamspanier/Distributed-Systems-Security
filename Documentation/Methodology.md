@@ -30,6 +30,7 @@ To be added to the research corpus, each relevant literature candidate must be:
 2. _published in either an IEEE or ACM sanctioned publication_
 3. _a full research paper_
 4. _written in English_
+5. _published within the last five (5) years_
 
 Upon addition to the research corpus, snowballing can be used to add related works to the literature corpus for review.
 
