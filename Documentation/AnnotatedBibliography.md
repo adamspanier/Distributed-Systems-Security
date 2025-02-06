@@ -8,7 +8,7 @@
 
 **Reference:**
 
-M. K. Choi, C. Y. Yeun and P. H. Seong, "A Novel Monitoring System for the Data Integrity of Reactor Protection System Using Blockchain Technology," in IEEE Access, vol. 8, pp. 118732-118740, 2020, doi: 10.1109/ACCESS.2020.3005134. 
+_M. K. Choi, C. Y. Yeun and P. H. Seong, "A Novel Monitoring System for the Data Integrity of Reactor Protection System Using Blockchain Technology," in IEEE Access, vol. 8, pp. 118732-118740, 2020, doi: 10.1109/ACCESS.2020.3005134. _
 
 **Summary:**
 
@@ -24,12 +24,11 @@ The work by Choi et al. demonstrates that novel blockchain-based ledger systems 
 
 **Reference:**
 
-S. Otte, L. Reuscher, D. Keller and J. Fleischer, "Blockchain architecture for process-level traceability of continuous mixing process in battery cell production," 2024 1st International Conference on Production Technologies and Systems for E-Mobility (EPTS), Bamberg, Germany, 2024, pp. 1-14, doi: 10.1109/EPTS61482.2024.10586718.
+_S. Otte, L. Reuscher, D. Keller and J. Fleischer, "Blockchain architecture for process-level traceability of continuous mixing process in battery cell production," 2024 1st International Conference on Production Technologies and Systems for E-Mobility (EPTS), Bamberg, Germany, 2024, pp. 1-14, doi: 10.1109/EPTS61482.2024.10586718._
 
 **Summary:**
 
 Lithium-Ion batteries rely on precise mixing of raw materials. This mixing must be tracked to ensure high quality products and compliance with regulations. Due to the continuous variability of raw materials, tracking chemical mixing data is difficult. This work proposes a novel blockchain solution that integrated all PLC mixing data into a blockchain ledger that can be used for quality control, data validation, and legal compliance. The Hyperledger Fabric platform was used to implement the private blockchain using a SHA-256 hashing algorithm and a Proof-of-Authority consensus mechanism. To monitor the PLCs external computers were connected to PLC data busses and passively observed the data state of each PLC via MQTT. The PLC data was then hashed via a JavaScript Hyperledger interface and stored into the blockchain. All additions to the block chain propagate across the network via the PoA consensus mechanism. 
-
 
 **Assessment:**
 
@@ -42,7 +41,7 @@ The work carried out by Otte et a. provides useful information regarding the act
 
 **Reference:**
 
-R. Colelli, C. Foglietta, R. Fusacchia, S. Panzieri and F. Pascucci, "Blockchain application in simulated environment for Cyber-Physical Systems Security," 2021 IEEE 19th International Conference on Industrial Informatics (INDIN), Palma de Mallorca, Spain, 2021, pp. 1-7, doi: 10.1109/INDIN45523.2021.9557446.
+_R. Colelli, C. Foglietta, R. Fusacchia, S. Panzieri and F. Pascucci, "Blockchain application in simulated environment for Cyber-Physical Systems Security," 2021 IEEE 19th International Conference on Industrial Informatics (INDIN), Palma de Mallorca, Spain, 2021, pp. 1-7, doi: 10.1109/INDIN45523.2021.9557446._
 
 **Summary:**
 
@@ -58,9 +57,11 @@ The work carried out by Colelli et al. demonstrates that novel blockchain applic
 
 **Reference:**
 
-A. Parvizimosaed, H. Azad, D. Amyot and J. Mylopoulos, "Protection against Ransomware in Industrial Control Systems through Decentralization using Blockchain," 2023 20th Annual International Conference on Privacy, Security and Trust (PST), Copenhagen, Denmark, 2023, pp. 1-5, doi: 10.1109/PST58708.2023.10320188.
+_A. Parvizimosaed, H. Azad, D. Amyot and J. Mylopoulos, "Protection against Ransomware in Industrial Control Systems through Decentralization using Blockchain," 2023 20th Annual International Conference on Privacy, Security and Trust (PST), Copenhagen, Denmark, 2023, pp. 1-5, doi: 10.1109/PST58708.2023.10320188._
 
 **Summary:**
+
+
 
 **Assessment:**
 
