@@ -60,11 +60,11 @@ The work carried out by Colelli et al. demonstrates that novel blockchain applic
 _A. Parvizimosaed, H. Azad, D. Amyot and J. Mylopoulos, "Protection against Ransomware in Industrial Control Systems through Decentralization using Blockchain," 2023 20th Annual International Conference on Privacy, Security and Trust (PST), Copenhagen, Denmark, 2023, pp. 1-5, doi: 10.1109/PST58708.2023.10320188._
 
 **Summary:**
-
-
+ICSs are susceptible to Ransomware attacks due to their highly centralized architecture. Centralization is necessary in ICSs to maximize efficiency and functionality and is, thus, unavoidable. This work introduces a decentralized blockchain that replicates critical data and distributes this data across a peer-to-peer network using a consensus algorithm. The distributed nature of the network protects against any single point of failure. To protect the network further,a  zero trust architecture is introduced such that all host-to-host and host-to-network transactions must be authorized. This research introduces a Blockchain-Based Industrial Control System (BBICS) that stores and processes critical data on the blockchain via a set of time-series databases. Non-sensitive data is handled off chain. 
 
 **Assessment:**
 
+The work carried out by Parvizimosaed et al. takes a more functional perspective by focusing not only on a the creation of  a robust blockchain ICS system, but also on building a blockchain that tries to maximize the efficiency of the system. By distributing critical information across the network, this system provided full data recovery after a ransomware attack that affected 40% of all devices on the chain. 
 
 <hr/>
 
