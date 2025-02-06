@@ -88,11 +88,19 @@ Blockchain, Ransomware, Efficiency
 
 **Reference:**
 
-C. T. B. Garrocho, K. N. Oliveira, A. L. d. Santos, C. F. M. da Cunha Cavalcanti and R. A. R. Oliveira, "Toward a Failures Model for Communication of Decentralized Applications with Blockchain Networks Applied in the Industrial Environment," in IEEE Wireless Communications, vol. 29, no. 3, pp. 40-46, June 2022, doi: 10.1109/MWC.001.2100572.
+_C. T. B. Garrocho, K. N. Oliveira, A. L. d. Santos, C. F. M. da Cunha Cavalcanti and R. A. R. Oliveira, "Toward a Failures Model for Communication of Decentralized Applications with Blockchain Networks Applied in the Industrial Environment," in IEEE Wireless Communications, vol. 29, no. 3, pp. 40-46, June 2022, doi: 10.1109/MWC.001.2100572._
 
 **Summary:**
 
+Communication failures on IIoT networks present a critical problem for operational continuity. This work analyzes failure points in the consensus algorithms of a blockchain-based decentralized industrial application. During the research, each communication failure that occurred int he network is documented, defined, and classified. After analysis, countermeasures for each failure are presented in a novel failure model for decentralized communication networks in industrial applications. The purpose of this work is not to test blockchain functionality in IDCs, but rather to analyze subsequent supporting systems that can help alleviate pain points common to decentralized ledger systems in industrial control applications. 
+
 **Assessment:**
+
+The work carried out by Garrocho et al. presents a new angle on blockchain-based ICS research; that is, the research focuses on how to shore up known weaknesses and failure points when applying blockchain and decentralized primitives to industrial control systems. This work provides value in that it demonstrates the need for a holistic approach when applying decentralized architectures to ICS applications. 
+
+**Keywords:**
+
+Blockchain, Failure Models, Blockchain Support
 
 
 <hr/>
