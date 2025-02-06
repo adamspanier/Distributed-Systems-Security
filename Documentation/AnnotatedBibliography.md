@@ -18,6 +18,10 @@ Nuclear Power Plants (NPP) are isolated from external networks, but are still vu
 
 The work by Choi et al. demonstrates that novel blockchain-based ledger systems have been used with limited success to add layers of security within industrial control systems. While this study does indicate that the system can be used, no data was collected to verify the novel system's effect on safety system performance. 
 
+**Keywords:**
+
+Blockchain, Proof of Authority, Data Integrity
+
 <hr/>
 
 ### Title: [Blockchain architecture for process-level traceability of continuous mixing process in battery cell production](https://ieeexplore.ieee.org/document/10586718)
@@ -33,6 +37,10 @@ Lithium-Ion batteries rely on precise mixing of raw materials. This mixing must 
 **Assessment:**
 
 The work carried out by Otte et a. provides useful information regarding the actual implementation of a blockchain architecture for the immutable tracking of chemical mix data originating from implemented PLCs. By using the blockchain method, a trusted ledger could be kept that documents, in real time, the PLC mixing data being produced on the battery manufacturing floor. This study shows that PLC data, regardless of content, can be tracked using an immutable trace ledger for either fingerprinting, data validation, intrusion detection, or anomalous behavior. 
+
+**Keywords:**
+
+Blockchain, Proof of Authority, Data Integrity
 
 
 <hr/>
@@ -51,6 +59,10 @@ Critical Infrastructures often use Industrial Control Systems (ICS). Industrial 
 
 The work carried out by Colelli et al. demonstrates that novel blockchain applications have been used to track, monitor, and validate PLC data. This research also shows the limitations of the system as applied to the centralized Historian. Though the Historian is a central location for logging data, if data is mangled before reaching the Historian logger, the data verification checks will only check against the corrupted data, thus bypassing the data integrity checks provided by the blockchain system. 
 
+**Keywords:**
+
+SCADA, Blockchain, Historian, Data Integrity
+
 <hr/>
 
 ### Title: [Protection against Ransomware in Industrial Control Systems through Decentralization using Blockchain](https://ieeexplore.ieee.org/document/10320188)
@@ -65,6 +77,10 @@ ICSs are susceptible to Ransomware attacks due to their highly centralized archi
 **Assessment:**
 
 The work carried out by Parvizimosaed et al. takes a more functional perspective by focusing not only on a the creation of  a robust blockchain ICS system, but also on building a blockchain that tries to maximize the efficiency of the system. By distributing critical information across the network, this system provided full data recovery after a ransomware attack that affected 40% of all devices on the chain. 
+
+**Keywords:**
+
+Blockchain, Ransomware, Efficiency
 
 <hr/>
 
