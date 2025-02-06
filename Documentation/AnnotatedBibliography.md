@@ -28,7 +28,12 @@ S. Otte, L. Reuscher, D. Keller and J. Fleischer, "Blockchain architecture for p
 
 **Summary:**
 
+Lithium-Ion batteries rely on precise mixing of raw materials. This mixing must be tracked to ensure high quality products and compliance with regulations. Due to the continuous variability of raw materials, tracking chemical mixing data is difficult. This work proposes a novel blockchain solution that integrated all PLC mixing data into a blockchain ledger that can be used for quality control, data validation, and legal compliance. The Hyperledger Fabric platform was used to implement the private blockchain using a SHA-256 hashing algorithm and a Proof-of-Authority consensus mechanism. To monitor the PLCs external computers were connected to PLC data busses and passively observed the data state of each PLC via MQTT. The PLC data was then hashed via a JavaScript Hyperledger interface and stored into the blockchain. All additions to the block chain propagate across the network via the PoA consensus mechanism. 
+
+
 **Assessment:**
+
+The work carried out by Otte et a. provides useful information regarding the actual implementation of a blockchain architecture for the immutable tracking of chemical mix data originating from implemented PLCs. By using the blockchain method, a trusted ledger could be kept that documents, in real time, the PLC mixing data being produced on the battery manufacturing floor. This study shows that PLC data, regardless of content, can be tracked using an immutable trace ledger for either fingerprinting, data validation, intrusion detection, or anomalous behavior. 
 
 
 <hr/>
