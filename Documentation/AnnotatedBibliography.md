@@ -12,7 +12,11 @@ M. K. Choi, C. Y. Yeun and P. H. Seong, "A Novel Monitoring System for the Data 
 
 **Summary:**
 
+Nuclear Power Plants (NPP) are isolated from external networks, but are still vulnerable to internal injection attacks via the NPP safety system. To avoid such attacks all interanl data must be montiroed for data integrity. This work proposes the use of a private blockchain system to monitor the data integrity of the PLCs in the NPP system. The developed blockchain was also used to protect the Reactor Protection Systesm. The novel blockchain system can detect code injection. The blockchain used is a private, randomized Proof-of-Authority-based blockchain that stores data contained in PLCS in each block and uses the same ranodmized PoA mechanism for consensus. The verification of traffic is carried out at each PLC and a majority consensus is used to indicate which PLCs are operating correctly and which are getting errant results. This work calls this process Proof-of-Monitoring.
+
 **Assessment:**
+
+The work by Choi et al. demonstrates taht novel blockchain-based ledger syustems have been used with limited success to add layers of security within industrial control systems. 
 
 <hr/>
 
