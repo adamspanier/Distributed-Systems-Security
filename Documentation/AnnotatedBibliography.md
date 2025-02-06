@@ -12,6 +12,8 @@ M. K. Choi, C. Y. Yeun and P. H. Seong, "A Novel Monitoring System for the Data 
 
 **Summary:**
 
+**Assessment:**
+
 <hr/>
 
 ### Title: [Blockchain architecture for process-level traceability of continuous mixing process in battery cell production](https://ieeexplore.ieee.org/document/10586718)
@@ -21,6 +23,9 @@ M. K. Choi, C. Y. Yeun and P. H. Seong, "A Novel Monitoring System for the Data 
 S. Otte, L. Reuscher, D. Keller and J. Fleischer, "Blockchain architecture for process-level traceability of continuous mixing process in battery cell production," 2024 1st International Conference on Production Technologies and Systems for E-Mobility (EPTS), Bamberg, Germany, 2024, pp. 1-14, doi: 10.1109/EPTS61482.2024.10586718.
 
 **Summary:**
+
+**Assessment:**
+
 
 <hr/>
 
@@ -32,6 +37,9 @@ R. Colelli, C. Foglietta, R. Fusacchia, S. Panzieri and F. Pascucci, "Blockchain
 
 **Summary:**
 
+**Assessment:**
+
+
 <hr/>
 
 ### Title: [Protection against Ransomware in Industrial Control Systems through Decentralization using Blockchain](https://ieeexplore.ieee.org/document/10320188)
@@ -42,6 +50,9 @@ A. Parvizimosaed, H. Azad, D. Amyot and J. Mylopoulos, "Protection against Ranso
 
 **Summary:**
 
+**Assessment:**
+
+
 <hr/>
 
 ### Title: [Toward a Failures Model for Communication of Decentralized Applications with Blockchain Networks Applied in the Industrial Environment](https://ieeexplore.ieee.org/document/9857810)
@@ -51,6 +62,9 @@ A. Parvizimosaed, H. Azad, D. Amyot and J. Mylopoulos, "Protection against Ranso
 C. T. B. Garrocho, K. N. Oliveira, A. L. d. Santos, C. F. M. da Cunha Cavalcanti and R. A. R. Oliveira, "Toward a Failures Model for Communication of Decentralized Applications with Blockchain Networks Applied in the Industrial Environment," in IEEE Wireless Communications, vol. 29, no. 3, pp. 40-46, June 2022, doi: 10.1109/MWC.001.2100572.
 
 **Summary:**
+
+**Assessment:**
+
 
 <hr/>
 
@@ -63,6 +77,9 @@ C. T. B. Garrocho, K. N. Oliveira, D. J. Sena, C. F. M. da Cunha Cavalcanti and 
 
 **Summary:**
 
+**Assessment:**
+
+
 <hr/>
 
 ### Title: [Securing Manufacturing Using Blockchain](https://ieeexplore.ieee.org/document/9343190)
@@ -73,6 +90,9 @@ Z. Jadidi, A. Dorri, R. Jurdak and C. Fidge, "Securing Manufacturing Using Block
 
 **Summary:**
 
+**Assessment:**
+
+
 <hr/>
 
 ### Title: [PLCPrint: Fingerprinting Memory Attacks in Programmable Logic Controllers](https://ieeexplore.ieee.org/document/10130481)
@@ -82,6 +102,9 @@ Z. Jadidi, A. Dorri, R. Jurdak and C. Fidge, "Securing Manufacturing Using Block
 M. M. Cook, A. K. Marnerides and D. Pezaros, "PLCPrint: Fingerprinting Memory Attacks in Programmable Logic Controllers," in IEEE Transactions on Information Forensics and Security, vol. 18, pp. 3376-3387, 2023, doi: 10.1109/TIFS.2023.3277688.
 
 **Summary:**
+
+**Assessment:**
+
 
 <hr/>
 
@@ -94,6 +117,9 @@ Q. Gu, D. Formby, S. Ji, H. Cam and R. Beyah, "Fingerprinting for Cyber-Physical
 
 **Summary:**
 
+**Assessment:**
+
+
 <hr/>
 
 ### Title: [Optimized fingerprint generation using unintentional emission radio-frequency distinct native attributes (RF-DNA)](https://ieeexplore.ieee.org/document/7045829)
@@ -103,6 +129,9 @@ Q. Gu, D. Formby, S. Ji, H. Cam and R. Beyah, "Fingerprinting for Cyber-Physical
 R. D. Deppensmith and S. J. Stone, "Optimized fingerprint generation using unintentional emission radio-frequency distinct native attributes (RF-DNA)," NAECON 2014 - IEEE National Aerospace and Electronics Conference, Dayton, OH, USA, 2014, pp. 327-330, doi: 10.1109/NAECON.2014.7045829.
 
 **Summary:**
+
+**Assessment:**
+
 
 <hr/>
 
@@ -114,6 +143,9 @@ T. Roy and A. A. L. Beex, "Power Measurement Based Code Classification for Progr
 
 **Summary:**
 
+**Assessment:**
+
+
 <hr/>
 
 ### Title: [Remote field device fingerprinting using device-specific modbus information](https://ieeexplore.ieee.org/document/7870006)
@@ -123,6 +155,9 @@ T. Roy and A. A. L. Beex, "Power Measurement Based Code Classification for Progr
 A. Keliris and M. Maniatakos, "Remote field device fingerprinting using device-specific modbus information," 2016 IEEE 59th International Midwest Symposium on Circuits and Systems (MWSCAS), Abu Dhabi, United Arab Emirates, 2016, pp. 1-4, doi: 10.1109/MWSCAS.2016.7870006.
 
 **Summary:**
+
+**Assessment:**
+
 
 <hr/>
 
@@ -134,6 +169,9 @@ Stephen S. Kirkman, Steven Fulton, Jeffrey Hemmes, Christopher Garcia, and Justi
 
 **Summary:**
 
+**Assessment:**
+
+
 <hr/>
 
 ### Title: [An Innovative Blockchain-Based Traceability Framework for Industry 4.0 Cyber-Physical Factory](https://dl.acm.org/doi/10.1145/3588155.3588174)
@@ -143,6 +181,9 @@ Stephen S. Kirkman, Steven Fulton, Jeffrey Hemmes, Christopher Garcia, and Justi
 William Davis, Mahnoor Yaqoob, Luke Bennett, Stefan Mihai, Dang Viet Hung, Ramona Trestian, Mehmet Karamanoglu, Balbir Barn, and Huan Nguyen. 2023. An Innovative Blockchain-Based Traceability Framework for Industry 4.0 Cyber-Physical Factory. In Proceedings of the 2023 5th Asia Pacific Information Technology Conference (APIT '23). Association for Computing Machinery, New York, NY, USA, 118–122. https://doi.org/10.1145/3588155.3588174
 
 **Summary:**
+
+**Assessment:**
+
 
 <hr/>
 
@@ -154,6 +195,9 @@ Stefan Schorradt, Edita Bajramovic, and Felix Freiling. 2019. On the Feasibility
 
 **Summary:**
 
+**Assessment:**
+
+
 <hr/>
 
 ### Title: [Device Fingerprinting for Cyber-Physical Systems: A Survey](https://dl.acm.org/doi/10.1145/3584944)
@@ -164,6 +208,9 @@ Vijay Kumar and Kolin Paul. 2023. Device Fingerprinting for Cyber-Physical Syste
 
 **Summary:**
 
+**Assessment:**
+
+
 <hr/>
 
 ### Title: [SymbIoT: Towards An Extensible Blockchain Integration Testbed for IIoT](https://dl.acm.org/doi/10.1145/3609389.3610565)
@@ -173,6 +220,9 @@ Vijay Kumar and Kolin Paul. 2023. Device Fingerprinting for Cyber-Physical Syste
 John Hayes, Adel Aneiba, and Mohamed Gaber. 2023. SymbIoT: Towards An Extensible Blockchain Integration Testbed for IIoT. In Proceedings of the 1st Workshop on Enhanced Network Techniques and Technologies for the Industrial IoT to Cloud Continuum (IIoT-NETs '23). Association for Computing Machinery, New York, NY, USA, 8–14. https://doi.org/10.1145/3609389.3610565
 
 **Summary:**
+
+**Assessment:**
+
 
 <hr/>
 
@@ -185,6 +235,9 @@ Zexin Lu. 2025. A Robust Anomaly Detection Approach for IIoT Time Series. In Pro
 
 **Summary:**
 
+**Assessment:**
+
+
 <hr/>
 
 ### Title: [Deployment of Cybersecurity Controls in the Norwegian Industry 4.0](https://dl.acm.org/doi/10.1145/3664476.3670896)
@@ -195,6 +248,9 @@ Kristian Kannelønning and Sokratis Katsikas. 2024. Deployment of Cybersecurity 
 
 **Summary:**
 
+**Assessment:**
+
+
 <hr/>
 
 ### Title: [SECBlock-IIoT: A Secure Blockchain-enabled Edge Computing Framework for Industrial Internet of Things](https://dl.acm.org/doi/10.1145/3591365.3592945)
@@ -204,6 +260,9 @@ Kristian Kannelønning and Sokratis Katsikas. 2024. Deployment of Cybersecurity 
 A. S. M. Sanwar Hosen, Pradip Kumar Sharma, Deepak Puthal, In-Ho Ra, and Gi Hwan Cho. 2023. SECBlock-IIoT: A Secure Blockchain-enabled Edge Computing Framework for Industrial Internet of Things. In Proceedings of the Third International Symposium on Advanced Security on Software and Systems (ASSS '23). Association for Computing Machinery, New York, NY, USA, Article 1, 1–14. https://doi.org/10.1145/3591365.3592945
 
 **Summary:**
+
+**Assessment:**
+
 
 <hr/>
 
