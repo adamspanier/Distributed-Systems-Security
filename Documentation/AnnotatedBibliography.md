@@ -46,8 +46,11 @@ R. Colelli, C. Foglietta, R. Fusacchia, S. Panzieri and F. Pascucci, "Blockchain
 
 **Summary:**
 
+Critical Infrastructures often use Industrial Control Systems (ICS). Industrial Control Systems use PLCs. Data and commands from the PLCs that move across the ICS are stored in the Historian, a logging program responsible for tracking logging in the ICS. ICS security comprises not only the operations of the ICS itself, but also the logging systems that keep track of the status of the system. By changing logs, attackers can obfuscate attack trails making digital forensics difficult. This work presents a novel blockchain application that is paired with the ICS historian as a means to immutably store and validate the clear-text logs stored by the Historian. By applying this system, data integrity can be verified for each operation that occurs in the ICS. Beyond data integrity, the proposed blockchain also provides for data recovery given Historian data is maliciously changed or accidentally corrupted. The system was shown to resists Man-in-the-middle and data injection attacks. While the blockchain did provide valuable data protection benefits, if an operator chooses to mangle data before it is recorded in the Historian, this system cannot help. 
+
 **Assessment:**
 
+The work carried out by Colelli et al. demonstrates that novel blockchain applications have been used to track, monitor, and validate PLC data. This research also shows the limitations of the system as applied to the centralized Historian. Though the Historian is a central location for logging data, if data is mangled before reaching the Historian logger, the data verification checks will only check against the corrupted data, thus bypassing the data integrity checks provided by the blockchain system. 
 
 <hr/>
 
