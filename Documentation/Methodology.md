@@ -56,7 +56,7 @@ Upon completion of the research corpus, the included literature will be analyzed
 
 ### 2.1 Review Results
 
-After conduction the systematic literature review described above, nineteem (19) relevant pieces of literature were added to the research corpus. From these works, _____ categories emerged.
+After conduction the systematic literature review described above, nineteen (19) relevant pieces of literature were added to the research corpus. From these works, _____ categories emerged.
 The annotated bibliography produced in this literature survey can be found [HERE](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/AnnotatedBibliography.md).
 
 ### Citations
