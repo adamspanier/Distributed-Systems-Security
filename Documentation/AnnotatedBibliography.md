@@ -154,10 +154,15 @@ M. M. Cook, A. K. Marnerides and D. Pezaros, "PLCPrint: Fingerprinting Memory At
 
 **Summary:**
 
+A common attack vector in PLC memory is the malicious alteration of internal PLC memory. These memory attacks cause the PLC to function in ways that are not consistent with their operating environments. While memory attacks are a critical security issue in PLC protection, different types of memory attacks themselves can manifest similar physical manifestations. This makes attack triage and digital forensics difficult and often quite expensive. Adding to the damage, misbehaving PLCs can cause interruptions of work resulting in financial losses as well as physical damage, and in some cases, even result in the loss of life.  This work proposes a novel system that maps PLC register state to a set of Mapping Conditions (MC) as a means to indicate if they exist in PLC memory artifacts. These MCs are then modeled and mapped as a means to predict PLC behavior. The study shows how MC deviations can be detected using a supervised learning scheme to accurately determine the occurrence of memory attacks. This work fills the need for attack technique triaging as it allows attacks to be more accurately described, logged, and mitigated.
+
 **Assessment:**
+
+This work is useful in it's descriptions of memory fingerprinting as a means to predict and identify deviations from nominal operations. The use of memory fingerprinting to identify well-know operation patterns helps identify when deviations occur. This work also provides a robust background and related work section that provides essential information regarding other memory fingerprinting applications.
 
 **Keywords:**
 
+Fingerprinting, Attack Detection, Triaging
 
 <hr/>
 
