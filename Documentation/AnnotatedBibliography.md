@@ -170,15 +170,19 @@ Fingerprinting, Attack Detection, Triaging
 
 **Reference:**
 
-Q. Gu, D. Formby, S. Ji, H. Cam and R. Beyah, "Fingerprinting for Cyber-Physical System Security: Device Physics Matters Too," in IEEE Security & Privacy, vol. 16, no. 5, pp. 49-59, September/October 2018, doi: 10.1109/MSP.2018.3761722.
-
+_Q. Gu, D. Formby, S. Ji, H. Cam and R. Beyah, "Fingerprinting for Cyber-Physical System Security: Device Physics Matters Too," in IEEE Security & Privacy, vol. 16, no. 5, pp. 49-59, September/October 2018, doi: 10.1109/MSP.2018.3761722._
 
 **Summary:**
 
+Physics can be used to define device identifiers. By using the physics of the components in each device, a unique identifier can be created that only that device can produce. These "fingerprints" can be used to increase the integrity of responses actuators involved in the ICS. Cyber-Physical systems protections are divided into two areas: analysis of network traffic and modeling system behavior based on some predictability matrix. This work proposes a PLC device fingerprinting scheme that uses the network level actuator response time; that is, the time it takes an actuator on the network to respond to a command from a given device. This work demonstrates that the use of physics-based fingerprinting based on residual signals or timing artifacts is a very useful means of providing outside-the-device fingerprinting techniques. Further, upon the creation of device fingerprints, any inconsistent fingerprint from the same device indicates either an attack or anomalous behavior.
+
 **Assessment:**
+
+This work adds value in it's exploration of not only memory and software level fingerprinting, but also the use of fingerprint based on physics and/or physical attributes of a given device. Rather than intrude upon the memory of the PLC, instead external measurement can be taken to verify if the device itself is performing as expected. Given a divergence from this expected measurement, or fingerprint, anomalous behavior can be detected.
 
 **Keywords:**
 
+Hardware Fingerprinting, Physics Fingerprinting
 
 <hr/>
 
