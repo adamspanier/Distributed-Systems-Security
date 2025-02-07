@@ -186,37 +186,28 @@ Hardware Fingerprinting, Physics Fingerprinting
 
 <hr/>
 
-### 10. Title: [Optimized fingerprint generation using unintentional emission radio-frequency distinct native attributes (RF-DNA)](https://ieeexplore.ieee.org/document/7045829)
+### 10. Title: [Power Measurement Based Code Classification for Programmable Logic Circuits](https://ieeexplore.ieee.org/document/8642680)
 
 **Reference:**
 
-R. D. Deppensmith and S. J. Stone, "Optimized fingerprint generation using unintentional emission radio-frequency distinct native attributes (RF-DNA)," NAECON 2014 - IEEE National Aerospace and Electronics Conference, Dayton, OH, USA, 2014, pp. 327-330, doi: 10.1109/NAECON.2014.7045829.
+_T. Roy and A. A. L. Beex, "Power Measurement Based Code Classification for Programmable Logic Circuits," 2018 IEEE International Symposium on Signal Processing and Information Technology (ISSPIT), Louisville, KY, USA, 2018, pp. 644-648, doi: 10.1109/ISSPIT.2018.8642680._
 
 **Summary:**
 
+Traditional cyber security controls are not useful when protecting PLCs on ICS networks. Further, current methods of protecting ICS network s do not protect against novel, zero-day attacks. This work proposes the use of power consumption-based fingerprinting schemes to determine nominal operating margins for each device in the ICS. The system developed in this work measures the power output from each device based on each line of code that executes. This data can then map expected power voltages to expected computational commands. Given a specific set of commands, the voltages that can be observed externally, will fluctuate in a predictable manner. Given the external monitoring system notes a deviation from power consumption patterns, the system can then detect anomalous behavior. Rather than use data directly from a given PLC, the power data can be used to indicate which command is being executed, and, because ladder logic is known, the power outputs should follow a specific path.
+
 **Assessment:**
 
+The work carried out by Roy et al., much like the work done by Formby et al., takes a different approach to securing PLC-based ICS networks. With the understanding that the throughput and efficiency of the ICS network should be always maintained, Roy et al. set out to find another way to validate the operational functionality of each PLC in the ICS process. Because PLCs are simple and the ladder logic they use is predictable and well-known, the power consumption details can be matched to specific PLC operations and these voltages then compared to the ladder logic for validation. This puts the security system outside the ICS and thus ensures the novel fingerprinting security system does not negatively impact the functions of the ICS. The value of this work lies in the purely external nature of the security mechanism.
+
 **Keywords:**
+
+Power, Fingerprinting, External
 
 
 <hr/>
 
-### 11. Title: [Power Measurement Based Code Classification for Programmable Logic Circuits](https://ieeexplore.ieee.org/document/8642680)
-
-**Reference:**
-
-T. Roy and A. A. L. Beex, "Power Measurement Based Code Classification for Programmable Logic Circuits," 2018 IEEE International Symposium on Signal Processing and Information Technology (ISSPIT), Louisville, KY, USA, 2018, pp. 644-648, doi: 10.1109/ISSPIT.2018.8642680.
-
-**Summary:**
-
-**Assessment:**
-
-**Keywords:**
-
-
-<hr/>
-
-### 12. Title: [Remote field device fingerprinting using device-specific modbus information](https://ieeexplore.ieee.org/document/7870006)
+### 11. Title: [Remote field device fingerprinting using device-specific modbus information](https://ieeexplore.ieee.org/document/7870006)
 
 **Reference:**
 
@@ -231,7 +222,7 @@ A. Keliris and M. Maniatakos, "Remote field device fingerprinting using device-s
 
 <hr/>
 
-### 13. Title: [A Blockchain Architecture to Increase the Resilience of Industrial Control Systems from the Effects of a Ransomware Attack: A Proposal and Initial Results](https://dl.acm.org/doi/10.1145/3637553)
+### 12. Title: [A Blockchain Architecture to Increase the Resilience of Industrial Control Systems from the Effects of a Ransomware Attack: A Proposal and Initial Results](https://dl.acm.org/doi/10.1145/3637553)
 
 **Reference:**
 
@@ -247,7 +238,7 @@ Stephen S. Kirkman, Steven Fulton, Jeffrey Hemmes, Christopher Garcia, and Justi
 
 <hr/>
 
-### 14. Title: [An Innovative Blockchain-Based Traceability Framework for Industry 4.0 Cyber-Physical Factory](https://dl.acm.org/doi/10.1145/3588155.3588174)
+### 13. Title: [An Innovative Blockchain-Based Traceability Framework for Industry 4.0 Cyber-Physical Factory](https://dl.acm.org/doi/10.1145/3588155.3588174)
 
 **Reference:**
 
@@ -263,7 +254,7 @@ William Davis, Mahnoor Yaqoob, Luke Bennett, Stefan Mihai, Dang Viet Hung, Ramon
 
 <hr/>
 
-### 15. Title: [On the Feasibility of Secure Logging for Industrial Control Systems Using Blockchain](https://dl.acm.org/doi/10.1145/3360664.3360668)
+### 14. Title: [On the Feasibility of Secure Logging for Industrial Control Systems Using Blockchain](https://dl.acm.org/doi/10.1145/3360664.3360668)
 
 **Reference:**
 
@@ -279,7 +270,7 @@ Stefan Schorradt, Edita Bajramovic, and Felix Freiling. 2019. On the Feasibility
 
 <hr/>
 
-### 16. Title: [Device Fingerprinting for Cyber-Physical Systems: A Survey](https://dl.acm.org/doi/10.1145/3584944)
+### 15. Title: [Device Fingerprinting for Cyber-Physical Systems: A Survey](https://dl.acm.org/doi/10.1145/3584944)
 
 **Reference:**
 
@@ -294,7 +285,7 @@ Vijay Kumar and Kolin Paul. 2023. Device Fingerprinting for Cyber-Physical Syste
 
 <hr/>
 
-### 17. Title: [SymbIoT: Towards An Extensible Blockchain Integration Testbed for IIoT](https://dl.acm.org/doi/10.1145/3609389.3610565)
+### 16. Title: [SymbIoT: Towards An Extensible Blockchain Integration Testbed for IIoT](https://dl.acm.org/doi/10.1145/3609389.3610565)
 
 **Reference:**
 
@@ -309,7 +300,7 @@ John Hayes, Adel Aneiba, and Mohamed Gaber. 2023. SymbIoT: Towards An Extensible
 
 <hr/>
 
-### 18. Title: [A Robust Anomaly Detection Approach for IIoT Time Series](https://dl.acm.org/doi/10.1145/3704558.3707091)
+### 17. Title: [A Robust Anomaly Detection Approach for IIoT Time Series](https://dl.acm.org/doi/10.1145/3704558.3707091)
 
 **Reference:**
 
@@ -326,7 +317,7 @@ Zexin Lu. 2025. A Robust Anomaly Detection Approach for IIoT Time Series. In Pro
 
 <hr/>
 
-### 19. Title: [Deployment of Cybersecurity Controls in the Norwegian Industry 4.0](https://dl.acm.org/doi/10.1145/3664476.3670896)
+### 18. Title: [Deployment of Cybersecurity Controls in the Norwegian Industry 4.0](https://dl.acm.org/doi/10.1145/3664476.3670896)
 
 **Reference:**
 
@@ -342,7 +333,7 @@ Kristian Kannelønning and Sokratis Katsikas. 2024. Deployment of Cybersecurity 
 
 <hr/>
 
-### 20. Title: [SECBlock-IIoT: A Secure Blockchain-enabled Edge Computing Framework for Industrial Internet of Things](https://dl.acm.org/doi/10.1145/3591365.3592945)
+### 19. Title: [SECBlock-IIoT: A Secure Blockchain-enabled Edge Computing Framework for Industrial Internet of Things](https://dl.acm.org/doi/10.1145/3591365.3592945)
 
 **Reference:**
 
