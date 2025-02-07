@@ -56,7 +56,7 @@ Upon completion of the research corpus, the included literature will be analyzed
 
 ### 2.1 Review Results
 
-After conduction the systematic literature review described above, twenty (20) relevant pieces of literature were added to the research corpus. From these works, _____ categories emerged.
+After conduction the systematic literature review described above, nineteem (19) relevant pieces of literature were added to the research corpus. From these works, _____ categories emerged.
 The annotated bibliography produced in this literature survey can be found [HERE](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/AnnotatedBibliography.md).
 
 ### Citations
@@ -70,7 +70,6 @@ The annotated bibliography produced in this literature survey can be found [HERE
 7. [Z. Jadidi, A. Dorri, R. Jurdak and C. Fidge, "Securing Manufacturing Using Blockchain," 2020 IEEE 19th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom), Guangzhou, China, 2020, pp. 1920-1925, doi: 10.1109/TrustCom50675.2020.00262.](https://ieeexplore.ieee.org/document/9343190)
 8. [M. M. Cook, A. K. Marnerides and D. Pezaros, "PLCPrint: Fingerprinting Memory Attacks in Programmable Logic Controllers," in IEEE Transactions on Information Forensics and Security, vol. 18, pp. 3376-3387, 2023, doi: 10.1109/TIFS.2023.3277688.](https://ieeexplore.ieee.org/document/10130481)
 9. [Q. Gu, D. Formby, S. Ji, H. Cam and R. Beyah, "Fingerprinting for Cyber-Physical System Security: Device Physics Matters Too," in IEEE Security & Privacy, vol. 16, no. 5, pp. 49-59, September/October 2018, doi: 10.1109/MSP.2018.3761722.](https://ieeexplore.ieee.org/document/8490185)
-10. [R. D. Deppensmith and S. J. Stone, "Optimized fingerprint generation using unintentional emission radio-frequency distinct native attributes (RF-DNA)," NAECON 2014 - IEEE National Aerospace and Electronics Conference, Dayton, OH, USA, 2014, pp. 327-330, doi: 10.1109/NAECON.2014.7045829.](https://ieeexplore.ieee.org/document/7045829)
 11. [T. Roy and A. A. L. Beex, "Power Measurement Based Code Classification for Programmable Logic Circuits," 2018 IEEE International Symposium on Signal Processing and Information Technology (ISSPIT), Louisville, KY, USA, 2018, pp. 644-648, doi: 10.1109/ISSPIT.2018.8642680.](https://ieeexplore.ieee.org/document/8642680)
 12. [A. Keliris and M. Maniatakos, "Remote field device fingerprinting using device-specific modbus information," 2016 IEEE 59th International Midwest Symposium on Circuits and Systems (MWSCAS), Abu Dhabi, United Arab Emirates, 2016, pp. 1-4, doi: 10.1109/MWSCAS.2016.7870006.](https://ieeexplore.ieee.org/document/7870006)
 13. [Stephen S. Kirkman, Steven Fulton, Jeffrey Hemmes, Christopher Garcia, and Justin C. Wilson. 2024. A Blockchain Architecture to Increase the Resilience of Industrial Control Systems from the Effects of a Ransomware Attack: A Proposal and Initial Results. ACM Trans. Cyber-Phys. Syst. 8, 1, Article 9 (January 2024), 13 pages. https://doi.org/10.1145/3637553](https://dl.acm.org/doi/10.1145/3637553)
