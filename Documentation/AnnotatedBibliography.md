@@ -110,12 +110,19 @@ Blockchain, Failure Models, Blockchain Support
 
 **Reference:**
 
-C. T. B. Garrocho, K. N. Oliveira, D. J. Sena, C. F. M. da Cunha Cavalcanti and R. A. R. Oliveira, "BACE: Blockchain-based Access Control at the Edge for Industrial Control Devices of Industry 4.0," 2021 XI Brazilian Symposium on Computing Systems Engineering (SBESC), Florianopolis, Brazil, 2021, pp. 1-8, doi: 10.1109/SBESC53686.2021.9628291.
+_C. T. B. Garrocho, K. N. Oliveira, D. J. Sena, C. F. M. da Cunha Cavalcanti and R. A. R. Oliveira, "BACE: Blockchain-based Access Control at the Edge for Industrial Control Devices of Industry 4.0," 2021 XI Brazilian Symposium on Computing Systems Engineering (SBESC), Florianopolis, Brazil, 2021, pp. 1-8, doi: 10.1109/SBESC53686.2021.9628291._
 
 **Summary:**
 
+The Industrial Internet of Things(IIoT) has immediate implication for Industry 4.0. Blockchain has immediate potential for these systems due to it's ability to provide traceable and auditable access control. Applying blockchain to cloud infrastructures is difficult due to cost and communication latencies. This work proposes a blockchain architecture called BACE that puts the access control at the edge with the devices that are carrying out access requests. This work takes into account the real-time limitations imposed upon most ICS networks. This real-time sensitivity is likely why blockchain applications have yet to be applied to IIoT systems. BACE uses Smart Contracts and edge-based computing to build a flexible and scalable blockchain communication approach to manage access requests. To mitigate the storage and computational eff4ects of the system via local storage of the PLC, this work focuses on creating a compact JSON-based formate that only takes a few bytes of storage.
+
 **Assessment:**
 
+The value of this paper lies in the acknowledgment that time constraints are limiting factors in real-time application environments. Cloud-based IIoT is useful, but causes latencies due to digital communications delays. This work creates an "edge" based blockchain that is stored locally on PLCs and propagated across the PLC network. To mitigate the storage and computational requirements of the system, this work created a slim JSON-based storage format that takes only a few bytes of memory to alleviate many of the overhead issues presented by decentralized cryptographic security mechanisms. 
+
+**Keywords:**
+
+Blockchain, Edge, Cloud, Eliminate Communication Latency, Real-Time
 
 <hr/>
 
