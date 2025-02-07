@@ -4,7 +4,7 @@
 
 <hr/>
 
-### Title: [A Novel Monitoring System for the Data Integrity of Reactor Protection System Using Blockchain Technology](https://ieeexplore.ieee.org/document/9126779)
+### 1. Title: [A Novel Monitoring System for the Data Integrity of Reactor Protection System Using Blockchain Technology](https://ieeexplore.ieee.org/document/9126779)
 
 **Reference:**
 
@@ -24,7 +24,7 @@ Blockchain, Proof of Authority, Data Integrity
 
 <hr/>
 
-### Title: [Blockchain architecture for process-level traceability of continuous mixing process in battery cell production](https://ieeexplore.ieee.org/document/10586718)
+### 2. Title: [Blockchain architecture for process-level traceability of continuous mixing process in battery cell production](https://ieeexplore.ieee.org/document/10586718)
 
 **Reference:**
 
@@ -45,7 +45,7 @@ Blockchain, Proof of Authority, Data Integrity
 
 <hr/>
 
-### Title: [Blockchain application in simulated environment for Cyber-Physical Systems Security](https://ieeexplore.ieee.org/document/9557446)
+### 3. Title: [Blockchain application in simulated environment for Cyber-Physical Systems Security](https://ieeexplore.ieee.org/document/9557446)
 
 **Reference:**
 
@@ -65,7 +65,7 @@ SCADA, Blockchain, Historian, Data Integrity
 
 <hr/>
 
-### Title: [Protection against Ransomware in Industrial Control Systems through Decentralization using Blockchain](https://ieeexplore.ieee.org/document/10320188)
+### 4. Title: [Protection against Ransomware in Industrial Control Systems through Decentralization using Blockchain](https://ieeexplore.ieee.org/document/10320188)
 
 **Reference:**
 
@@ -84,7 +84,7 @@ Blockchain, Ransomware, Efficiency
 
 <hr/>
 
-### Title: [Toward a Failures Model for Communication of Decentralized Applications with Blockchain Networks Applied in the Industrial Environment](https://ieeexplore.ieee.org/document/9857810)
+### 5. Title: [Toward a Failures Model for Communication of Decentralized Applications with Blockchain Networks Applied in the Industrial Environment](https://ieeexplore.ieee.org/document/9857810)
 
 **Reference:**
 
@@ -105,7 +105,7 @@ Blockchain, Failure Models, Blockchain Support
 
 <hr/>
 
-### Title: [BACE: Blockchain-based Access Control at the Edge for Industrial Control Devices of Industry 4.0](https://ieeexplore.ieee.org/document/9628291)
+### 6. Title: [BACE: Blockchain-based Access Control at the Edge for Industrial Control Devices of Industry 4.0](https://ieeexplore.ieee.org/document/9628291)
 
 
 **Reference:**
@@ -126,7 +126,7 @@ Blockchain, Edge, Cloud, Eliminate Communication Latency, Real-Time
 
 <hr/>
 
-### Title: [Securing Manufacturing Using Blockchain](https://ieeexplore.ieee.org/document/9343190)
+### 7. Title: [Securing Manufacturing Using Blockchain](https://ieeexplore.ieee.org/document/9343190)
 
 **Reference:**
 
@@ -136,10 +136,12 @@ Z. Jadidi, A. Dorri, R. Jurdak and C. Fidge, "Securing Manufacturing Using Block
 
 **Assessment:**
 
+**Keywords:**
+
 
 <hr/>
 
-### Title: [PLCPrint: Fingerprinting Memory Attacks in Programmable Logic Controllers](https://ieeexplore.ieee.org/document/10130481)
+### 8. Title: [PLCPrint: Fingerprinting Memory Attacks in Programmable Logic Controllers](https://ieeexplore.ieee.org/document/10130481)
 
 **Reference:**
 
@@ -149,10 +151,12 @@ M. M. Cook, A. K. Marnerides and D. Pezaros, "PLCPrint: Fingerprinting Memory At
 
 **Assessment:**
 
+**Keywords:**
+
 
 <hr/>
 
-### Title: [Fingerprinting for Cyber-Physical System Security: Device Physics Matters Too](https://ieeexplore.ieee.org/document/8490185)
+### 9. Title: [Fingerprinting for Cyber-Physical System Security: Device Physics Matters Too](https://ieeexplore.ieee.org/document/8490185)
 
 **Reference:**
 
@@ -163,10 +167,12 @@ Q. Gu, D. Formby, S. Ji, H. Cam and R. Beyah, "Fingerprinting for Cyber-Physical
 
 **Assessment:**
 
+**Keywords:**
+
 
 <hr/>
 
-### Title: [Optimized fingerprint generation using unintentional emission radio-frequency distinct native attributes (RF-DNA)](https://ieeexplore.ieee.org/document/7045829)
+### 10. Title: [Optimized fingerprint generation using unintentional emission radio-frequency distinct native attributes (RF-DNA)](https://ieeexplore.ieee.org/document/7045829)
 
 **Reference:**
 
@@ -176,10 +182,12 @@ R. D. Deppensmith and S. J. Stone, "Optimized fingerprint generation using unint
 
 **Assessment:**
 
+**Keywords:**
+
 
 <hr/>
 
-### Title: [Power Measurement Based Code Classification for Programmable Logic Circuits](https://ieeexplore.ieee.org/document/8642680)
+### 11. Title: [Power Measurement Based Code Classification for Programmable Logic Circuits](https://ieeexplore.ieee.org/document/8642680)
 
 **Reference:**
 
@@ -189,10 +197,12 @@ T. Roy and A. A. L. Beex, "Power Measurement Based Code Classification for Progr
 
 **Assessment:**
 
+**Keywords:**
+
 
 <hr/>
 
-### Title: [Remote field device fingerprinting using device-specific modbus information](https://ieeexplore.ieee.org/document/7870006)
+### 12. Title: [Remote field device fingerprinting using device-specific modbus information](https://ieeexplore.ieee.org/document/7870006)
 
 **Reference:**
 
@@ -202,10 +212,12 @@ A. Keliris and M. Maniatakos, "Remote field device fingerprinting using device-s
 
 **Assessment:**
 
+**Keywords:**
+
 
 <hr/>
 
-### Title: [A Blockchain Architecture to Increase the Resilience of Industrial Control Systems from the Effects of a Ransomware Attack: A Proposal and Initial Results](https://dl.acm.org/doi/10.1145/3637553)
+### 13. Title: [A Blockchain Architecture to Increase the Resilience of Industrial Control Systems from the Effects of a Ransomware Attack: A Proposal and Initial Results](https://dl.acm.org/doi/10.1145/3637553)
 
 **Reference:**
 
@@ -215,10 +227,13 @@ Stephen S. Kirkman, Steven Fulton, Jeffrey Hemmes, Christopher Garcia, and Justi
 
 **Assessment:**
 
+**Keywords:**
+
+
 
 <hr/>
 
-### Title: [An Innovative Blockchain-Based Traceability Framework for Industry 4.0 Cyber-Physical Factory](https://dl.acm.org/doi/10.1145/3588155.3588174)
+### 14. Title: [An Innovative Blockchain-Based Traceability Framework for Industry 4.0 Cyber-Physical Factory](https://dl.acm.org/doi/10.1145/3588155.3588174)
 
 **Reference:**
 
@@ -228,10 +243,13 @@ William Davis, Mahnoor Yaqoob, Luke Bennett, Stefan Mihai, Dang Viet Hung, Ramon
 
 **Assessment:**
 
+**Keywords:**
+
+
 
 <hr/>
 
-### Title: [On the Feasibility of Secure Logging for Industrial Control Systems Using Blockchain](https://dl.acm.org/doi/10.1145/3360664.3360668)
+### 15. Title: [On the Feasibility of Secure Logging for Industrial Control Systems Using Blockchain](https://dl.acm.org/doi/10.1145/3360664.3360668)
 
 **Reference:**
 
@@ -241,10 +259,13 @@ Stefan Schorradt, Edita Bajramovic, and Felix Freiling. 2019. On the Feasibility
 
 **Assessment:**
 
+**Keywords:**
+
+
 
 <hr/>
 
-### Title: [Device Fingerprinting for Cyber-Physical Systems: A Survey](https://dl.acm.org/doi/10.1145/3584944)
+### 16. Title: [Device Fingerprinting for Cyber-Physical Systems: A Survey](https://dl.acm.org/doi/10.1145/3584944)
 
 **Reference:**
 
@@ -254,10 +275,12 @@ Vijay Kumar and Kolin Paul. 2023. Device Fingerprinting for Cyber-Physical Syste
 
 **Assessment:**
 
+**Keywords:**
+
 
 <hr/>
 
-### Title: [SymbIoT: Towards An Extensible Blockchain Integration Testbed for IIoT](https://dl.acm.org/doi/10.1145/3609389.3610565)
+### 17. Title: [SymbIoT: Towards An Extensible Blockchain Integration Testbed for IIoT](https://dl.acm.org/doi/10.1145/3609389.3610565)
 
 **Reference:**
 
@@ -267,10 +290,12 @@ John Hayes, Adel Aneiba, and Mohamed Gaber. 2023. SymbIoT: Towards An Extensible
 
 **Assessment:**
 
+**Keywords:**
+
 
 <hr/>
 
-### Title: [A Robust Anomaly Detection Approach for IIoT Time Series](https://dl.acm.org/doi/10.1145/3704558.3707091)
+### 18. Title: [A Robust Anomaly Detection Approach for IIoT Time Series](https://dl.acm.org/doi/10.1145/3704558.3707091)
 
 **Reference:**
 
@@ -281,10 +306,13 @@ Zexin Lu. 2025. A Robust Anomaly Detection Approach for IIoT Time Series. In Pro
 
 **Assessment:**
 
+**Keywords:**
+
+
 
 <hr/>
 
-### Title: [Deployment of Cybersecurity Controls in the Norwegian Industry 4.0](https://dl.acm.org/doi/10.1145/3664476.3670896)
+### 19. Title: [Deployment of Cybersecurity Controls in the Norwegian Industry 4.0](https://dl.acm.org/doi/10.1145/3664476.3670896)
 
 **Reference:**
 
@@ -294,10 +322,13 @@ Kristian Kannelønning and Sokratis Katsikas. 2024. Deployment of Cybersecurity 
 
 **Assessment:**
 
+**Keywords:**
+
+
 
 <hr/>
 
-### Title: [SECBlock-IIoT: A Secure Blockchain-enabled Edge Computing Framework for Industrial Internet of Things](https://dl.acm.org/doi/10.1145/3591365.3592945)
+### 20. Title: [SECBlock-IIoT: A Secure Blockchain-enabled Edge Computing Framework for Industrial Internet of Things](https://dl.acm.org/doi/10.1145/3591365.3592945)
 
 **Reference:**
 
@@ -306,6 +337,9 @@ A. S. M. Sanwar Hosen, Pradip Kumar Sharma, Deepak Puthal, In-Ho Ra, and Gi Hwan
 **Summary:**
 
 **Assessment:**
+
+**Keywords:**
+
 
 
 <hr/>
