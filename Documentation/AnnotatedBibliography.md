@@ -130,14 +130,19 @@ Blockchain, Edge, Cloud, Eliminate Communication Latency, Real-Time
 
 **Reference:**
 
-Z. Jadidi, A. Dorri, R. Jurdak and C. Fidge, "Securing Manufacturing Using Blockchain," 2020 IEEE 19th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom), Guangzhou, China, 2020, pp. 1920-1925, doi: 10.1109/TrustCom50675.2020.00262.
+_Z. Jadidi, A. Dorri, R. Jurdak and C. Fidge, "Securing Manufacturing Using Blockchain," 2020 IEEE 19th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom), Guangzhou, China, 2020, pp. 1920-1925, doi: 10.1109/TrustCom50675.2020.00262._
 
 **Summary:**
 
+ICS attacks generally use a phased approach during execution. Current frameworks can generally only scan a single data source and thus cannot detect all possible vectors as an attack is unfolding. The work proposes a two stage security systems wherein a blockchain is used to securely store ICS data in a distributed manner and a deep learning system is used to analyze the blockchain for anomalous behavior. The proposed design was implemented and tested for functionality demonstrating a a high level of precision; comparable to systems that only analyze a single data source. Upon the discovery of an anomaly, other manufacturers can be notified. The work proposed a public logging blockchain for inter-manufacturer communications concerning manufacturing attacks and anomalies.
+
 **Assessment:**
+
+The work carried out by Jadidi et al. provides value by not only implementing a blockchain structure for data analysis, but also a deep learning mechanism wherein data streams are analyzed for patterns and anomalies detected. The outcomes of the work show that multi-stream blockchain analysis is possible using artificial intelligence functionalities.
 
 **Keywords:**
 
+Blockchain, Deep Learning, Logging
 
 <hr/>
 
