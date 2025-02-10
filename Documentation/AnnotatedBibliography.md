@@ -295,12 +295,15 @@ Vijay Kumar and Kolin Paul. 2023. Device Fingerprinting for Cyber-Physical Syste
 
 **Summary:**
 
-
+Device fingerprinting is used for identification, authentication, conditioning, and security in Cyber-Physical Systems (CPS). Cyber-Physical Systems are systems wherein cyberspace interacts with the physical realm, such as industrial control systems on factory lines, in power girds, water systems, and other critical infrastructure processes. This work aims to canvass the state of the device fingerprinting research available to day and try to  distill what has been done into some better understandable set of processes. In their work, the authors investigate different fingerprinting techniques, applications, origins, and characteristics. Fingerprinting is used to identify devices based on unique attributes. It is used to authenticate devices due to the fact that no two devices can generate the same fingerprint. It is used to monitor conditions of a device due to the predictable patterns in power and operational consumptions that each device exhibits. it is used in tracing and forensics to best understand what device did what and when. The survey created a novel classification scheme that uses physics, operation, and behavioral features to classify fingerprinting techniques. The classification was further refined into passive and active fingerprinting techniques.
 
 **Assessment:**
 
+The key value of this work lies in the breadth of the exploration taken to understanding the state of the art in device fingerprinting for Cyber-Physical Systems. This work will likely be used again and again for all Cyber-Physical device fingerprinting referencing as it contains such a rich set of data relating to the state of device fingerprinting today. The classification scheme and subsequent grouping of techniques is highly useful in this research, especially across the passive/active delineation.
+
 **Keywords:**
 
+Device Fingerprinting, Survey, Classification
 
 <hr/>
 
