@@ -255,7 +255,7 @@ _William Davis, Mahnoor Yaqoob, Luke Bennett, Stefan Mihai, Dang Viet Hung, Ramo
 
 **Summary:**
 
-Traceability allows for all part and process in a manufacturing process to be traced, tracked, and assured. This process helps manufactures ensure quality and efficienty in production. This work proposes a blockchain system that can fullfilll all traceablity requiremtns in an industrial system. The system propsed in this work uses an immutable blockcahin implementation that facilitates the tracing of all parts and process in the manufcatring process being tracked. The blockchain architecture is deployed to Rasperri Pis attached to a cyber-physical factory simulator and the resulting production data is logged, hased and attached to the blockchain. The outcomes of this research indicate that a blockcahin can be used to verify the authenticiy of data within a manufacturing process. 
+Traceability allows for all part and process in a manufacturing process to be traced, tracked, and assured. This process helps manufactures ensure quality and efficienty in production. This work proposes a blockchain system that can fullfilll all traceablity requiremtns in an industrial system. The system propsed in this work uses an immutable blockcahin implementation that facilitates the tracing of all parts and process in the manufcatring process being tracked. The blockchain architecture is deployed to Rasperri Pis attached to a cyber-physical factory simulator and the resulting production data is logged, hashed and attached to the blockchain. The outcomes of this research indicate that a blockcahin can be used to verify the authenticiy of data within a manufacturing process. 
 
 **Assessment:**
 
