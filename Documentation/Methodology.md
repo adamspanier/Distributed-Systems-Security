@@ -83,27 +83,38 @@ These keywords delineate ____ classifications
 - secure logging using blockchain
 - ransomware protection using distributed storage
 - Some analyze using AI
--  Jadidi et al. 7
+-  Jadidi et al. - 7
+-  lu et al. - 17
 - Central Protection - historian
 -  Colelli et al - 3
+-  Davis et al. - 13
+-  Schorradt et al. - 14
 - Distributed Protection - Edge
 -  Choi et al. - 1
 -  Otte et al - 2
 -  Parvizimosaed et al - 4.
 -  Garrocho et al. - 6 (also in I&A)
 -  Jadidi et al. - 7 (alo in AI)
+-  Kirkman et al. - 12
+-  Hayes et al. - 16
 
 2. Identification and Authentication Protections
 - fingerprinting via Power Consumption, Memory, and PUFs
 -  Garrocho et al. - 6
 -  Cook et al. - 8
 -  Formby et al. - 9
+-  Roy et al. - 10
+-  Keliris et al. - 11
+-  Kumar et al. - 15
 - Time Series Anomalies
+-  Lu et al. - 17 (also in AI)
 
 3. Decentralized System Design
 - Supporting known weakness of decetralized systems
 -  Garrocho et al. - 5
 - Combining decentralized protections to build holistic systems
+-  Kannelonning et al. - 18
+-  Hosen et al. - 19
 
 ### Citations
 
