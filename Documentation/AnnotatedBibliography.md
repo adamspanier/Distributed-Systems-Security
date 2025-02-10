@@ -215,10 +215,15 @@ A. Keliris and M. Maniatakos, "Remote field device fingerprinting using device-s
 
 **Summary:**
 
+Device fingerprinting is the practice of determining unique attributes of different devices and combing these attributes into a unique identifier. Device fingerprinting plays a valuable part in the reconnaissance phase of any malicious attack. These attacks are critically important to understand, especially when dealing with industrial control systems in critical infrastructure processes. This proposes a device fingerprinting scheme wherein the differences between vendor implementation in the modbus protocol are used to identify and track different devices on a given critical system. Modbus, due to it's real-time nature, does not implemented any authentication protocols. This work proposes the use of these difference-based modbus fingerprints as a means to identify and authenticate different devices on a given modbus system. To test the viability of such a vendor-based fingerprinting scheme, the researchers evaluate modbus-enabled devices that are connected to the internet and indexed by the Shodan search engine. The outcomes of the system indicate that 3% of all modbus-enabled devices indexed on Shodan were accurately identified based on vendor specifications. This improves Shodan's fingerprinting capabilities by 28%.
+
 **Assessment:**
+
+Much like the work carried out by Roy et al., this work proposes a novel means by which PLCs and ICS-based devices can be accurately fingerprinted for identification and authentication activities. Rather than taking an internal network stance on fingerprinting, this research instead focused on publicly available modbus-based devices that are registered on the Shodan search engine. While only 308 devices were successfully identified using this novel fingerprinting approach, it demonstrates that there are still many unexplored avenues that can be explored when trying to successfully fingerprint ICS devices.
 
 **Keywords:**
 
+Modbus, Fingerprinting, Identificationa nd Authentication, Recon
 
 <hr/>
 
@@ -230,11 +235,15 @@ Stephen S. Kirkman, Steven Fulton, Jeffrey Hemmes, Christopher Garcia, and Justi
 
 **Summary:**
 
+ICS and SCADA networks run some of the most critical systems in the United States. The disruption of these systems can cause, at best, chaos and a lack of coordination, and at worst loss of life. Because these systems are so critical, they must be adequately protected. This work proposes a blockchain and the integrity resilience nature of blockchain architectures as a means to protect from ransomware attacks. To implement the blockchain in this model, this research proposes the use of the Historian. This research focuses on the constant running nature of the blockchain process to keep from being encrypted by any ransomware processes. Because the blockchain is always running, ransomware attacks cannot effectively encrypt the data sitting the blockchain, thus making the blockchain resistant to the ransomware attacks. As the ransomware attack progresses, all the data in the blockchain is kept secure. In order to actually encrypt the files being used by the blockchain, the main blockchain function must be killed by the ransomware. Whenever this function is shut down, the system can immediately isolate the device, rendering the ransomware attack useless. 
+
 **Assessment:**
+
+The real value of this work is revealed in the ever-running nature of blockchain operations. By nature, ransomware attacks can only encrypt files that are not locked by any other process. The blockchain architecture proposed in this work ensures that the process that carries out blockchain operations is always running. This ensures that the local blockchain is always locked by some process in the systems as a means to resist encryption by a ransomware package. Many ransomware attacks have the ability to target process for elimination if files cannot be reached. Because the blockchain function must always run, the system itself can run checks to ensure the every device in the system is running the blockchain program. If the program is down, it is likely due to a ransomware attack or some other malformed operation and can thus be immediately isolated. This provides a feasible method for early ransomware detection and isolation.
 
 **Keywords:**
 
-
+Ransomware, Blockchain, PLC, ICS, SCADA
 
 <hr/>
 
@@ -246,11 +255,15 @@ William Davis, Mahnoor Yaqoob, Luke Bennett, Stefan Mihai, Dang Viet Hung, Ramon
 
 **Summary:**
 
+Traceability allows for all part and process in a manufacturing process to be traced, tracked, and assured. This process helps manufactures ensure quality and efficienty in production. This work proposes a blockchain system that can fullfilll all traceablity requiremtns in an industrial system. The system propsed in this work uses an immutable blockcahin implementation that facilitates the tracing of all parts and process in the manufcatring process being tracked. The blockchain architecture is deployed to Rasperri Pis attached to a cyber-physical factory simulator and the resulting production data is logged, hased and attached to the blockchain. The outcomes of this research indicate that a blockcahin can be used to verify the authenticiy of data within a manufacturing process. 
+
 **Assessment:**
+
+While this work does not focus entirely on the security element, the use of blockchains as a means to track and verify data in an industrial process is useful in all industrial applications. The use in their example, while only applied to tracing manufacturing processes, can also be used to track and predict industrial operations and notify if any anomalies occur. Further, the use of a blockchain in operational tracing can help from a digital forensic perspective as a means to carry out any investigation after an attack occurs. Having trustworthy data to analyze after an event is essential in ensuring that the issue is accurately understood and mitigated.
 
 **Keywords:**
 
-
+Blockchain, Authenticity, Traceability, Industry 4.0
 
 <hr/>
 
@@ -262,11 +275,15 @@ Stefan Schorradt, Edita Bajramovic, and Felix Freiling. 2019. On the Feasibility
 
 **Summary:**
 
+Due to the networked nature of all modern ICS systems, the need for sound forensics methodologies in these systems become more and more essential. One of the key elements in all forensics investigations are the log files produced in the operation of a given system. By working through log files in a system, investigators can begin to create both a timeline and a picture of just what happened in some cybersecurity event. Due to the importance of such logs int eh digital forensics domain, the security of these files must be ensured. If the log files cannot be trusted, there is not real way to be able to adequately understand what happened in a given cyber event. To protect log files from manipulation, some integrity checking mechanism must be introduced to ensure the validity of the files being analyzed. This work proposes the use of a blockchain tracking mechanism that can help ensure the integrity of all the logging data captured during the operation of an ICS system. The system proposed captures logging data from a Siemens SIMATIC S7-1500 and reports the data to the public Ethereum network. The use of the system did ensure the integrity of logging, but the time-intensive nature of the public Ethereum blockchain interactions severely limits the use of this system in real PLC-based systems.
+
 **Assessment:**
+
+This work is directly related to the work done by Davis et al. above and to the work carried out by Jadidi et al. The value in this work, much like the works just mentioned, lies in the benefits blockchains pose when attempting to validate that integrity of captured data. The use of a blockchain can help operation better log and validate the data being captured to ensure that no errors occurred in the storage of the data and not tamperi9ng occurred after the data was collected. Interestingly, this work specifically note the time-intensive nature of the using the Ethereum public blockchain architecture and indicates that, due to the slowness of the process, this architecture is likely NOT usable for real-time ICS systems.
 
 **Keywords:**
 
-
+Logging, Blockchain, Ethereum, Slow
 
 <hr/>
 
@@ -277,6 +294,8 @@ Stefan Schorradt, Edita Bajramovic, and Felix Freiling. 2019. On the Feasibility
 Vijay Kumar and Kolin Paul. 2023. Device Fingerprinting for Cyber-Physical Systems: A Survey. ACM Comput. Surv. 55, 14s, Article 302 (December 2023), 41 pages. https://doi.org/10.1145/3584944
 
 **Summary:**
+
+
 
 **Assessment:**
 
