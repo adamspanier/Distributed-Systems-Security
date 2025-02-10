@@ -59,6 +59,52 @@ Upon completion of the research corpus, the included literature will be analyzed
 After conduction the systematic literature review described above, nineteen (19) relevant pieces of literature were added to the research corpus. From these works, _____ categories emerged.
 The annotated bibliography produced in this literature survey can be found [HERE](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/AnnotatedBibliography.md).
 
+### 2.2 Keywords
+
+From the literature review the following notable keywords emerged:
+
+- Cyber-Physical Systems
+- Industry 4.0
+- Industrial Internet of Things
+- Blockchain
+- Decentralized Ledger Technology
+- Fingerprinting
+- Time Series Anomaly Detection
+- Logging Security
+- Secure Logging
+- Digital Forensics
+- Passive vs Active Monitoring
+- Access Control
+- Physical Unclonable Function
+
+These keywords delineate ____ classifications
+
+1. Data Integrity Protections
+- secure logging using blockchain
+- ransomware protection using distributed storage
+- Some analyze using AI
+-  Jadidi et al. 7
+- Central Protection - historian
+-  Colelli et al - 3
+- Distributed Protection - Edge
+-  Choi et al. - 1
+-  Otte et al - 2
+-  Parvizimosaed et al - 4.
+-  Garrocho et al. - 6 (also in I&A)
+-  Jadidi et al. - 7 (alo in AI)
+
+2. Identification and Authentication Protections
+- fingerprinting via Power Consumption, Memory, and PUFs
+-  Garrocho et al. - 6
+-  Cook et al. - 8
+-  Formby et al. - 9
+- Time Series Anomalies
+
+3. Decentralized System Design
+- Supporting known weakness of decetralized systems
+-  Garrocho et al. - 5
+- Combining decentralized protections to build holistic systems
+
 ### Citations
 
 1. [M. K. Choi, C. Y. Yeun and P. H. Seong, "A Novel Monitoring System for the Data Integrity of Reactor Protection System Using Blockchain Technology," in IEEE Access, vol. 8, pp. 118732-118740, 2020, doi: 10.1109/ACCESS.2020.3005134.](https://ieeexplore.ieee.org/document/9126779)
