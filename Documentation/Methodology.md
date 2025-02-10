@@ -56,9 +56,9 @@ Upon completion of the research corpus, the included literature will be analyzed
 
 ### 2.1 Review Results
 
-After conducting the systematic literature review described above, nineteen (19) relevant pieces of literature were added to the research corpus. From these works, the following three (3) categories emerged: 1) Data Integrity Protection (DIP), 2) Identification and Authentication Protection (IAP), and 3) Decentralized System Design (DSD). In the DIP cateogry , two (2) sub-categories were idenfied: 1) Centralized Protection and 2) Decntralized Protection. In the IAP category, two (2) sub-categories emerged: 1) Fingerprinting and 2) Time Series Anomaly Setection. No sub-categories were identified in the DSD classification.
+After conducting the systematic literature review described above, nineteen (19) relevant pieces of literature were added to the research corpus. From these works, the following three (3) categories emerged: 1) Data Integrity Protection (DIP), 2) Device Fingerprinting (DF), and 3) Decentralized System Design (DSD). In the DIP cateogry , two (2) sub-categories were idenfied: 1) Centralized Protection and 2) Decntralized Protection. In the DF category, two sub-categories were identified: 1) Anomalous Behavior Detection and 2) General Fingerprinting. In the DSD category, the following two (2) categories emerged: 1) Supporting Decentralized System Weaknesses and 2) Combining Decentralized Protections.
 
-Of the nineteen (19) works analyzed in this literature review, ten (10) fell into the DIP classification. Of the 10 in the DIP classification, three (3) were added to the Centralized Protection classification and seven (7) to the Decenralized Protection classification. Seven (7) of the works in this review were added to the IAP classification. Of the seven (7) in the IAP category, six (6) works were added to the Fingerprinting category and one (1) was added to the Time Series Anonaly Detection category. The remaining two (2) works were added to the DSD category.
+Of the nineteen (19) works analyzed in this literature review, ten (10) fell into the DIP classification. Of the 10 in the DIP classification, three (3) were added to the Centralized Protection classification and seven (7) to the Decenralized Protection classification. Six (6) of the works in this review were added to the DF classification. Of the six (6) works in the DF cateogry, three (3) were added to the Anomalous Behavior Detection sub category and three (3) were added to the General Fingerprinting sub-category. The remaining three (3) works were added to the DSD category. Of the three (3) in the DSD category, one (1) was added to the Supporting Decentralized System Weaknesses sub-category and two (2) were added to the Combining Decentralized Protections sub-category.
 
 **2.1.0 - Data Integrity Protection**
 
@@ -66,10 +66,21 @@ Relating to Centralized Data Protection, Colelli et al. [3] propose a blockchain
 
 Relating to Decentralized Data Protection, Choi et al. [1] propose a decentralized blockchain-based data storage system for both data protection and for secure, immutable logging in a Nuclear Power Plant. Otte et al. [2] propose a blockchain for process level traceablity in mixing battery checmicals as a means to verify compliance with quality requirements and chemical regulations. Parvizimosaed et al. [4] present a decentralized ledger storage scheme that allows PLC data to be stored at the edge with the PLCs as a means to resist ransomware attacks. Garrocho et al. [6] present a novel blockchain based access control mechanism for cloud-based Industrial Internet of Things (IIoT) devices housed at the edge for faster and more secure PLC authentications. Jadidi et al. [7] carry out a blockchain much like other works in this category, but add a deep learning layer to help identify anomalous ICS behaviors. Kirkman et al. [12] provide a ransomware-resistant design that relies on OS-file locks and the ever-running nature of blockchain software to both resist and detect ransomware intrusions. Hayes et al. [16] created a ground-up Raspberri Pi-based communication ledger for IIoT-based decentralized data storage.
 
-**2.1.1 - Identification and Authentication Protection**
+**2.1.1 - Fingerprinting**
+
+Relating to Anomalous Behavior Detection, Cook et al. [8] present a PLC fingerprinting mechanism using the memory contents of each PLC as a means to map memory patterns against known Memory Mapping conditions. Formby et al. [9] present a physics and timing-based fingerprinting mechanism wherein residual signals and timing artifacts are measured for each PLC as a means to accurately detect anomalous behavior. Lu et al [17] present a novel noise reduction scheme for the identification of time-based anomalies in IIoT traffic.
+
+Relating to General Fingerprinting, Roy et al. [10] present and external, power consumption-based fingerprinting alogrithm wherin the power signatures of PLCs are measured and documented in nominal operations and subsequently measured for anomalous behaviors. Keliris et al. [11] present a system wherein the application of modbus functionality allows the system to predict different PLC models. Kumar et al. [15] make a deep dive on the state of the art regarding all fingerprinting techniques and methodologies.
 
 **2.1.2 - Decentralized System Design**
-The annotated bibliography produced in this literature survey can be found [HERE](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/AnnotatedBibliography.md). The categories derived from the literature review outlined above 
+
+Relating to the support of known decentralized system weaknesses, Garracho et al. [5] propose a failure model to help security professionals shore up known weaknesses in IIoT systems enabled with decentralized security. 
+
+Relating to the combination of decntralized protections in industrial control systems, Kannelonning et al. [18] categoriezes security protections in Norwegian industry and Hosen et al. [19] design a prototype decentralized security system for an industrial control system.
+
+**2.1.3 - Annotated Bibliography**
+
+The annotated bibliography produced in this literature survey can be found [HERE](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/AnnotatedBibliography.md).
 
 ### 2.2 Keywords
 
