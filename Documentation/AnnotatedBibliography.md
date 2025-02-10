@@ -390,17 +390,17 @@ Blockchain, Fingerprinting, Physical Unclonable Function
 
 ## Survey Keywords: 
 
--Cyber-Physical Systems
--Industry 4.0
--Industrial Internet of Things
--Blockchain
--Decentralized Ledger Technology
--Fingerprinting
--Time Series Anomaly Detection
--Logging Security
--Secure Logging
--Digital Forensics
--Passive vs Active Monitoring
--Access Control
--Physical Unclonable Function
+- Cyber-Physical Systems
+- Industry 4.0
+- Industrial Internet of Things
+- Blockchain
+- Decentralized Ledger Technology
+- Fingerprinting
+- Time Series Anomaly Detection
+- Logging Security
+- Secure Logging
+- Digital Forensics
+- Passive vs Active Monitoring
+- Access Control
+- Physical Unclonable Function
 
