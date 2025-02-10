@@ -98,11 +98,11 @@ Example: Structured Methodology
  
 #### 3.1.1 Data Collection
 
-The data collection phase consists of research and resource selections. Research will be conducted against PLCs operating in a DCS, industry-standard system design involving PLCs and other aspects of a DCS, and initial efforts of integrating crpytographic structures into DCS (both successful and unsuccessful implementations). In lieu of a physical lab, system emulation software will be chosen as the testbed for the DCS. The network topology for the DCS, including PLCs within the DCS, will also be determined in this phase.
+The data collection phase consists of research and resource selections. Research will be conducted against PLCs operating in a DCS, industry-standard system design involving PLCs and other aspects of a DCS, and initial efforts of integrating crpytographic structures into DCS (both successful and unsuccessful implementations). In lieu of a physical lab, a DCS written in Python will be chosen as the testbed for the DCS. The network topology for the DCS, including PLCs within the DCS, will also be determined in this phase.
 
 #### 3.1.2 System Emulation
 
-Once the emulation software is selected, a DCS will be designed and configured on the emulation software. Proper operation of the included PLCs and data reporting will be evaluated to ensure proper system functionality. When the system passes verification checks, this system will be used as the baseline/recovery point for the project.
+An industry-standard DCS will be written in Python. Proper operation of the Python project, including imitating PLC operation and data reporting will be evaluated to ensure proper system functionality. When the system passes verification checks, this system will be used as the baseline/recovery point for the project.
 
 #### 3.1.3 Novel System Emulation
 
