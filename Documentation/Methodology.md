@@ -56,8 +56,20 @@ Upon completion of the research corpus, the included literature will be analyzed
 
 ### 2.1 Review Results
 
-After conduction the systematic literature review described above, nineteen (19) relevant pieces of literature were added to the research corpus. From these works, _____ categories emerged.
-The annotated bibliography produced in this literature survey can be found [HERE](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/AnnotatedBibliography.md).
+After conducting the systematic literature review described above, nineteen (19) relevant pieces of literature were added to the research corpus. From these works, the following three (3) categories emerged: 1) Data Integrity Protection (DIP), 2) Identification and Authentication Protection (IAP), and 3) Decentralized System Design (DSD). In the DIP cateogry , two (2) sub-categories were idenfied: 1) Centralized Protection and 2) Decntralized Protection. In the IAP category, two (2) sub-categories emerged: 1) Fingerprinting and 2) Time Series Anomaly Setection. No sub-categories were identified in the DSD classification.
+
+Of the nineteen (19) works analyzed in this literature review, ten (10) fell into the DIP classification. Of the 10 in the DIP classification, three (3) were added to the Centralized Protection classification and seven (7) to the Decenralized Protection classification. Seven (7) of the works in this review were added to the IAP classification. Of the seven (7) in the IAP category, six (6) works were added to the Fingerprinting category and one (1) was added to the Time Series Anonaly Detection category. The remaining two (2) works were added to the DSD category.
+
+**2.1.0 - Data Integrity Protection**
+
+Relating to Centralized Data Protection, Colelli et al. [3] propose a blockchain ledger associated with an ICS Historian as a means to provide immutable data tracking for all PLC-related data via a data integrity scanner on the blockchain. Davis et al. [13] propose a blockchain-based traceablity solution wherein all parts and processes of a given manufacturing system are logged, hashed, and appended to the blockchain for quality assurance validation. Schorradt et al. [14] chose to carry out a design mush like Davis et al. but rather than a novel-private blockchain, the researchers chose to add the data to the public Ethereum blockchain. While the application created by Schorradt et al. worked, the use of the public Ethereum blockchain indicated prohibitively slow speeds for real-time operating systems.
+
+Relating to Decentralized Data Protection, Choi et al. [1] propose a decentralized blockchain-based data storage system for both data protection and for secure, immutable logging in a Nuclear Power Plant. Otte et al. [2] propose a blockchain for process level traceablity in mixing battery checmicals as a means to verify compliance with quality requirements and chemical regulations. Parvizimosaed et al. [4] present a decentralized ledger storage scheme that allows PLC data to be stored at the edge with the PLCs as a means to resist ransomware attacks. Garrocho et al. [6] present a novel blockchain based access control mechanism for cloud-based Industrial Internet of Things (IIoT) devices housed at the edge for faster and more secure PLC authentications. Jadidi et al. [7] carry out a blockchain much like other works in this category, but add a deep learning layer to help identify anomalous ICS behaviors. Kirkman et al. [12] provide a ransomware-resistant design that relies on OS-file locks and the ever-running nature of blockchain software to both resist and detect ransomware intrusions. Hayes et al. [16] created a ground-up Raspberri Pi-based communication ledger for IIoT-based decentralized data storage.
+
+**2.1.1 - Identification and Authentication Protection**
+
+**2.1.2 - Decentralized System Design**
+The annotated bibliography produced in this literature survey can be found [HERE](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/AnnotatedBibliography.md). The categories derived from the literature review outlined above 
 
 ### 2.2 Keywords
 
