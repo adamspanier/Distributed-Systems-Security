@@ -80,3 +80,34 @@ The annotated bibliography produced in this literature survey can be found [HERE
 18. [Zexin Lu. 2025. A Robust Anomaly Detection Approach for IIoT Time Series. In Proceedings of the 2024 2nd International Conference on Frontiers of Intelligent Manufacturing and Automation (CFIMA '24). Association for Computing Machinery, New York, NY, USA, 168–173. https://doi.org/10.1145/3704558.3707091](https://dl.acm.org/doi/10.1145/3704558.3707091)
 19. [Kristian Kannelønning and Sokratis Katsikas. 2024. Deployment of Cybersecurity Controls in the Norwegian Industry 4.0. In Proceedings of the 19th International Conference on Availability, Reliability and Security (ARES '24). Association for Computing Machinery, New York, NY, USA, Article 188, 1–8. https://doi.org/10.1145/3664476.3670896](https://dl.acm.org/doi/10.1145/3664476.3670896)
 20. [A. S. M. Sanwar Hosen, Pradip Kumar Sharma, Deepak Puthal, In-Ho Ra, and Gi Hwan Cho. 2023. SECBlock-IIoT: A Secure Blockchain-enabled Edge Computing Framework for Industrial Internet of Things. In Proceedings of the Third International Symposium on Advanced Security on Software and Systems (ASSS '23). Association for Computing Machinery, New York, NY, USA, Article 1, 1–14. https://doi.org/10.1145/3591365.3592945](https://dl.acm.org/doi/10.1145/3591365.3592945)
+
+## 3.0 Project Technical Plan
+
+The Project Technical Plan serves as the process outline for examining the security posture of a DCS, particularly after novel cryptographic structures are implemented to increase the safety and security of a DCS. 
+
+### 3.1 Technical Plan Approach
+
+To produce structured, repeatable, and actionable results, the project will be conducted in a structured manner as outlined below.
+
+Example: Structured Methodology
+ - Phase 1: Data Collection - 
+ - Phase 2: System Emulation - configure/implement a typical DCS using industry-standard practices on a chosen system emulation software. Verify emulated system runs as expected by running predefined tests against system and recording results.
+ - Phase 3: Novel System Emulation - configure the same system above using novel cryptography techniques to secure PLC data on the system. Run the same battery of tests against the novel system and record results.
+ - Phase 4: Analysis - Analyze the data from the system emulation phases to identify successes, failures, and room for growth. create report documenting the findings of the project.
+
+ 
+#### 3.1.1 Data Collection
+
+The data collection phase consists of research and resource selections. Research will be conducted against PLCs operating in a DCS, industry-standard system design involving PLCs and other aspects of a DCS, and initial efforts of integrating crpytographic structures into DCS (both successful and unsuccessful implementations). In lieu of a physical lab, system emulation software will be chosen as the testbed for the DCS. The network topology for the DCS, including PLCs within the DCS, will also be determined in this phase.
+
+#### 3.1.2 System Emulation
+
+Once the emulation software is selected, a DCS will be designed and configured on the emulation software. Proper operation of the included PLCs and data reporting will be evaluated to ensure proper system functionality. When the system passes verification checks, this system will be used as the baseline/recovery point for the project.
+
+#### 3.1.3 Novel System Emulation
+
+Using the system designed in step 3.1.2, novel cryptographic structures will be strategically inserted into the DCS. The tests conducted in step 3.1.2 will be conducted again against the system, and its responses will be recorded.
+
+#### 3.1.4 Data Collection/Analysis and Reporting
+
+The results from the above test will be analyzed and compiled into a detailed report. This report will include specifics such as system design, normal operation, operation anomalies observed once cryptographic structures were implemented, any adjustments made to respond to the anomalies, and final results and summaries from the evaluation.
