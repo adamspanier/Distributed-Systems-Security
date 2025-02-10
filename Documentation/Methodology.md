@@ -90,10 +90,10 @@ The Project Technical Plan serves as the process outline for examining the secur
 To produce structured, repeatable, and actionable results, the project will be conducted in a structured manner as outlined below.
 
 Example: Structured Methodology
- - Phase 1: Data Collection - 
- - Phase 2: System Emulation - configure/implement a typical DCS using industry-standard practices on a chosen system emulation software. Verify emulated system runs as expected by running predefined tests against system and recording results.
- - Phase 3: Novel System Emulation - configure the same system above using novel cryptography techniques to secure PLC data on the system. Run the same battery of tests against the novel system and record results.
- - Phase 4: Analysis - Analyze the data from the system emulation phases to identify successes, failures, and room for growth. create report documenting the findings of the project.
+ - Phase 1: Data Collection
+ - Phase 2: System Emulation
+ - Phase 3: Novel System Emulation
+ - Phase 4: Analysis/Reporting
 
  
 #### 3.1.1 Data Collection
