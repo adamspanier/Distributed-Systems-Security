@@ -211,7 +211,7 @@ Power, Fingerprinting, External
 
 **Reference:**
 
-A. Keliris and M. Maniatakos, "Remote field device fingerprinting using device-specific modbus information," 2016 IEEE 59th International Midwest Symposium on Circuits and Systems (MWSCAS), Abu Dhabi, United Arab Emirates, 2016, pp. 1-4, doi: 10.1109/MWSCAS.2016.7870006.
+_A. Keliris and M. Maniatakos, "Remote field device fingerprinting using device-specific modbus information," 2016 IEEE 59th International Midwest Symposium on Circuits and Systems (MWSCAS), Abu Dhabi, United Arab Emirates, 2016, pp. 1-4, doi: 10.1109/MWSCAS.2016.7870006._
 
 **Summary:**
 
@@ -231,7 +231,7 @@ Modbus, Fingerprinting, Identificationa nd Authentication, Recon
 
 **Reference:**
 
-Stephen S. Kirkman, Steven Fulton, Jeffrey Hemmes, Christopher Garcia, and Justin C. Wilson. 2024. A Blockchain Architecture to Increase the Resilience of Industrial Control Systems from the Effects of a Ransomware Attack: A Proposal and Initial Results. ACM Trans. Cyber-Phys. Syst. 8, 1, Article 9 (January 2024), 13 pages. https://doi.org/10.1145/3637553
+_Stephen S. Kirkman, Steven Fulton, Jeffrey Hemmes, Christopher Garcia, and Justin C. Wilson. 2024. A Blockchain Architecture to Increase the Resilience of Industrial Control Systems from the Effects of a Ransomware Attack: A Proposal and Initial Results. ACM Trans. Cyber-Phys. Syst. 8, 1, Article 9 (January 2024), 13 pages. https://doi.org/10.1145/3637553_
 
 **Summary:**
 
@@ -251,7 +251,7 @@ Ransomware, Blockchain, PLC, ICS, SCADA
 
 **Reference:**
 
-William Davis, Mahnoor Yaqoob, Luke Bennett, Stefan Mihai, Dang Viet Hung, Ramona Trestian, Mehmet Karamanoglu, Balbir Barn, and Huan Nguyen. 2023. An Innovative Blockchain-Based Traceability Framework for Industry 4.0 Cyber-Physical Factory. In Proceedings of the 2023 5th Asia Pacific Information Technology Conference (APIT '23). Association for Computing Machinery, New York, NY, USA, 118–122. https://doi.org/10.1145/3588155.3588174
+_William Davis, Mahnoor Yaqoob, Luke Bennett, Stefan Mihai, Dang Viet Hung, Ramona Trestian, Mehmet Karamanoglu, Balbir Barn, and Huan Nguyen. 2023. An Innovative Blockchain-Based Traceability Framework for Industry 4.0 Cyber-Physical Factory. In Proceedings of the 2023 5th Asia Pacific Information Technology Conference (APIT '23). Association for Computing Machinery, New York, NY, USA, 118–122. https://doi.org/10.1145/3588155.3588174_
 
 **Summary:**
 
@@ -271,7 +271,7 @@ Blockchain, Authenticity, Traceability, Industry 4.0
 
 **Reference:**
 
-Stefan Schorradt, Edita Bajramovic, and Felix Freiling. 2019. On the Feasibility of Secure Logging for Industrial Control Systems Using Blockchain. In Proceedings of the Third Central European Cybersecurity Conference (CECC 2019). Association for Computing Machinery, New York, NY, USA, Article 4, 1–6. https://doi.org/10.1145/3360664.3360668
+_Stefan Schorradt, Edita Bajramovic, and Felix Freiling. 2019. On the Feasibility of Secure Logging for Industrial Control Systems Using Blockchain. In Proceedings of the Third Central European Cybersecurity Conference (CECC 2019). Association for Computing Machinery, New York, NY, USA, Article 4, 1–6. https://doi.org/10.1145/3360664.3360668_
 
 **Summary:**
 
@@ -291,7 +291,7 @@ Logging, Blockchain, Ethereum, Slow
 
 **Reference:**
 
-Vijay Kumar and Kolin Paul. 2023. Device Fingerprinting for Cyber-Physical Systems: A Survey. ACM Comput. Surv. 55, 14s, Article 302 (December 2023), 41 pages. https://doi.org/10.1145/3584944
+_Vijay Kumar and Kolin Paul. 2023. Device Fingerprinting for Cyber-Physical Systems: A Survey. ACM Comput. Surv. 55, 14s, Article 302 (December 2023), 41 pages. https://doi.org/10.1145/3584944_
 
 **Summary:**
 
@@ -311,14 +311,19 @@ Device Fingerprinting, Survey, Classification
 
 **Reference:**
 
-John Hayes, Adel Aneiba, and Mohamed Gaber. 2023. SymbIoT: Towards An Extensible Blockchain Integration Testbed for IIoT. In Proceedings of the 1st Workshop on Enhanced Network Techniques and Technologies for the Industrial IoT to Cloud Continuum (IIoT-NETs '23). Association for Computing Machinery, New York, NY, USA, 8–14. https://doi.org/10.1145/3609389.3610565
+_John Hayes, Adel Aneiba, and Mohamed Gaber. 2023. SymbIoT: Towards An Extensible Blockchain Integration Testbed for IIoT. In Proceedings of the 1st Workshop on Enhanced Network Techniques and Technologies for the Industrial IoT to Cloud Continuum (IIoT-NETs '23). Association for Computing Machinery, New York, NY, USA, 8–14. https://doi.org/10.1145/3609389.3610565_
 
 **Summary:**
 
+This work proposes an investigation of distributed ledger technologies in the industrial internet of things. The system proposed by the work is called SymbIoT. SymbIoT uses JSON  and HTTP to connect 31 Raspberri Pi devices together for communication. To facilitate communication, the researchers built an API with a number of endpoints serving data to the devices. ECDSA is used for signatures. This work serves as a proof of concept to simply understand the construction and implementation of a blockchain ledger mechanism distributed between small IoT devices. IN application, the researchers were able to verify that multiple consensus algorithms could be used to distribute storage across a number of devices. While this work did not study the actual effects of such a network on an actual ICS, it produces a novel software/hardware solution that allows flexibility and efficiency when deploying distributed ledgers to disparate devices.
+
 **Assessment:**
+
+The value of this paper lies in the ground-up nature of the work. While the design was theoretical and rather aspirational in nature, the from-scratch application of code to hardware provides useful guidance as to the acctual requirements needed to add a separate distrubuted ledger systems to an industrial control network.
 
 **Keywords:**
 
+IIoT, Blockchain, Flexibility
 
 <hr/>
 
@@ -326,16 +331,20 @@ John Hayes, Adel Aneiba, and Mohamed Gaber. 2023. SymbIoT: Towards An Extensible
 
 **Reference:**
 
-Zexin Lu. 2025. A Robust Anomaly Detection Approach for IIoT Time Series. In Proceedings of the 2024 2nd International Conference on Frontiers of Intelligent Manufacturing and Automation (CFIMA '24). Association for Computing Machinery, New York, NY, USA, 168–173. https://doi.org/10.1145/3704558.3707091
+_Zexin Lu. 2025. A Robust Anomaly Detection Approach for IIoT Time Series. In Proceedings of the 2024 2nd International Conference on Frontiers of Intelligent Manufacturing and Automation (CFIMA '24). Association for Computing Machinery, New York, NY, USA, 168–173. https://doi.org/10.1145/3704558.3707091_
 
 
 **Summary:**
 
+Time series anomaly detection attempts to glean distinguishable patterns hidden in data to identify anomalies occuring in IIoT networks. The preditability of IIoT operations allows for varyations in nominal operational patterns to be harvested from operational data as a means to determine anomalies, unfolidng error events, or unfolding attacks. The biggest barriers to successful IIoT time series anomaly detection lies in the noisy nature of IIoT data. This work proposes a time series anomaly detection algorithm called RobAD. The algorithms first divides up the same set of data into sets of different time scale frames. For instance, one set may be a 1 second timescale and be comprised of the data for each second of data. Another set may be a minute timescale and be comprised of the data for each minute of operation. From these different data sets, pattern harvesting occurs as a means to detect existing patterns at each timescale. This work then proposes an encoder call ResMLP that correlates multiple variables across the different time scales. The variable tracking across timescales helps alleviate noise. Next a time discrepancy block is used to describe nominal patterns for correlation between noise and actual data. 
+
 **Assessment:**
+
+The value in the work carried out by Lu lies in the novel nature of the designed time series anomaly detection mechanism. By acknowledging the part noise plays in the IIoT data and attempting to mitigate such noise in the detection of operational fingerprinting, more robust detection schemes can be designed. This work primarily focuses on the determination of variable patterns across different timescales as a means to resist noise and more accurately track variation in system operations. By carrying out time patching as described above, the system can better determine that actual baseline data from the noise. 
 
 **Keywords:**
 
-
+Fingerprinting, Anomaly Detection, IIoT
 
 <hr/>
 
@@ -343,15 +352,19 @@ Zexin Lu. 2025. A Robust Anomaly Detection Approach for IIoT Time Series. In Pro
 
 **Reference:**
 
-Kristian Kannelønning and Sokratis Katsikas. 2024. Deployment of Cybersecurity Controls in the Norwegian Industry 4.0. In Proceedings of the 19th International Conference on Availability, Reliability and Security (ARES '24). Association for Computing Machinery, New York, NY, USA, Article 188, 1–8. https://doi.org/10.1145/3664476.3670896
+_Kristian Kannelønning and Sokratis Katsikas. 2024. Deployment of Cybersecurity Controls in the Norwegian Industry 4.0. In Proceedings of the 19th International Conference on Availability, Reliability and Security (ARES '24). Association for Computing Machinery, New York, NY, USA, Article 188, 1–8. https://doi.org/10.1145/3664476.3670896_
 
 **Summary:**
 
+An attack on a Cyber-Physical system can be quite severe leading to not only downtime, lost money, and inconvenience, but also to the loss of human life. This work carries out an investigation of multiple industrial organizations in the country of Norway regarding the safeguards they use to protect their Industrial Control Systems. The survey uses the NIST SP 800-82 Rev. 3, "Guide to Operational Technology" as a guide to generate 70 questions for the industries surveyed. The survey contains 38 responses at a 46.9% response rate. The largest industry represented is the Process Industry while the Healthcare and Discrete and Process Industries were represented the least in the survey. Survey results indicate that the average use of security controls across all respondents is 63% while 53% of the organizations have security control usage of over 60%. The study indicates that the most widely used control mechanism is the backup of critical software whereas the least used were training and response planning.
+
 **Assessment:**
+
+The value of this work lies in the robust study of cybersecurity practices in the industries found in Norway. Further, the use of NIST SP 800-82 adds significant validity to the data harvested from the survey. Most of the research described thus far in this study outlines decentralized and fingerprinting technology solutions for ICS networks. This work adds a number of "Standard" security protocols that can be added to a secure industrial control system design.
 
 **Keywords:**
 
-
+Survey, Industry Self-Report, NIST
 
 <hr/>
 
@@ -359,15 +372,35 @@ Kristian Kannelønning and Sokratis Katsikas. 2024. Deployment of Cybersecurity 
 
 **Reference:**
 
-A. S. M. Sanwar Hosen, Pradip Kumar Sharma, Deepak Puthal, In-Ho Ra, and Gi Hwan Cho. 2023. SECBlock-IIoT: A Secure Blockchain-enabled Edge Computing Framework for Industrial Internet of Things. In Proceedings of the Third International Symposium on Advanced Security on Software and Systems (ASSS '23). Association for Computing Machinery, New York, NY, USA, Article 1, 1–14. https://doi.org/10.1145/3591365.3592945
+_A. S. M. Sanwar Hosen, Pradip Kumar Sharma, Deepak Puthal, In-Ho Ra, and Gi Hwan Cho. 2023. SECBlock-IIoT: A Secure Blockchain-enabled Edge Computing Framework for Industrial Internet of Things. In Proceedings of the Third International Symposium on Advanced Security on Software and Systems (ASSS '23). Association for Computing Machinery, New York, NY, USA, Article 1, 1–14. https://doi.org/10.1145/3591365.3592945_
 
 **Summary:**
 
+The IIoT is used across a number of industries and produces a large amount of data in operation. Due to the volume, speed, and criticality of the data produced in the IIoT, the security of IIoT processes is essential. This work describes a peer-to-peer network using a Proof-of-Validation consensus algorithm that facilitates the distributed storage of data, allows the distributed data to be protected, and identifies cyber threats. To build the system, a robust set of registration, verification, and authentication processes were created to add, verify, and authenticate physical devices. Physical Unclonable Functions (PUF) were used to generate device fingerprints and security keys. Operational features were fed to an intelligent thread detection (ITD) module. The ITD used a Recurrent Neural Net to extract notable features from the device data. The system also used a blockchain to log and protect data.
+
 **Assessment:**
+
+Of all the works canvassed in this study, this work is the closest to what this study is hoping to accomplish. The value in the work carried out by Hosen et al. lies in the robust combination of decentralized technologies to secure an IIoT network. While the network described in this work isn't directly tied to a SCADA or ICS network, it provides valuable insights as to how a more holistic approach can be taken to securing a Cyber-Physical system.
 
 **Keywords:**
 
-
+Blockchain, Fingerprinting, Physical Unclonable Function
 
 <hr/>
+
+## Survey Keywords: 
+
+-Cyber-Physical Systems
+-Industry 4.0
+-Industrial Internet of Things
+-Blockchain
+-Decentralized Ledger Technology
+-Fingerprinting
+-Time Series Anomaly Detection
+-Logging Security
+-Secure Logging
+-Digital Forensics
+-Passive vs Active Monitoring
+-Access Control
+-Physical Unclonable Function
 
