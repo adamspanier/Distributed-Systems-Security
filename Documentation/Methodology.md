@@ -100,44 +100,13 @@ From the literature review the following notable keywords emerged:
 - Access Control
 - Physical Unclonable Function
 
-These keywords delineate ____ classifications
+### 2.3 Literature Review Discussion
 
-1. Data Integrity Protections
-- secure logging using blockchain
-- ransomware protection using distributed storage
-- Some analyze using AI
--  Jadidi et al. - 7
--  lu et al. - 17
-- Central Protection - historian
--  Colelli et al - 3
--  Davis et al. - 13
--  Schorradt et al. - 14
-- Distributed Protection - Edge
--  Choi et al. - 1
--  Otte et al - 2
--  Parvizimosaed et al - 4.
--  Garrocho et al. - 6 (also in I&A)
--  Jadidi et al. - 7 (alo in AI)
--  Kirkman et al. - 12
--  Hayes et al. - 16
+Based on the literature review carried out in this research, the study of blockchain and decentralized functionality in industrial control systems is not new. Of the nineteen works covered in this review, ten of them fall in the blockchain or decentralized ledger classification. While the approach fell in two categories; that of centralized and decentralized, the consistent thread among all works lay in the novel application of some blockchain-type application in some industrial system, generally for the purpose of either distributed storage or for secure logging. 
 
-2. Identification and Authentication Protections
-- fingerprinting via Power Consumption, Memory, and PUFs
--  Garrocho et al. - 6
--  Cook et al. - 8
--  Formby et al. - 9
--  Roy et al. - 10
--  Keliris et al. - 11
--  Kumar et al. - 15
-- Time Series Anomalies
--  Lu et al. - 17 (also in AI)
+Further, the idea of using fingerprinting as a means to both identify devices and anomalies is also not a novel idea. While only six of the works cited in this study analyze fingerprinting, the state of the art well-known and well-explored. The most common use of fingerprinting in industrial control systems lies in the use of either power consumption, physics-based, timing-based, or memory-based analysis as a means to observe anomalous PLC or ICS behaviors. Other uses of fingerprinting lay in it's ability to uniquely identify any device.
 
-3. Decentralized System Design
-- Supporting known weakness of decetralized systems
--  Garrocho et al. - 5
-- Combining decentralized protections to build holistic systems
--  Kannelonning et al. - 18
--  Hosen et al. - 19
+Where this review found lacking information lay more in the observations of existing decentralized ICS research. Only three works fell in the Decentralized System Design classification. Of these three, each pushed at the problem from a different angle. Garracho et al. [5] simply tried to understand existing weaknesses and Kannelonning et al. [18] canvassed the Norwegian industry landscape for security controls. Hosen et al. [19] presented a novel combination of a number of decentralized ICS protocols to create a holistic design for a possible ICS network.
 
 ### Citations
 
