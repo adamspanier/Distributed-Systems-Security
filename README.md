@@ -14,6 +14,6 @@ This repository serves the distributed systems security research and development
 * [Methodology](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Methodology.md)
 * [Resource/Technology Requirements](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Resources.md)
 
-### Meeting Notes
+## Meeting Notes
 
 * [February 10, 2025](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/MeetingNotes/Feb10_Notes.md)
