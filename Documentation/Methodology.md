@@ -108,6 +108,10 @@ Further, the idea of using fingerprinting as a means to both identify devices an
 
 Where this review found lacking information lay more in the observations of existing decentralized ICS research. Only three works fell in the Decentralized System Design classification. Of these three, each pushed at the problem from a different angle. Garracho et al. [5] simply tried to understand existing weaknesses and Kannelonning et al. [18] canvassed the Norwegian industry landscape for security controls. Hosen et al. [19] presented a novel combination of a number of decentralized ICS protocols to create a holistic design for a possible ICS network.
 
+### 2.4 Literature Review Diagram
+
+![Lit Review](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/LitReview-Diagram.png)
+
 ### Citations
 
 1. [M. K. Choi, C. Y. Yeun and P. H. Seong, "A Novel Monitoring System for the Data Integrity of Reactor Protection System Using Blockchain Technology," in IEEE Access, vol. 8, pp. 118732-118740, 2020, doi: 10.1109/ACCESS.2020.3005134.](https://ieeexplore.ieee.org/document/9126779)
