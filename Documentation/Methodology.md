@@ -142,7 +142,6 @@ The Project Technical Plan serves as the process outline for examining the secur
 
 To produce structured, repeatable, and actionable results, the project will be conducted in a structured manner as outlined below.
 
-Example: Structured Methodology
  - Phase 1: Data Collection
  - Phase 2: System Emulation
  - Phase 3: Novel System Emulation
@@ -151,15 +150,15 @@ Example: Structured Methodology
  
 #### 3.1.1 Data Collection
 
-The data collection phase consists of research and resource selections. Research will be conducted against PLCs operating in a DCS, industry-standard system design involving PLCs and other aspects of a DCS, and initial efforts of integrating crpytographic structures into DCS (both successful and unsuccessful implementations). In lieu of a physical lab, a DCS written in Python will be chosen as the testbed for the DCS. The network topology for the DCS, including PLCs within the DCS, will also be determined in this phase.
+The data collection phase consists of research and resource selections. Research will be conducted against PLCs operating in a DCS, industry-standard system design involving PLCs and other aspects of a DCS, and initial efforts of integrating crpytographic structures into DCS (both successful and unsuccessful implementations). In lieu of a physical lab, a DCS written in Python will be chosen as the testbed for the DCS. The network topology for the DCS, including PLCs within the DCS, will also be determined in this phase. To make the simulated Python environment identical to a live DCS, typical DCS anomalies such as message delays and their operational impacts on the greater system will be identified and modeled in Python.
 
 #### 3.1.2 System Emulation
 
-An industry-standard DCS will be written in Python. Proper operation of the Python project, including imitating PLC operation and data reporting will be evaluated to ensure proper system functionality. When the system passes verification checks, this system will be used as the baseline/recovery point for the project.
+An industry-standard DCS will be modeled and written in Python. Proper operation of the Python project, including imitating PLC operation and data reporting will be evaluated to ensure proper system functionality. When the system passes verification checks, this system will be used as the baseline/recovery point for the project.
 
 #### 3.1.3 Novel System Emulation
 
-Using the system designed in step 3.1.2, novel cryptographic structures will be strategically inserted into the DCS. The tests conducted in step 3.1.2 will be conducted again against the system, and its responses will be recorded.
+Using the system designed in step 3.1.2, novel cryptographic structures will be strategically inserted into the DCS. The tests conducted in step 3.1.2 will be conducted again against the system, and its responses will be recorded. It should be noted that the novel system emulation, complete with cryptographic functions, will only be tested at a proof-of-concept level. While attempts will be made to accurately model a DCS environment in Python and incorporate the novel cryptographic structures, full operational potential will not be realized until the novel system is fully vetted on a development DCS network with industry-standard PLCs, controllers, HMIs, etc. As such, this final step is out of scope for the current project.
 
 #### 3.1.4 Data Collection/Analysis and Reporting
 
