@@ -9,9 +9,9 @@
 
 A wave of darkness covers the United States as power sub-station after power sub-station fails. The cascading blackout ripples slowly across the country shutting down water, coolant, and industrial production systems in its wake. City after city, home after home, fall eerily quiet as air conditioners, refrigerators, freezers, fans, and electrical devices fall into silence. The people are scared, but with full phone batteries and backup generators, the population remains calm.
 
-**1 SEP 2027 : 1200** 
+**27 AUG 2027 : 1200** 
 
-Panic grips the streets. The phones have been dead for a month now. Natural gas production is dead. All but a handful of generators still produce electricity. The black start has begun and portions of the grid are back up, but only for short durations due to heavy electrical loads. Water is running short and the flow of gasoline is drying up.
+Panic grips the population. The phones have been dead for weeks now. Natural gas production is dead. All but a handful of generators have stopped producing electricity. The black start has begun and portions of the grid are back up, but only for short durations due to heavy electrical loads. Water is running short and the flow of gasoline is drying up. The lingering possibility that this may last for months more threatens the tenuous peace that keeps the population from taking matters into their own hands.
 
 ### ***** NEWS ALERT END *****
 
