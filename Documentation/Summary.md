@@ -1,13 +1,29 @@
 # Executive Summary
 [HOME](https://github.com/adamspanier/Distributed-Systems-Security)
 
+## Decentralized Security Design in Industrial Control Systems
+
+### ***** NEWS ALERT START *****
+
+**29 JUL 2027 : 0300** 
+
+A wave of darkness covers the United States as power sub-station after power sub-station fails. The cascading blackout ripples slowly across the country shutting down water, coolant, and industrial production systems in its wake. City after city, home after home, fall eerily quiet as air conditioners, refrigerators, freezers, fans, and electrical devices fall into silence. The people are scared, but with full phone batteries and backup generators, the population remains calm.
+
+**1 SEP 2027 : 1200** 
+
+Panic grips the streets. The phones have been dead for a month now. Natural gas production is dead. All but a handful of generators still produce electricity. The black start has begun and portions of the grid are back up, but only for short durations due to heavy electrical loads. Water is running short and the flow of gasoline is drying up.
+
+### ***** NEWS ALERT END *****
+
 ### Problem Statement
 
-Relevant issues related to our research. Why is this a problem for society?
+While the scenario above reads like a chapter from a sci-fi film, the critical systems holding modern society within the tenuous grasp of peace and order are only one cyber attack away from complete collapse. These critical systems, often controlled by distributed Industrial Control Systems, generally use small, computationally limited devices to carry out day-to-day operations. These systems generally implement a central control structure used to coordinate and control small digital devices on distant networks. While the centralized nature of these systems ensures efficient and functional control of complex systems, the distributed nature of the remote portions of the system can make securing the network very difficult. Further exacerbating the issue, the limited computing power and real-time nature of the remote devices eliminates the use of many commonly used cyber security tools. The demands and the functions of these distributed industrial systems simultaneously makes them the _most important_ and the _least secure_ systems in the world. Given one effective cyber attack, the power grid could be down for weeks if not months, leaving society to crumble in it's wake.
+
+The limited computing abilities of the remote devices in distributed industrial control systems makes securing these networks very difficult. In designing a system, security and functionality are _always _ competing requirements. When the computing power of a device is limited, any security measure that uses even a modicum of system resources threatens to render the system unusable. While traditional methods of securing networks don't serve distributed industrial systems, there are many new decentralized cryptographic security measures and design that can be used to secure critical systems. Concepts like blockchains, hashes, digital signatures, and device fingerprinting present new and fresh possibilities for securing distributed critical systems. While these types of security measures are not new to industrial control, there is a limited number of studies that take a system-design stance, aiming to design a robust distributed system by mitigating threat/asset pairs with novel distributed security designs.
 
 ### Goals and Objectives
 
-What are the things we are going to do to solve this problem?
+
 
 ### How it Helps Society
 
