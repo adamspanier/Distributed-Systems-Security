@@ -143,7 +143,7 @@ The Project Technical Plan serves as the process outline for examining the secur
 To produce structured, repeatable, and actionable results, the project will be conducted in a structured manner as outlined below.
 
  - Phase 1: Data Collection
- - Phase 2: System Emulation
+ - Phase 2: System Design
  - Phase 3: Novel System Emulation
  - Phase 4: Analysis/Reporting
 
