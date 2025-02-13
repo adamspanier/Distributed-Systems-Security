@@ -11,7 +11,7 @@ The group will determine if an existing Python repository will satisfy the requi
 
 Regardless of the direction for the emulation environment, the team must ensure that environment variables are the same across all machines. Any versions of Python/repository dependencies must be the same on everyone's computer to produce uniform, repeatable results.
 
-## 1.2 Deploy Simulation Environment (2 Weeks)
+## 1.2 Deploy Python Simulation Environment (2 Weeks)
 
 Every team member should have the simulation environment deployed on a computer they have access to. During this phase, tests to determine a standard environment should be implemented and compared across the teams' distributions to verify uniformity in individual deployments. 
 
@@ -19,10 +19,14 @@ Every team member should have the simulation environment deployed on a computer 
 
 With everyone's environments running and baselines established, the team will create a novel system design using cryptographic functions to secure a DCS. This design will utilize baselines established in 1.2 and literary reviews detailing successes and failures of past cryptographic implementations to DCS instances.
 
-## 1.4 Implement Novel DCS Design and Test Emulated DCS (4 Weeks)
+## 1.4 Implement Novel DCS Design into the Python Environment (2 Weeks)
 
-The novel DCS using cryptographic functions will be modeled using Python. The successes and failures of these implementations will be noted. For failure scenarios, adjustments will be made in an attempt to rectify any failure scenarios.
+The novel DCS using cryptographic functions will be modeled using Python. These will  be in the form of different programmatic classes and functions to integrate with the existing Python environment.
 
-## 1.5 Report Findings (3 Weeks)
+## 1.5 Test Emulated DCS (2 Weeks)
+
+The Python-emulated DCS environment with novel cryptographic functions applied will be subjected to the same battery of tests that the baseline environment experienced. The successes and failures of these implementations will be noted. For failure scenarios, adjustments will be made in an attempt to rectify any failure scenarios.
+
+## 1.6 Report Findings (3 Weeks)
 
 The entire process of this project, from implementing the Python environment to deploying novel cryptographic functions, will be documented. At the conclusion of the testing phase, the observations and results will be compiled into a report. Successful implementations, failure scenarios, and areas for further expansion of testing efforts will be discussed in the report.
