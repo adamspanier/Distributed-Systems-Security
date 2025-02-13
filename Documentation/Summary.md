@@ -1,9 +1,17 @@
 # Executive Summary
 [HOME](https://github.com/adamspanier/Distributed-Systems-Security)
 
-What are you doing and why?
-Goals and Objectives
-Merit of the Project
+### Problem Statement
+
+Relevant issues related to our research. Why is this a problem for society?
+
+### Goals and Objectives
+
+What are the things we are going to do to solve this problem?
+
+### How it Helps Society
+
+If we solve this, how does it benefit society?
 
 ### Raw Idea
 
