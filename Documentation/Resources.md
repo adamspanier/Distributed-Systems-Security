@@ -14,4 +14,4 @@ What do you need to be successful?
 |Emulation Program using Python| Maybe | All | We will be using a program written in Python to emulate a distributed system once we reach the testing phase. There are multiple github repo's to choose from, one will be chosen according to ease of use and need. |
 |Team Member's Time | No | All  | Appropriate time blocks will need to be set for all team members to ensure the appropriate distribution of work. |
 |Previous Study Literature | No | Adam | A study of previous studies done on DSS will need to occur to gather the requisite literature to assist in planning and carrying out this project. |
-|| |  | |
+|GitHub Project Tracking | No | All | Appropriate project tracking is necessary, so utilizing the GitHub project tracking capabilities will be required.|
