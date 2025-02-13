@@ -11,7 +11,7 @@ What do you need to be successful?
 |Data Encryption | No| ? |Data/Endpoint encryption is extremely important whem it comes to the security of the Distributed System |
 |Intrusion Detection Systems (IDS) | No | ? |Network security tool that monitors network traffic and devices for known malicious activity, suspicious activity, or security policy violations |
 |Intrusion Prevention Systems (IPS)| No | ? |Monitors network traffic for potential threats and automatically blocks them by terminating dangerous connections, removing malicious content, or triggering other security devices |
-|||  |  |
+|Emulation Program using Python| No | All | We will be using a program written in Python to emulate a distributed system once we reach the testing phase. There are multiple github repo's to choose from, one will be chosen according to ease of use and need. |
 || |  | |
 || | | |
 || |  | |
