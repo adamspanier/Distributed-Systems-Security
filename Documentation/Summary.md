@@ -21,6 +21,10 @@ While the scenario above reads like a chapter from a sci-fi film, the critical s
 
 The limited computing abilities of the remote devices in distributed ICS makes securing these networks very difficult. In designing a system, security and functionality are _always_ competing requirements. When the computing power of a device is limited, any security measure that uses even a modicum of system resources threatens to render the system unusable. While traditional methods of securing networks don't serve distributed industrial systems, there are many new decentralized cryptographic security measures and design that can be used to secure critical systems. Concepts like blockchains, hashes, digital signatures, and device fingerprinting present new and fresh possibilities for securing distributed critical systems. While these types of security measures are not new to industrial control, there is a limited number of studies that take a system-design stance, aiming to design a robust distributed system by mitigating threat/asset pairs with novel distributed security designs.
 
+### The Question
+
+**RQ1: How can Distributed Control Systems be designed for security using novel cryptographic techniques?**
+
 ### The Solution: Goals and Objectives
 
 This Decentralized System Design Process research aims to create more secure distributed industrial systems using the following four-phase approach:
