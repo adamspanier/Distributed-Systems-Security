@@ -1,4 +1,4 @@
-# Distributed Systems Security
+# Decentralized Security Design in Industrial Control Systems
 
 This repository serves the distributed systems security research and development project carried out by Brevin Wagner, Kendra Herrmann, Matthew Popelka, Perry Donahue, and Adam Spanier.
 
