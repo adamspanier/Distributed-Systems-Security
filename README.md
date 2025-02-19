@@ -5,7 +5,7 @@ This repository serves the distributed systems security research and development
 ## Table of Contents
 
 ### I. Initial Proposal
-* [Proposal](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/InitialProposal.md)
+1. [Proposal](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/InitialProposal.md)
 
 ### II. Milestone 1
 1. [Executive Summary](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Summary.md)
