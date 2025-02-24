@@ -23,7 +23,7 @@ To satisfy the requirements set out by the research design stated above, the Pyt
 * provide **virtual representations of common DCS devices**
 * facilitate **custom DCS device configurations**
 * allow **flexible DCS device connections and custom network designs**
-* supply **distributed network traffic emulation**
+* supply **distributed network traffic emulation** using ModBus
 * allow **the DCS system to run**
 * provide **network traffic inspection**
 * supply **network device inspection and state analysis**
@@ -38,12 +38,41 @@ In this section, a set of possible Python-based DCS emulation tools will be list
 * Tool Name
 * A brief description of the tool
 * A link to the tool
-* Proposed tool use
+* Install Process
 
 Based on the criteria above, the following tools are identified:
 
-1. etc
+1. [Distributed Control System Library](https://github.com/flyingmeat/aktos-dcs)
 
+      * **DESCRIPTION**: The aktos_dcs package is designed for creating fault tolerant, realtime, massively concurrent, distributed (even behind firewalls), io-bound (eg. heavy-traffic web server), scalable (both vertically and horizontally), cross-platform and language agnostic applications.
+
+      * **INSTALL**:
+         * Clone repo
+         * <code>cd aktos-dcs && sudo ./install-on-linux.sh</code>
+
+3. [SCADASim](https://github.com/cmu-sei/SCADASim)
+
+      * **DESCRIPTION**: Simulates a SCADA system. Uses PyModbus to create custom PLC devices. Simulates Modbus TCP/RTU traffic
+
+      * **INSTALL**:
+         * Clone Repo
+         * <code>cd pymodbus</code>
+         * <code>python setup.py install</code>
+         * <code>pip install twisted cryptography bcrypt pyasn1 service_identity</code>
+
+4. [PyScada](https://github.com/pyscada/PyScada)
+
+      * **DESCRIPTION**: A Open Source SCADA System with HTML5 HMI, build using the Django framework. If you like to setup your own SCADA system head over to http://pyscada.rtfd.io.
+
+      * **INSTALL**:
+         * See [https://pyscada.readthedocs.io/en/main/quick_install.html](https://pyscada.readthedocs.io/en/main/quick_install.html)
+         
+6. [C104](https://pypi.org/project/c104/) - Only protocol?
+7. [RapidSCADA](https://rapidscada.org/) - Create custom SCADA setups - Maybe help?
+8. [ASTORIA](https://github.com/ComputerNetworks-UFRGS/ASTORIA) - Attack simualtor - maybe help? - Paper: https://ieeexplore.ieee.org/document/7502822/
+9. Our own solution?
+
+NOTE: Good Source for possible packages and justifications - [ICS Simulation](https://wpcdn.web.wsu.edu/wp-vcea/uploads/sites/3267/2022/11/GISiteVisit2022_poster_SpencerScamman.pdf)
 ### Python Tool Test Outcomes
 
 To test the tools, a Linode instance is deployed using a standard Ubuntu distribution. From this node, each tool is installed and deployed. During deployment and testing, the pros and cons of each tool are outlined below.
