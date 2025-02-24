@@ -46,6 +46,8 @@ Based on the criteria above, the following tools are identified:
 
 ### Python Tool Test Outcomes
 
+To test the tools, a Linode instance is deployed using a standard Ubuntu distribution. From this node, each tool is installed and deployed. During deployment and testing, the pros and cons of each tool are outlined below.
+
 1. Tool - Overview of the test.
     * Pros
     * Cons
