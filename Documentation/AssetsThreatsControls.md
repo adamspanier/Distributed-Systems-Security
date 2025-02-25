@@ -34,7 +34,7 @@
     7. Equipment parameters
     8. Device configuration files
     9. System topology information
-       . Control recipes and sequences
+    10. Control recipes and sequences
   
   #### Communication Assets
     1. Industrial protocols (Modbus, Profinet, EtherNet/IP)
