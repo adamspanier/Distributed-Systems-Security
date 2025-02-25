@@ -15,7 +15,6 @@
   10. Redundant controllers
 
 #### Software Assets
-
   1. SCADA software
   2. Distributed Control System (DCS) software
   3. PLC programming environments
@@ -26,7 +25,6 @@
   8. Device drivers
 
 #### Data Assets
-
   1. Process variable data
   2. Control logic programs
   3. Set points and thresholds
@@ -39,7 +37,6 @@
      . Control recipes and sequences
 
 #### Communication Assets
-
   1. Industrial protocols (Modbus, Profinet, EtherNet/IP)
   2. OPC UA/DA communications
   3. Fieldbus networks
