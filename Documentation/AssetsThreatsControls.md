@@ -2,7 +2,7 @@
 
 ### Distributed Control System Assets
 
-####Hardware Assets
+#### Hardware Assets
   1. Programmable Logic Controllers (PLCs)
   2. Remote Terminal Units (RTUs)
   3. Intelligent Electronic Devices (IEDs)
@@ -14,7 +14,7 @@
   9. Industrial switches and routers
   10. Redundant controllers
 
-###Software Assets
+#### Software Assets
 
   1. SCADA software
   2. Distributed Control System (DCS) software
@@ -25,7 +25,7 @@
   7. Alarm management systems
   8. Device drivers
 
-###Data Assets
+#### Data Assets
 
   1. Process variable data
   2. Control logic programs
@@ -38,7 +38,7 @@
   9. System topology information
      . Control recipes and sequences
 
-###Communication Assets
+#### Communication Assets
 
   1. Industrial protocols (Modbus, Profinet, EtherNet/IP)
   2. OPC UA/DA communications
