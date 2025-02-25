@@ -64,3 +64,4 @@ This repository serves the distributed systems security research and development
 ## Meeting Notes
 
 * [February 10, 2025](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/MeetingNotes/Feb10_Notes.md)
+* [February 24, 2025](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/MeetingNotes/Feb24_Notes.md)
