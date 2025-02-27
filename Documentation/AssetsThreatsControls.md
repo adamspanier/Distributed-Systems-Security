@@ -50,10 +50,98 @@
 
 ### Distributed Control Threats
 
-1. DDoS
-2. Physical DoS
-3. Digital DoS
-4. etc
+#### Architecture and Design Threats
+
+    1. Insufficient network segmentation
+    2. Lack of defense-in-depth strategies
+    3. Single points of failure in critical components
+    4. Inadequate redundancy planning
+    5. Improper security boundaries
+    6. Legacy system integration vulnerabilities
+    7. Insecure system architecture
+    8. Unprotected communication paths
+    9. Inappropriate trust relationships
+    10. Inadequate disaster recovery design
+
+#### Operational Threats
+
+    1. Improper change management procedures
+    2. Inadequate security monitoring
+    3. Insufficient threat detection capabilities
+    4. Delayed or absent security patching
+    5. Configuration drift over time
+    6. Ineffective incident response planning
+    7. Human error during operations
+    8. Inadequate staff training
+    9. Improper system documentation
+    10. Inconsistent backup procedures
+    11. Lack of system integrity verification
+
+#### Cyber Attack Threats
+
+    1. Advanced Persistent Threats (APTs) targeting industrial systems
+    2. Ransomware specifically designed for industrial environments
+    3. Supply chain compromises
+    4. Command and control exploitation
+    5. Process manipulation attacks
+    6. Cross-zone pivoting
+    7. System reconnaissance and intelligence gathering
+    8. Malware specifically targeting industrial protocols
+    9. Cyber-physical attacks affecting physical processes
+    10. Zero-day vulnerability exploitation
+    11. Denial of service affecting critical processes
+
+#### Physical and Environmental Threats
+
+    1. Unauthorized physical access to control hardware
+    2. Environmental control failures (cooling, power)
+    3. Natural disasters affecting control centers
+    4. Electromagnetic interference
+    5. Power quality issues affecting control equipment
+    6. Physical damage to communication infrastructure
+    7. Tampering with field equipment
+    8. Inadequate physical security for critical nodes
+    9. TEMPEST/side-channel attacks
+    10. Combined physical/cyber attacks
+
+#### Data and Communication Threats
+
+    1. Data integrity violations
+    2. Protocol-specific vulnerabilities
+    3. Man-in-the-middle attacks on industrial protocols
+    4. Unencrypted communications exposure
+    5. Data exfiltration of sensitive process information
+    6. Time synchronization attacks
+    7. Traffic analysis revealing operational patterns
+    8. Communication channel saturation
+    9. Data historian compromises
+    10. Process value manipulation
+
+#### Insider Threats
+
+    1. Malicious insider actions
+    2. Privileged user account abuse
+    3. Social engineering targeting control system operators
+    4. Compromised third-party vendors with system access
+    5. Inadequate access control enforcement
+    6. Shared credential abuse
+    7. Remote access exploitation
+    8. Credential theft
+    9. Unauthorized system modifications by staff
+    10. Sabotage by disgruntled employees
+
+#### Governance and Compliance Threats
+
+    1. Inadequate security policies for industrial systems
+    2. Insufficient risk assessment processes
+    3. Regulatory compliance failures
+    4. Unclear security responsibilities
+    5. Poor vendor management
+    6. Inadequate security testing procedures
+    7. Insufficient vulnerability management
+    8. Weak security architecture reviews
+    9. Inadequate third-party security assessment
+    10. Poor documentation of security controls
 
 ### Asset/Threat Pairs
 
