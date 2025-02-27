@@ -61,32 +61,32 @@
 
 
   1. Programmable Logic Controllers (PLCs) 
-      Firmware compromise/backdoors
-      Physical tampering
-      Malware infection
-      Unauthorized configuration changes
-      Power supply failures
-      Environmental damage (heat, moisture)
-      Hardware obsolescence/lack of vendor support
+       * Firmware compromise/backdoors
+       Physical tampering
+       Malware infection
+       Unauthorized configuration changes
+       Power supply failures
+       Environmental damage (heat, moisture)
+       Hardware obsolescence/lack of vendor support
 
-  2. Remote Terminal Units (RTUs) 
-      Signal interception/manipulation
-      Device spoofing
-      Physical security breaches
-      Battery/power failures
-      Communication interruptions
-      Environmental exposure damage
-      Unauthorized access
+  3. Remote Terminal Units (RTUs) 
+       Signal interception/manipulation
+       Device spoofing
+       Physical security breaches
+       Battery/power failures
+       Communication interruptions
+       Environmental exposure damage
+       Unauthorized access
 
-  3. Intelligent Electronic Devices (IEDs) 
-      Firmware exploitation
-      Relay configuration attacks
-      Man-in-the-middle attacks
-      Clock/timing manipulation
-      Hardware failure
-      Abnormal electrical conditions
+  4. Intelligent Electronic Devices (IEDs) 
+       Firmware exploitation
+       Relay configuration attacks
+       Man-in-the-middle attacks
+       Clock/timing manipulation
+       Hardware failure
+       Abnormal electrical conditions
 
-  4. Human-Machine Interface (HMI) stations 
+  5. Human-Machine Interface (HMI) stations 
       Malware infection
       Credential theft
       Unauthorized physical access
