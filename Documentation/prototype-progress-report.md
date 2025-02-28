@@ -9,7 +9,7 @@ also list them out like this:
 * outcome 1
 * outcome 2
 
-## Hinderances
+## Hindrances
 (insert brief discussion of challenges encountered)
 
 ## Ongoing Risks
