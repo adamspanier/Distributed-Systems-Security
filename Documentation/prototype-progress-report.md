@@ -25,7 +25,7 @@ also list them out like this:
   * Started a list of Asset/Threat pairs for the team to review 
 
 ## Outcomes
-  * Populated a rather extensive list for the Asset/Threat Pairs 
+  * Populated a rather extensive list of Asset/Threat Pairs 
 
 
 ## Hindrances
