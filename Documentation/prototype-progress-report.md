@@ -1,4 +1,6 @@
 # Progress Report Template
+<br>
+<br>
 # Progress Report (insert date here)
 ## Overview
 (insert brief overview of efforts made)
@@ -17,6 +19,7 @@ also list them out like this:
 (address your project risks identified from Milestone 1 and update them based on your current progress, this should be a table)
 
 
+<br>
 <br>
 
 
