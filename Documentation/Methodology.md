@@ -142,26 +142,25 @@ The Project Technical Plan will provide the step-by-step process this investigat
 
 To produce structured, repeatable, and actionable results, the project will be conducted in the manner as outlined below.
 
- - _Phase 1:_ Data Collection
- - _Phase 2:_ ICS System Synthesis
- - _Phase 2:_ DCS Method Exploration
- - _Phase 3:_ Novel System Emulation
- - _Phase 4:_ Analysis/Reporting
+ - **Phase 1:** Data Collection
+ - **Phase 2:** ICS System Synthesis
+ - **Phase 3:** DCS Method Exploration
+ - **Phase 4:** DCS-Enabled ICS System Design
+ - **Phase 5:** DCS-Enabled ICS System Emulation
+ - **Phase 6:** Analysis/Reporting
 
 **3.1.1 Phase 1: Data Collection**
 
 The initial phase of this research involves the collection of pertinent data relating to industry-standard ICS network design and implementation. In this phase, data concerning industry-standard ICS network design and deployment is collected and analyzed. From this data, the following information will be collected:
 
-* _Physical Assets_ - The devices, wires, support structures, and physical infrastructure used in ICS systems*
-* _Physical Constraints_ - The limitations on size, location, temperature, humidity, elevation, and logistics imposed by the system
-* _Network Assets_ - The logical devices, protocols, and functions the ICS network implements
-* _Network Constraints_ - The limitations on speed, scalability, and communications provided by the ICS system
-* _Network Operation_ - How the network operates
-* _Software Assets_ - The applications, services, and other software packages used in the system
-* _Software Constraints_ - The limitations on size, speed, connectivity, data-storage, and data-flow in the system
-* _Software Operation_ - How the software operates
-* _Software Communications_ - How the different software applications communicate with each other, with the network, and with the physical assets
-* _System Security Controls_ - The security controls used in industry-standard ICS systems
+* **Hardware Assets** - The devices, wires, support structures, and physical infrastructure used in ICS
+* **Hardware Constraints** - Limitations on hardware assets in the system such as size, temperature, humidity, and elevation
+* **Software Assets** - The applications, services, and packages used in the ICS
+* **Software Constraints** - The limitations on the software assets like communications requirements, licensing, and capabilities
+* **Data Assets** - The data used to inform the ICS including databases, logging, and file system support
+* **Data Constraints** - The limitations imposed on the data in the system
+* **Communication Assets** - The protocols, services, and connections in the ICS
+* **Human and Organizational Assets** - The personnel, regulations, and planning structures serving the ICS
 
 The data collected in this phase of research is gathered from research papers, textbooks, training manuals, white papers, NIST documentation, and regulations.
 
@@ -173,14 +172,21 @@ The purpose of this portion of the project is to adequately understand the curre
 
 **3.1.3 DCS Method Exploration**
 
-HERE
+After collection and synthesis of industry standard ICS designs, an exploration of existing DCS methods provides a list of possible DCS security controls that can be integrated into ICS designs. DCS methods will be correlated to threat/asset pairs as a means to mitigate the realization of threats to assets. When at least one DCS security control is associated with every asset/threat pair, the ICS design can progress.
 
-**3.1.4 DCS-enabled ICS System Emulation**
+**3.1.4 DCS-Enabled ICS System Design**
+
+From the data gathered in phases 1 through 3, DCS security controls will be applied to a standard ICS network. The ICS network will be based upon a well-known ICS network types, such as the power grid or a nuclear power plant. For this system, there will be three ICS network diagrams. The first will be an ICS network with no security controls. This network will be used as a control and as a measn to base line network operations. The second network will be an ICS with standard ICS security protocols encforced. This includes controls like encryption. The third diagram will be the same ICS as both diagram 1 and 2, but with DCS methods applied in various combinations. From this DCS security control diagram, DCS-Enabled ICS Networks can be derived based on a series of DCS security control combinations.
+
+**3.1.5 DCS-enabled ICS System Emulation**
+
+
 
 What data will we collect? How will we test the system? How will be baseline the system? What kind of system will be use? How can be measure the impact of a DCS control? We should consider not only fast, but also quality of the system. Is it okay to take a hit on performance in exchange for enhanced secuirty? How much of a hit can we take? How can we decide what kind of a hit is possible?
 
-**3.1.5 Analysis and Reporting**
- 
+**3.1.6 Analysis and Reporting**
+
+<!--
 #### 3.1.1 Data Collection
 
 The data collection phase consists of research and resource selections. Research will be conducted against PLCs operating in a DCS, industry-standard system design involving PLCs and other aspects of a DCS, and initial efforts of integrating crpytographic structures into DCS (both successful and unsuccessful implementations). In lieu of a physical lab, a DCS written in Python will be chosen as the testbed for the DCS. The network topology for the DCS, including PLCs within the DCS, will also be determined in this phase. To make the simulated Python environment identical to a live DCS, typical DCS anomalies such as message delays and their operational impacts on the greater system will be identified and modeled in Python.
@@ -192,6 +198,7 @@ An industry-standard DCS will be modeled and written in Python. Proper operation
 #### 3.1.3 Novel System Emulation
 
 Using the system designed in step 3.1.2, novel cryptographic structures will be strategically inserted into the DCS. The tests conducted in step 3.1.2 will be conducted again against the system, and its responses will be recorded. It should be noted that the novel system emulation, complete with cryptographic functions, will only be tested at a proof-of-concept level. While attempts will be made to accurately model a DCS environment in Python and incorporate the novel cryptographic structures, full operational potential will not be realized until the novel system is fully vetted on a development DCS network with industry-standard PLCs, controllers, HMIs, etc. As such, this final step is out of scope for the current project.
+-->
 
 #### 3.1.4 Data Collection/Analysis and Reporting
 
