@@ -142,26 +142,26 @@ The Project Technical Plan will provide the step-by-step process this investigat
 
 To produce structured, repeatable, and actionable results, the project will be conducted in the manner as outlined below.
 
- - Phase 1: Data Collection
- - Phase 2: ICS System Synthesis
- - Phase 2: DCS Method Exploration
- - Phase 3: Novel System Emulation
- - Phase 4: Analysis/Reporting
+ - _Phase 1:_ Data Collection
+ - _Phase 2:_ ICS System Synthesis
+ - _Phase 2:_ DCS Method Exploration
+ - _Phase 3:_ Novel System Emulation
+ - _Phase 4:_ Analysis/Reporting
 
 **3.1.1 Phase 1: Data Collection**
 
 The initial phase of this research involves the collection of pertinent data relating to industry-standard ICS network design and implementation. In this phase, data concerning industry-standard ICS network design and deployment is collected and analyzed. From this data, the following information will be collected:
 
-1. Physical Assets - The devices, wires, support structures, and physical infrastructure used in ICS systems
-2. Physical Constraints - The limitations on size, location, temperature, humidity, elevation, and logistics imposed by the system
-4. Network Assets - The logical devices, protocols, and functions the ICS network implements
-5. Network Constraints - The limitations on speed, scalability, and communications provided by the ICS system
-6. Network Operation - How the network operates
-7. Software Assets - The applications, services, and other software packages used in the system
-8. Software Constraints - The limitations on size, speed, connectivity, data-storage, and data-flow in the system
-9. Software Operation - How the software operates
-10. Software Communications - How the different software applications communicate with each other, with the network, and with the physical assets
-11. System Security Controls - The security controls used in industry-standard ICS systems
+* _Physical Assets_ - The devices, wires, support structures, and physical infrastructure used in ICS systems*
+* _Physical Constraints_ - The limitations on size, location, temperature, humidity, elevation, and logistics imposed by the system
+* _Network Assets_ - The logical devices, protocols, and functions the ICS network implements
+* _Network Constraints_ - The limitations on speed, scalability, and communications provided by the ICS system
+* _Network Operation_ - How the network operates
+* _Software Assets_ - The applications, services, and other software packages used in the system
+* _Software Constraints_ - The limitations on size, speed, connectivity, data-storage, and data-flow in the system
+* _Software Operation_ - How the software operates
+* _Software Communications_ - How the different software applications communicate with each other, with the network, and with the physical assets
+* _System Security Controls_ - The security controls used in industry-standard ICS systems
 
 The data collected in this phase of research is gathered from research papers, textbooks, training manuals, white papers, NIST documentation, and regulations.
 
