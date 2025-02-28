@@ -176,15 +176,22 @@ After collection and synthesis of industry standard ICS designs, an exploration 
 
 **3.1.4 DCS-Enabled ICS System Design**
 
-From the data gathered in phases 1 through 3, DCS security controls will be applied to a standard ICS network. The ICS network will be based upon a well-known ICS network types, such as the power grid or a nuclear power plant. For this system, there will be three ICS network diagrams. The first will be an ICS network with no security controls. This network will be used as a control and as a measn to base line network operations. The second network will be an ICS with standard ICS security protocols encforced. This includes controls like encryption. The third diagram will be the same ICS as both diagram 1 and 2, but with DCS methods applied in various combinations. From this DCS security control diagram, DCS-Enabled ICS Networks can be derived based on a series of DCS security control combinations.
+From the data gathered in phases 1 through 3, DCS security controls is applied to a standard ICS network. The ICS network is based upon a well-known ICS network types, such as the power grid or a nuclear power plant. For this system, there will be three ICS network diagrams. The first will be an ICS network with no security controls. This network will be used as a control and as a means to base line network operations. The second network will be an ICS with standard ICS security protocols enforced. This includes controls like encryption. The third diagram will be the same ICS as both diagram 1 and 2, but with DCS methods applied in various combinations. From this DCS security control diagram, DCS-Enabled ICS Networks can be derived based on a series of DCS security control combinations.
 
 **3.1.5 DCS-enabled ICS System Emulation**
 
+From these designs, system emulations will be deployed and tested. A control deployment consisting of the ICS network with no added security will be deployed and, under heavy traffic and light traffic, the response times of the system will be evaluated. Further, the accuracy of the packets arriving at the distributed devices will be checked using integrity validations as a means to verify that the traffic in the system is not deteriorated. These initial evaluations will be used as a base line for testing the security controls in the security enabled ICS networks.
 
+Next, an ICS with standard encryption and security protocols will be emulated. The same heavy/light traffic test will be carried out and the response times evaluated. Packet integrity will be checked at the distributed devices to verify that data in the system is not deteriorated. The data from this test will be collected and used for analysis and reporting.
 
+Finally, a series of ICS designs will be emulated using a combination of different DCS security controls. Each of theses systems will be subjected to the same heavy/light traffic test and data integrity verifications.
+
+<!--
 What data will we collect? How will we test the system? How will be baseline the system? What kind of system will be use? How can be measure the impact of a DCS control? We should consider not only fast, but also quality of the system. Is it okay to take a hit on performance in exchange for enhanced secuirty? How much of a hit can we take? How can we decide what kind of a hit is possible?
-
+-->
 **3.1.6 Analysis and Reporting**
+
+After testing the emulated system(s), an analysis on the raw findings will be reported and a discussion on the findings will be carried out. In the analysis, the baseline of the control system will be explained. From this explanation, the ICS with standard security will be compared. The DCS-Enabled systems will then be comaproed for performance. Finally, a summary of the findings will be discussed.
 
 <!--
 #### 3.1.1 Data Collection
@@ -198,8 +205,10 @@ An industry-standard DCS will be modeled and written in Python. Proper operation
 #### 3.1.3 Novel System Emulation
 
 Using the system designed in step 3.1.2, novel cryptographic structures will be strategically inserted into the DCS. The tests conducted in step 3.1.2 will be conducted again against the system, and its responses will be recorded. It should be noted that the novel system emulation, complete with cryptographic functions, will only be tested at a proof-of-concept level. While attempts will be made to accurately model a DCS environment in Python and incorporate the novel cryptographic structures, full operational potential will not be realized until the novel system is fully vetted on a development DCS network with industry-standard PLCs, controllers, HMIs, etc. As such, this final step is out of scope for the current project.
--->
+
 
 #### 3.1.4 Data Collection/Analysis and Reporting
 
 The results from the above test will be analyzed and compiled into a detailed report. This report will include specifics such as system design, normal operation, operation anomalies observed once cryptographic structures were implemented, any adjustments made to respond to the anomalies, and final results and summaries from the evaluation.
+
+-->
