@@ -1,6 +1,7 @@
 # Progress Report Template
 <br>
 <br>
+
 # Progress Report (insert date here)
 ## Overview
 (insert brief overview of efforts made)
