@@ -136,17 +136,50 @@ Where this review found lacking information lay more in the observations of exis
 
 ## 3.0 Project Technical Plan
 
-The Project Technical Plan serves as the process outline for examining the security posture of a DCS, particularly after novel cryptographic structures are implemented to increase the safety and security of a DCS. 
+The Project Technical Plan will provide the step-by-step process this investigation will take. The purpose of this research is to investigate existing ICS networks, understand traditional ICS network design and implementation, discover Decentralized Cryptographic Security (DCS) methods that can protect ICS asset, deploy an ICS wherein combinations of DCS methods can be observed for effect on network operations, and discuss the findings of the DCS-oriented system design.
 
 ### 3.1 Technical Plan Approach
 
-To produce structured, repeatable, and actionable results, the project will be conducted in a structured manner as outlined below.
+To produce structured, repeatable, and actionable results, the project will be conducted in the manner as outlined below.
 
  - Phase 1: Data Collection
- - Phase 2: System Design
+ - Phase 2: ICS System Synthesis
+ - Phase 2: DCS Method Exploration
  - Phase 3: Novel System Emulation
  - Phase 4: Analysis/Reporting
 
+**3.1.1 Phase 1: Data Collection**
+
+The initial phase of this research involves the collection of pertinent data relating to industry-standard ICS network design and implementation. In this phase, data concerning industry-standard ICS network design and deployment is collected and analyzed. From this data, the following information will be collected:
+
+1. Physical Assets - The devices, wires, support structures, and physical infrastructure used in ICS systems
+2. Physical Constraints - The limitations on size, location, temperature, humidity, elevation, and logistics imposed by the system
+4. Network Assets - The logical devices, protocols, and functions the ICS network implements
+5. Network Constraints - The limitations on speed, scalability, and communications provided by the ICS system
+6. Network Operation - How the network operates
+7. Software Assets - The applications, services, and other software packages used in the system
+8. Software Constraints - The limitations on size, speed, connectivity, data-storage, and data-flow in the system
+9. Software Operation - How the software operates
+10. Software Communications - How the different software applications communicate with each other, with the network, and with the physical assets
+11. System Security Controls - The security controls used in industry-standard ICS systems
+
+The data collected in this phase of research is gathered from research papers, textbooks, training manuals, white papers, NIST documentation, and regulations.
+
+**3.1.2 Phase 2: ICS System Synthesis**
+
+From the documents collected in Phase 1, industry-standard asset and constraint lists, operational directions, ICS design diagrams, and ICS security discussions are produced. These findings are then analyzed and presented as a discussion on not only current ICS network design, but also on current ICS security controls. 
+
+The purpose of this portion of the project is to adequately understand the current state of the discipline as relates to ICS networks. Without adequate comprehension of how ICS systems are currently designed, deployed, and secured, the test systems developed in this work will not be valid for industry professionals.
+
+**3.1.3 DCS Method Exploration**
+
+HERE
+
+**3.1.4 DCS-enabled ICS System Emulation**
+
+What data will we collect? How will we test the system? How will be baseline the system? What kind of system will be use? How can be measure the impact of a DCS control? We should consider not only fast, but also quality of the system. Is it okay to take a hit on performance in exchange for enhanced secuirty? How much of a hit can we take? How can we decide what kind of a hit is possible?
+
+**3.1.5 Analysis and Reporting**
  
 #### 3.1.1 Data Collection
 
