@@ -523,11 +523,114 @@
 
 
 ### Distrubuted Controls in DCSs
-
-1. Ledger
-2. Fingerprinting
-3. etc
+   
+1. Process Control Functions
+   * Setpoint Control
+   * Proportional-Integral-Derivative Control
+   * Cascade Control
+   * Feedforward Control
+   * Ratio Control
+   * Override Control
+   * Split-Range Control
+   
+2. Safety and Alarm Controls
+   * Emergency Shutdown (ESD) Systems
+   * Safety Instrumented Systems (SIS)
+   * Alarm Management Systems
+   * Interlock Systems
+   * Fire and Gas Detection Controls
+   
+3. Supervisory and Optimization Controls
+   * Supervisory Control and Data Acquisition (SCADA)
+   * Model Predictive Control (MPC)
+   * Adaptive Control
+   * Fuzzy Logic Control
+   * Artificial Intelligence and Machine Learning Control
+   
+4. Communication & Network Controls
+   * Industrial Protocol Management
+   * Redundant Network Management
+   * Time-Sensitive Networking (TSN)
+   * Secure Remote Access Control
+   * Edge Computing & Fog Computing
+   
+5. Redundancy and Failover Controls
+   * Redundant Control Systems
+   * Hot Standby Systems
+   * Cold Standby Systems
+   * Fault-Tolerant Systems
+   * Automatic Load Shedding
+    
+6. Power and Energy Controls
+   * Power Management Systems (PMS)
+   * Uninterruptible Power Supply (UPS) Control
+   * Demand Response Control
+   * Microgrid Control Systems
+    
+7. Quality and Production Controls
+   * Batch Process Control
+   * Statistical Process Control (SPC)
+   * Material Handling & Logistics Control
+   * Product Tracking and Traceability
+    
 
 ### Asset/Threat to Distributed Control Pairs
 
-1. Logs:Ledger
+1. Threats to Process Control Functions
+   * Setpoint Manipulation
+   * Control Loop Hijacking
+   * Sensor Spoofing
+   * Process Variable Injection
+   * Feedback Loop Disruption
+   * PID Tuning Attacks
+   * Cascade Control Interference
+   * Feedforward Control Corruption
+   * Ratio Control Manipulation
+   * Override Control Exploitation
+     
+3. Threats to Safety and Alarm Controls
+   * False Emergency Shutdown (ESD) Activation
+   * ESD Override or Suppression
+   * Fire & Gas Sensor Manipulation
+   * Alarm Flooding
+   * Alarm Disabling Attacks
+   * Interlock Bypass
+   * Failure to Detect Safety Violations
+     
+5. Threats to Supervisory and Optimization Controls
+   * SCADA Takeover
+   * Model Predictive Control (MPC) Poisoning
+   * AI/ML Data Poisoning
+   * Fuzzy Logic Control Exploitation
+   * Process Optimization Sabotage
+   * Supervisory Command Injection
+     
+7. Threats to Communication & Network Controls
+   * Man-in-the-Middle (MITM) Attacks
+   * Protocol Spoofing
+   * Replay Attacks
+   * Denial-of-Service (DoS) on Communication Links
+   * Industrial Network Hijacking
+   * VPN Credential Theft
+   * Weak or Unauthenticated Protocol Exploits
+     
+9. Threats to Redundancy and Failover Controls
+   * Power Grid Attacks
+   * Battery Drain Exploits
+   * Demand Response Manipulation
+   * Microgrid Sabotage
+   * Voltage and Frequency Instability
+    
+11. Threats to Power and Energy Controls
+   * Power Grid Attacks
+   * Battery Drain Exploits
+   * Demand Response Manipulation
+   * Microgrid Sabotage
+   * Voltage and Frequency Instability
+     
+13. Threats to Quality and Production Controls
+   * Batch Process Sabotage
+   * Statistical Process Control (SPC) Manipulation
+   * Counterfeit Product Traceability
+   * Material Handling Exploits
+   * Tampering with Quality Control Alarms
