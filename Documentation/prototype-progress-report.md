@@ -31,7 +31,7 @@ Was able to populate a rather extensive list for Brevin to add to, and for the r
 Thinking through the security of a DCS and what that actually looks like and how threats can affect those assets. 
 
 ## Ongoing Risks
-|Risk name (value)  | Impact     | Likelihood | Description | Occurrence ?| Mitigation |
+|Risk name (value)  | Impact     | Likelihood | Description | Occurrence?| Mitigation |
 |-------------------|------------|------------|-------------|-------------|-------------|
 |Cryptographic implementation flaws (40) | 8 | 5 | Issues with implementing the correct cryptography protocol  |
 |Inability to simulate real-world attack scenarios (48) | 8 | 6 | The project will culminate with a simulation of cryptography working on a PLC, simulation could be an issue.  |
