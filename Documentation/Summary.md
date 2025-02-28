@@ -31,7 +31,7 @@ When designing an ICS system, security and functionality are _always_ competing 
 
 This Decentralized Cryptographic Security Design Investigcation aims to:
 
-2. Provideholistic, system-level DCS design guidance for ICS network engineers
+2. Provide holistic, system-level DCS design guidance for ICS network engineers
 3. Observe how different applications and combinations of DCS measures effect ICS networks
 4. Determine best-case combinations of DCS measures for maximized efficiency in ICS networks
 5. Understand the benefits and drawbacks of applying system-level DCS design to ICS networks
