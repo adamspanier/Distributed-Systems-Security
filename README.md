@@ -58,7 +58,7 @@ This repository serves the distributed systems security research and development
     1. [General Sprint Notes](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Sprint1GeneralDocumentation.md)
 
 ### IV. Milestone 2
-
+ 1. [Prototype Progress Report] (https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/prototype-progress-report.md)
 ### V. Sprint 2
 
 ## Meeting Notes
