@@ -48,6 +48,16 @@
     9. Industrial wireless networks
     10. Remote access connections
 
+  #### Human and Organizational Assets
+    1. Operators and engineers
+    2. Maintenance personnel
+    3. Security personnel
+    4. Safety policies and procedures
+    5. Compliance and regulatory frameworks
+    6. Operational Logs and Auditing
+    7. Vendor and Supply Chain Management Policies
+    8. Disaster Recovery & Business Continuity Plans
+
 ### Distributed Control Threats
 
 #### Architecture and Design Threats
@@ -142,6 +152,18 @@
     8. Weak security architecture reviews
     9. Inadequate third-party security assessment
     10. Poor documentation of security controls
+
+#### Supply Chain Threats
+
+    1. Compromised third-party software or hardware
+    2. Dependency on single-source vendors
+    3. Insider threats from contractors or suppliers
+    4. Use of outdated or End-of-Life components
+    5. Untrusted third-party logistics providers
+    6. Lack of supply chain visibility
+    7. Weak contract enforcement
+    8. Failure to perform risk assessments
+    
 
 ### Asset/Threat Pairs
 
