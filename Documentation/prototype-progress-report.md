@@ -31,3 +31,6 @@ Was able to populate a rather extensive list for Brevin to add to, and for the r
 Thinking through the security of a DCS and what that actually looks like and how threats can affect those assets. 
 
 ## Ongoing Risks
+|Risk name (value)  | Impact     | Likelihood | Description | Occurrence ?| Mitigation |
+|-------------------|------------|------------|-------------|-------------|-------------|
+|Some risk (40) | 8 | 5 | Some description  | y/n | Description|
