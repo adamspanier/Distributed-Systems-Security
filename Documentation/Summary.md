@@ -15,15 +15,21 @@ Panic grips the population. The phones have been dead for weeks now. Natural gas
 
 ### ***** NEWS ALERT END *****
 
+
 ### The Problem
 
-While the scenario above reads like a chapter from a sci-fi film, the critical systems holding modern society together are only one cyber attack away from complete collapse. These critical systems, often controlled by distributed Industrial Control Systems (ICS), generally use small, computationally limited devices to carry out day-to-day operations. These systems generally implement a central control structure used to coordinate small digital devices on distant networks. While the centralized nature of these systems ensures efficient control of complex systems, the distributed nature of the remote portions of the network can make securing the network very difficult. Further exacerbating the issue, the limited computing power and real-time nature of the remote devices disallows the use of many commonly used cyber security tools. The demands and the functions of these distributed industrial systems simultaneously makes them the _most important_ and the _least secure_ systems in the world. Given one effective cyber attack, the power grid could be down for weeks if not months, leaving society to crumble in it's wake.
+While the scenario above reads like a chapter from a science-fiction film, the critical systems holding modern society together are only one cyber attack away from complete collapse. These critical systems, often controlled by distributed Industrial Control Systems (ICS), generally use small, computationally limited devices to carry out day-to-day operations. The distributed nature of these ICS networks can make securing these networks very difficult. The limited computing power and real-time nature of these systems renders commonly used cyber security tools useless. The functions of these distributed industrial systems simultaneously makes them the _most important_ and the _least secure_ systems in the world. Given one effective cyber attack, the power grid could be down for weeks if not months, leaving society to crumble in it's wake.
 
-The limited computing abilities of the remote devices in distributed ICS makes securing these networks very difficult. In designing a system, security and functionality are _always_ competing requirements. When the computing power of a device is limited, any security measure that uses even a modicum of system resources threatens to render the system unusable. While traditional methods of securing networks don't serve distributed industrial systems, there are many new decentralized cryptographic security measures and design that can be used to secure critical systems. Concepts like blockchains, hashes, digital signatures, and device fingerprinting present new and fresh possibilities for securing distributed critical systems. While these types of security measures are not new to industrial control, there is a limited number of studies that take a system-design stance, aiming to design a robust distributed system by mitigating threat/asset pairs with novel distributed security designs.
+When designing an ICS system, security and functionality are _always_ competing requirements. When the computing power of a device is limited, any applied security measure threatens to reduce system functionality. While traditional methods of securing networks aren't useful in ICS networks, there are many new decentralized cryptographic security measures that could be used to secure critical systems. Concepts like blockchains, hashes, digital signatures, and device fingerprinting present new and fresh possibilities for securing distributed critical systems. While these types of security measures are not entirely new to industrial control systems, there are a limited number of words considering the application of such security mechanisims from a system-design perspective.
 
 ### The Question
 
+The novelty lies in how these decentralized seucirty mecahnsism can be combined and paplied forma  system diesgn persepctive
+application and combination of decentralized security mechanisms
+How can decentralized security mechanisms be applied to Industrial Control System design to mitigtae
+
 **RQ1: How can Distributed Control Systems be designed for security using novel cryptographic techniques?**
+**RQ2: What, if any, of these techniques could be used to secure distrubted control systems, given the computational and networking limitations of embedded PLCs**
 
 ### The Solution: Goals and Objectives
 
