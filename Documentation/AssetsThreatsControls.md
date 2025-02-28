@@ -588,7 +588,7 @@
    * Ratio Control Manipulation
    * Override Control Exploitation
      
-3. Threats to Safety and Alarm Controls
+2. Threats to Safety and Alarm Controls
    * False Emergency Shutdown (ESD) Activation
    * ESD Override or Suppression
    * Fire & Gas Sensor Manipulation
@@ -597,7 +597,7 @@
    * Interlock Bypass
    * Failure to Detect Safety Violations
      
-5. Threats to Supervisory and Optimization Controls
+3. Threats to Supervisory and Optimization Controls
    * SCADA Takeover
    * Model Predictive Control (MPC) Poisoning
    * AI/ML Data Poisoning
@@ -605,7 +605,7 @@
    * Process Optimization Sabotage
    * Supervisory Command Injection
      
-7. Threats to Communication & Network Controls
+4. Threats to Communication & Network Controls
    * Man-in-the-Middle (MITM) Attacks
    * Protocol Spoofing
    * Replay Attacks
@@ -614,21 +614,21 @@
    * VPN Credential Theft
    * Weak or Unauthenticated Protocol Exploits
      
-9. Threats to Redundancy and Failover Controls
+5. Threats to Redundancy and Failover Controls
    * Power Grid Attacks
    * Battery Drain Exploits
    * Demand Response Manipulation
    * Microgrid Sabotage
    * Voltage and Frequency Instability
     
-11. Threats to Power and Energy Controls
+6. Threats to Power and Energy Controls
    * Power Grid Attacks
    * Battery Drain Exploits
    * Demand Response Manipulation
    * Microgrid Sabotage
    * Voltage and Frequency Instability
      
-13. Threats to Quality and Production Controls
+7. Threats to Quality and Production Controls
    * Batch Process Sabotage
    * Statistical Process Control (SPC) Manipulation
    * Counterfeit Product Traceability
