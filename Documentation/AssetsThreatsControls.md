@@ -23,6 +23,7 @@
     6. Historian software
     7. Alarm management systems
     8. Device drivers
+    9. Databases
   
   #### Data Assets
     1. Process variable data
