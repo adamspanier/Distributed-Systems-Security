@@ -55,5 +55,3 @@ Thinking through the security of a DCS and what that actually looks like and how
 |Divergent research methodologies (20) | 4 | 5 | Not all team members will have the same thought processes or plans for research methodology.  |
 |Difficulty synthesizing individual findings (20) | 4 | 5 | In instances where individual research is needed, synthesizing everyone's findings could become an issue.  |
 |Misaligned research objectives (20) | 4 | 5 | It is important to set expectations for objectives at the beginning of the project and keep them appropriately set throughout the project. |
-![image](https://github.com/user-attachments/assets/6b5bdc43-12c2-40ea-ad7b-81b0495cd524)
-
