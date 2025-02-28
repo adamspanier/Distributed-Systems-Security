@@ -56,7 +56,7 @@
     5. Compliance and regulatory frameworks
     6. Operational Logs and Auditing
     7. Vendor and Supply Chain Management Policies
-    8. Disaster Recovery & Business Continuity Plans
+    8. Disaster Recovery and Business Continuity Plans
 
 ### Distributed Control Threats
 
@@ -517,10 +517,86 @@
        * Improper access controls
        * Insecure channel exploitation
 
+#### Human and Organizational Asset Threats
 
-
-
-
+  1. Threats to Personnel
+      * Social Engineering Attacks
+      * Phishing and Spear Phishing
+      * Insider Threats
+      * Credential Theft and Account Compromise
+      * Lack of Cybersecurity Awareness
+      * Human Error and Misconfigurations
+      * Malicious Disgruntled Employees
+      * Physical Coercion and Blackmail
+      * Unauthorized Privilege Escalation
+        
+  2. Threats to Security Policies and Procedures
+      * Lack of Enforced Security Policies
+      * Failure to Regularly Update Policies
+      * Poor Enforcement of Access Controls
+      * Non-Compliance with Industry Regulations
+      * Lack of Multi-Factor Authentication
+      * Shadow IT Risks
+      * Weak Password Policies
+      * Neglecting Security Audits and Assessments
+      * Overlooked Vendor and Contractor Security Policies
+     
+  3. Threats to Incident Response and Crisis Management
+      * Unpreparedness for Cyber or Physical Incidents
+      * Delayed or Inadequate Response to Attacks
+      * Failure to Conduct Incident Drills
+      * Poor Log Management and Monitoring
+      * Inadequate Forensic Capabilities
+      * Mismanagement of Breach Notifications
+     
+  4. Threats to Training and Awareness Programs
+      * Lack of Cybersecurity Training for Employees
+      * Infrequent or Outdated Training Sessions
+      * Training Evasion by Personnel
+      * Failure to Simulate Real-World Attacks
+     
+  5. Threats to Organizational Culture and Leadership
+      * Lack of Management Support for Cybersecurity
+      * Security Budget Constraints
+      * Ignoring Employee Security Concerns
+      * Poor Communication Between IT and Operations
+      * Resistance to Change
+     
+  6. Threats to Regulatory and Compliance Programs
+      * Non-Compliance with Industry Standards
+      * Failure to Audit and Maintain Compliance
+      * Inaccurate Documentation and Reporting
+      * Failure to Meet Supply Chain Security Requirements
+      * Government and Legal Consequences
+      
+  7. Threats from Vendors, Contractors, and Third Parties
+      * Unvetted Third-Party Access
+      * Supply Chain Attacks
+      * Lack of Vendor Cybersecurity Protocols
+      * Delayed Vendor Patching and Updates
+      * Data Leakage from Contractors
+      
+  8. Threats to Physical Security and Human Safety
+      * Unauthorized Facility Access
+      * Physical Sabotage of Equipment
+      * Tailgating and Badge Cloning
+      * Lack of Surveillance and Security Personnel
+      * Failure to Enforce Physical Security Policies
+      * Neglecting Employee Safety Procedures
+      
+  9. Threats to Organizational Reputation and Trust
+      * Loss of Customer Confidence Due to Security Breaches
+      * Negative Public Relations from Cyber Attacks
+      * Intellectual Property Theft
+      * Misuse of Employee Information
+      * Legal Liabilities from Employee Negligence
+      
+  10. Insider Threats and Human Factor Exploits
+      * Collusion with External Attackers
+      * Accidental Data Exposure
+      * Theft of Proprietary Data by Departing Employees
+      * Sabotage by Disgruntled Staff
+      * Bypassing Security Controls for Convenience
 
 ### Distrubuted Controls in DCSs
    
@@ -547,12 +623,12 @@
    * Fuzzy Logic Control
    * Artificial Intelligence and Machine Learning Control
    
-4. Communication & Network Controls
+4. Communication and Network Controls
    * Industrial Protocol Management
    * Redundant Network Management
    * Time-Sensitive Networking (TSN)
    * Secure Remote Access Control
-   * Edge Computing & Fog Computing
+   * Edge Computing and Fog Computing
    
 5. Redundancy and Failover Controls
    * Redundant Control Systems
@@ -570,7 +646,7 @@
 7. Quality and Production Controls
    * Batch Process Control
    * Statistical Process Control (SPC)
-   * Material Handling & Logistics Control
+   * Material Handling and Logistics Control
    * Product Tracking and Traceability
     
 
@@ -591,7 +667,7 @@
 2. Threats to Safety and Alarm Controls
    * False Emergency Shutdown (ESD) Activation
    * ESD Override or Suppression
-   * Fire & Gas Sensor Manipulation
+   * Fire and Gas Sensor Manipulation
    * Alarm Flooding
    * Alarm Disabling Attacks
    * Interlock Bypass
@@ -605,7 +681,7 @@
    * Process Optimization Sabotage
    * Supervisory Command Injection
      
-4. Threats to Communication & Network Controls
+4. Threats to Communication and Network Controls
    * Man-in-the-Middle (MITM) Attacks
    * Protocol Spoofing
    * Replay Attacks
