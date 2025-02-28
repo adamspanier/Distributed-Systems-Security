@@ -20,25 +20,21 @@ Panic grips the population. The phones have been dead for weeks now. Natural gas
 
 While the scenario above reads like a chapter from a science-fiction film, the critical systems holding modern society together are only one cyber attack away from complete collapse. These critical systems, often controlled by distributed Industrial Control Systems (ICS), generally use small, computationally limited devices to carry out day-to-day operations. The distributed nature of these ICS networks can make securing these networks very difficult. The limited computing power and real-time nature of these systems renders commonly used cyber security tools useless. The functions of these distributed industrial systems simultaneously makes them the _most important_ and the _least secure_ systems in the world. Given one effective cyber attack, the power grid could be down for weeks if not months, leaving society to crumble in it's wake.
 
-When designing an ICS system, security and functionality are _always_ competing requirements. When the computing power of a device is limited, any applied security measure threatens to reduce system functionality. While traditional methods of securing networks aren't useful in ICS networks, there are many new decentralized cryptographic security measures that could be used to secure critical systems. Concepts like blockchains, hashes, digital signatures, and device fingerprinting present new and fresh possibilities for securing distributed critical systems. While these types of security measures are not entirely new to industrial control systems, there are a limited number of words considering the application of such security mechanisims from a system-design perspective.
+When designing an ICS system, security and functionality are _always_ competing requirements. When the computing power of a device is limited, any applied security measure threatens to reduce system functionality. While traditional methods of securing networks aren't useful in ICS networks, there are many new decentralized cryptographic security (DCS) measures that could be used to secure critical systems. Concepts like blockchains, hashes, digital signatures, and device fingerprinting present new and fresh possibilities for securing distributed critical systems. While these types of security measures are not entirely new to industrial control systems, there are a limited number of words considering the application of such security mechanisims from a system-design perspective.
 
 ### The Question
 
-The novelty lies in how these decentralized seucirty mecahnsism can be combined and paplied forma  system diesgn persepctive
-application and combination of decentralized security mechanisms
-How can decentralized security mechanisms be applied to Industrial Control System design to mitigtae
-
 **RQ1: How can Distributed Control Systems be designed for security using novel cryptographic techniques?**
-**RQ2: What, if any, of these techniques could be used to secure distrubted control systems, given the computational and networking limitations of embedded PLCs**
+**RQ2: How can these techniques be applied to and combined in ICS networks to increase security?**
 
 ### The Solution: Goals and Objectives
 
-This Decentralized System Design Process research aims to create more secure distributed industrial systems using the following four-phase approach:
+This Decentralized Cryptographic Security Design Investigcation aims to:
 
-1. Data Collection
-2. System Design
-3. System Emulation
-4. Analysis and Reporting
+2. Provideholistic, system-level DCS design guidance for ICS network engineers
+3. Observe how different applications and combinations of DCS measures effect ICS networks
+4. Determine best-case combinations of DCS measures for maximized efficiency in ICS networks
+5. Understand the benefits and drawbacks of applying system-level DCS design to ICS networks
 
 To carry out this research, an initial survey of decentralized security measures in industrial control systems is be carried out. Using the information discovered, a set of asset/threat pairs is derived based on common distributed industrial control system designs. Next, a decentralized security solution is applied to each asset/threat pair as a means to mitigate the risk posed to each asset. With each threat assigned to a security measure, a novel system is designed with each security control included. This novel system is then emulated in code and validated for functionality. Finally, the novel system is tested using the limited computing and real-time constraints present in all industrial control systems.
 
