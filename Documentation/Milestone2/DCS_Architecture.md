@@ -1,5 +1,7 @@
 # Novel Distributed Control Architecture
 
+[HOME](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/README.md)
+
 ### System Description
 
 List all the assets and security controls that are used and why
