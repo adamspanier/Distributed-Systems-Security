@@ -8,11 +8,11 @@ This repository serves the distributed systems security research and development
 1. [Proposal](Documentation/Milestone1/Initial_Proposal.md)
 
 ### II. Milestone 1
-1. [Executive Summary](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Summary.md)
-2. [Timeline](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Timeline.md)
-3. [Risks](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Risks.md)
-4. [Methodology](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Methodology.md)
-5. [Resource/Technology Requirements](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Resources.md)
+1. [Executive Summary](Documentation/Milestone1/Summary.md)
+2. [Timeline](Documentation/Milestone1/Timeline.md)
+3. [Risks](Documentation/Milestone1/Risks.md)
+4. [Methodology](Documentation/Milestone1/Methodology.md)
+5. [Resource/Technology Requirements](Documentation/Milestone1/Resources.md)
 
 ### III. Milestone 2
 
