@@ -2,6 +2,8 @@
 
 [HOME](https://github.com/adamspanier/Distributed-Systems-Security)
 
+<hr>
+
 ## Introduction
 * Why is this important?
 * What problem are we solving?
