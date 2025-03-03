@@ -18,9 +18,15 @@ also list them out like this:
 <br>
 -->
 
-# Progress Report Week of 2/24/2025
+# Progress Report - Milestone 2
 
-## Report Overview
+[HOME](https://github.com/adamspanier/Distributed-Systems-Security)
+
+<hr>
+
+## Progress Report Week of 2/24/2025
+
+### Report Overview
   * Worked toward corrections on Executive Summary specifics
   * Refined Reserach questions
   * Expanded and corrected Technical Plan
@@ -30,7 +36,7 @@ also list them out like this:
   * Started creating the list of assets in a DCS and threats associated with said assets
   * Started a list of Asset/Threat pairs for the team to review 
 
-## Outcomes
+### Outcomes
   * _Executive Summary Changes_
     * Problem Statement
       * Verbiage reduced
@@ -65,61 +71,61 @@ also list them out like this:
     * Docker emulation system successfully deployed
     * Expansion on Docker systems
 
-## Hindrances
+### Hindrances
   * Listing critical assets in a distributed control system that require security protection include operational technology components, communication infrastructure, system data, and support systems.
   * Python coding packages seem insufficient for testing environments
   * A lack of definition in initial design caused a re-assessment to be done
 
 <hr>
 
-# Progress Report Week of 3/10/2025
+## Progress Report Week of 3/10/2025
 
-## Report Overview
+### Report Overview
   * 
 
-## Outcomes
+### Outcomes
   * 
 
-## Hindrances
-  * 
-
-<hr>
-
-# Progress Report Week of 3/17/2025
-
-## Report Overview
-  * 
-
-## Outcomes
-  * 
-
-## Hindrances
+### Hindrances
   * 
 
 <hr>
 
-# Progress Report Week of 3/24/2025
+## Progress Report Week of 3/17/2025
 
-## Report Overview
+### Report Overview
   * 
 
-## Outcomes
+### Outcomes
   * 
 
-## Hindrances
+### Hindrances
   * 
 
 <hr>
 
-# Progress Report Week of 3/31/2025
+## Progress Report Week of 3/24/2025
 
-## Report Overview
+### Report Overview
   * 
 
-## Outcomes
+### Outcomes
   * 
 
-## Hindrances
+### Hindrances
+  * 
+
+<hr>
+
+## Progress Report Week of 3/31/2025
+
+### Report Overview
+  * 
+
+### Outcomes
+  * 
+
+### Hindrances
   * 
 
 
