@@ -28,7 +28,7 @@ also list them out like this:
 
 ### Report Overview
   * Worked toward corrections on Executive Summary specifics
-  * Refined Reserach questions
+  * Refined Research questions
   * Expanded and corrected Technical Plan
   * Explored Python and Docker Deployment Options
   * Documented possible deployment options
@@ -50,31 +50,31 @@ also list them out like this:
      * Questions revised and made more concise
 
   * _Expanded Technical Plan_
-    * Phases reassesed and renamed
+    * Phases reassessed and renamed
     * Data collection specified
     * Progress methodology given more detail
     * More clarity provided on the benefit of this research
     * Requirements engineering carried out to determine Functional and Non-Functional requirements
 
   * _Populated an extensive list of ICS Assets_
-    *  Hardware, Software, Data, Communation, Human, and Orgainzational assets identified
+    *  Hardware, Software, Data, communication, Human, and Organizational assets identified
 
   * _Populated an extensive list of ICS Threats_
-    * Archteictural, Operational, Cyber Attacks, Insider, Governance and Compliance, Supply China, Physical, and Environemntal threats identitified
+    * Architectural, Operational, Cyber Attacks, Insider, Governance and Compliance, Supply China, Physical, and Environmental threats identified
 
   * _Created Asset/Threat Groups_
     * Threats were gathered into groups related to the assets stated above
 
   * _Explored System Emulation Software_
     * Python packages explored, but insufficient packages found
-    * Docker images explored, as a reasonable alternateive
+    * Docker images explored, as a reasonable alternative
     * Docker emulation system successfully deployed
     * Expansion on Docker systems
 
 ### Hindrances
   * Listing critical assets in a distributed control system that require security protection include operational technology components, communication infrastructure, system data, and support systems.
   * Python coding packages seem insufficient for testing environments
-  * A lack of definition in initial design caused a re-assessment to be done
+  * A lack of definition in the initial design caused a re-assessment to be done
 
 <hr>
 
