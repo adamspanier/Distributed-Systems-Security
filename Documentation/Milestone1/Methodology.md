@@ -80,7 +80,7 @@ Relating to the combination of decentralized protections in industrial control s
 
 **2.1.3 - Annotated Bibliography**
 
-The annotated bibliography produced in this literature survey can be found [HERE](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/AnnotatedBibliography.md).
+The annotated bibliography produced in this literature survey can be found [HERE](Documentation/Milestone1/Annotated_Bibliography.md).
 
 ### 2.2 Keywords
 
