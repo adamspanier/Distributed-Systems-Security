@@ -1,6 +1,6 @@
 # Novel Distributed Control Architecture
 
-[HOME](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/README.md)
+[HOME](https://github.com/adamspanier/Distributed-Systems-Security)
 
 ### System Description
 
