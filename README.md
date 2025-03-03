@@ -14,7 +14,7 @@ This repository serves the distributed systems security research and development
 4. [Methodology](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Methodology.md)
 5. [Resource/Technology Requirements](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Resources.md)
 
-### III. Sprint 1
+### III. Milestone 2
 
 1. **Week 1** - Python Environment Setup
 
@@ -22,9 +22,9 @@ This repository serves the distributed systems security research and development
         1. [Identify Assets in DCSs](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/AssetsThreatsControls.md) --> [Issue #18](https://github.com/users/adamspanier/projects/5/views/1)
         2. [Identify Threat/Asset Pairs](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/AssetsThreatsControls.md) --> [Issue #19](https://github.com/users/adamspanier/projects/5/views/1)
 
-    * **Task:** Identify and Choose Python Tools
-        1. [Identify Python Environment Tools](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/PythonSimulationTools.md) --> [Issue #20](https://github.com/users/adamspanier/projects/5/views/1)
-        2. [Test and Choose Python Simulation Tools](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/PythonSimulationTools.md) --> [Issue #9](https://github.com/users/adamspanier/projects/5/views/1)
+    * **Task:** Identify and Choose Emulation Tools
+        1. [Identify Environment Emualtion Tools](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/PythonSimulationTools.md) --> [Issue #20](https://github.com/users/adamspanier/projects/5/views/1)
+        2. [Test and Choose Simulation Tools](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/PythonSimulationTools.md) --> [Issue #9](https://github.com/users/adamspanier/projects/5/views/1)
      
 7. **Week 2** - Simulation Environment
 
