@@ -2,6 +2,8 @@
 
 [HOME](https://github.com/adamspanier/Distributed-Systems-Security)
 
+<hr>
+
 ### System Description
 
 List all the assets and security controls that are used and why
