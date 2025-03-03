@@ -1,4 +1,6 @@
-### Research Paper Outline
+# Research Paper Outline
+
+[HOME](https://github.com/adamspanier/Distributed-Systems-Security)
 
 ## Introduction
 * Why is this important?
