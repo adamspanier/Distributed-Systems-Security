@@ -64,27 +64,48 @@ This repository serves the distributed systems security research and development
         3. [Produce Deployment Documentation](Documentation/Milestone2/Simulation_Tools.md)
      
     * **Task:** Team Progress Documentation
-     1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
         
-15. **Week 4** - Design Novel DCS
+4. **Week 4** - Security Control Aggregation and System Design Methodology
 
-    * **Task:** Security Controls
-        1. [Aggregate Decentralized Security Controls](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/DecentralizedControls.md)
+    * **Task:** Security Control Aggregation
+        1. [Aggregate Useuful Decentralized Security Controls](Documentation/Milestone2/DCS_Architecture.md)
+        2. [Add Decentralized Security Controls to Pertinent Assets](Documentation/Milestone2/DCS_Architecture.md)
 
-    * **Task:** System Design
-        1. [Describe the Design Process](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/DCSArchitecture.md)
-        2. [Describe the Functionality of the Novel System](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/DCSArchitecture.md)
-        3. [Create DCS Architecture Diagram](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/DCSArchitecture.md)
-        4. [Add Decentralized Security Controls to Pertinent Assets](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/DCSArchitecture.md)
-        5. [Combine, Streamline, and Reduce DCS Architecture](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/DCSArchitecture.md)
+    * **Task:** System Design Methodology
+        1. [Describe the Design Method](Documentation/Milestone2/DCS_Architecture.md)
+        2. [Describe the System Purpose](Documentation/Milestone2/DCS_Architecture.md)
+        3. [Describe the System Design](Documentation/Milestone2/DCS_Architecture.md)
+        4. [Create DCS Architecture Diagrams](Documentation/Milestone2/DCS_Architecture.md)
+     
+    * **Task:** Team Progress Documentation
+        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+  
+5. **Week 5:** System Emulation, System Testing, Prototyping
 
-16. General Sprint Notes
+    * **Task:** System Test Prototype
+        1. [Create System Prototpye in Emulation Software](Documentation/Milestone2/System_Emulation.md) 
+        2. [Describe the Functionality of the Emulated System](Documentation/Milestone2/System_Emulation.md)
+        
+    * **Task:** System Design Refinement
+        1. [Combine, Streamline, and Reduce DCS Architecture](Documentation/Milestone2/DCS_Architecture.md)
+     
+    * **Task:** Team Progress Documentation
+        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+     
+6. **Week 6:** Prototype Expansion and Testing Design
 
-    1. [General Sprint Notes](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Sprint1GeneralDocumentation.md)
+    * **Task:** Determine Tests
+        1. [Determine Test Cases Based on Requirements](Documentation/Milestone2/Testing.md)
+        2. [Identify Test Application Specifics](Documentation/Milestone2/Testing.md)
 
-### IV. Milestone 2
- 1. [Prototype Progress Report](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/prototype-progress-report.md)
-### V. Sprint 2
+    * **Task:** Testing Deployemnt
+        1. [Start Testing the System and Record Resulsts](Documentation/Milestone2/Testing.md)
+     
+    * **Task:** Team Progress Documentation
+        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+     
+### Milestone 3
 
 ## Meeting Notes
 
