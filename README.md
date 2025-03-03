@@ -59,8 +59,8 @@ This repository serves the distributed systems security research and development
     * **Task:** Decentralized Controls
         1. [Finalize Decentralized Controls for each Threat/Asset Pair](Documentation/Milestone2/Assets_Threats_Controls.md)
 
-    * **Task:** Deployments
-        1. [Esnure Emulation Environments meet Requirements](Documentation/Milestone2/Simulation_Tools.md)
+    * **Task:** Emulation Validation
+        1. [Ensure Emulation Environments meet Requirements](Documentation/Milestone2/Simulation_Tools.md)
         3. [Produce Deployment Documentation](Documentation/Milestone2/Simulation_Tools.md)
      
     * **Task:** Team Progress Documentation
