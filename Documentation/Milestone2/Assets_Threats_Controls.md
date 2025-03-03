@@ -1,6 +1,6 @@
 # Assets and Threats
 
-[HOME](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/README.md)
+[HOME](https://github.com/adamspanier/Distributed-Systems-Security)
 
 ### Distributed Control System Assets
 
