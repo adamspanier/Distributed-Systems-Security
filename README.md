@@ -1,11 +1,18 @@
 # Decentralized Security Design in Industrial Control Systems
 
-This repository serves the distributed systems security research and development project carried out by Brevin Wagner, Kendra Herrmann, Matthew Popelka, Perry Donahue, and Adam Spanier.
+This repository serves the distributed systems security research and development project aiming to investigate decentralized security controls in industrial control systems.
+
+**Members:**
+* _Brevin Wagner_
+* _Kendra Herrmann_
+* _Matthew Popelka_
+* _Perry Donahue_
+* _Adam Spanier_
 
 ## Table of Contents
 
 ### I. Initial Proposal
-1. [Proposal](Documentation/Milestone1/Initial_Proposal.md)
+1. [Proposal](Documentation/Milestone1/Initial_Proposal.md) - Prototype proposal presented for a vote
 
 ### II. Milestone 1
 1. [Executive Summary](Documentation/Milestone1/Summary.md)
@@ -16,30 +23,48 @@ This repository serves the distributed systems security research and development
 
 ### III. Milestone 2
 
-1. **Week 1** - Python Environment Setup
+1. **Week 1** - ICS Investigation and Environment Exploration
 
     * **Task:** Identify DCS Assets and Threats
-        1. [Identify Assets in DCSs](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/AssetsThreatsControls.md) --> [Issue #18](https://github.com/users/adamspanier/projects/5/views/1)
-        2. [Identify Threat/Asset Pairs](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/AssetsThreatsControls.md) --> [Issue #19](https://github.com/users/adamspanier/projects/5/views/1)
+        1. [Identify Assets in DCSs](Documentation/Milestone2/Assets_Threats_Controls.md)
+        2. [Identify Threat/Asset Pairs](Documentation/Milestone2/Assets_Threats_Controls.md)
 
     * **Task:** Identify and Choose Emulation Tools
-        1. [Identify Environment Emualtion Tools](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/PythonSimulationTools.md) --> [Issue #20](https://github.com/users/adamspanier/projects/5/views/1)
-        2. [Test and Choose Simulation Tools](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/PythonSimulationTools.md) --> [Issue #9](https://github.com/users/adamspanier/projects/5/views/1)
+        1. [Identify Environment Emualtion Tools](Documentation/Milestone2/Simulation_Tools.md)
+        2. [Test and Choose Simulation Tools](Documentation/Milestone2/Simulation_Tools.md)
      
-7. **Week 2** - Simulation Environment
+    * **Task:** Team Progress Documentation
+        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+     
+2. **Week 2** - Decentralized Controls Investigation and Environemnt Exploration
 
     * **Task:** Decentralized Controls
-        1. [Identify Decentralized Controls for each Threat/Asset Pair](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/AssetsThreatsControls.md)
+        1. [Identify Decentralized Controls for each Threat/Asset Pair](Documentation/Milestone2/Assets_Threats_Controls.md)
 
-    * **Task:** Python Tool Setup and Use
-        1. [Setup Python Simulation Tools](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/PythonSimulationTools.md)
+    * **Task:** Emulation Tool Exploration, Prototyping, and Use
+        1. [Setup and Explore Simulation Tools and Configurations](Documentation/Milestone2/Simulation_Tools.md)
         2. [Learn Simulation Usage](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/PythonSimulationTools.md)
+
+    * **Task:** Team Progress Documentation
+        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
   
-12. **Week 3** - Simulation Environment
+3. **Week 3** - Requirements Engineering, Outlines, Controls, and Deployments
+
+    * **Task:** Requirements Engineering
+        1. [Functional and Non-Functional Requirements](Documentation/Milestone2/Requirements.md)
+           
+    * **Task:** Paper Outline
+        1. [Paper Outline](Documentation/Milestone2/Outline.md)
+
+    * **Task:** Decentralized Controls
+        1. [Finalize Decentralized Controls for each Threat/Asset Pair](Documentation/Milestone2/Assets_Threats_Controls.md)
 
     * **Task:** Deployments
-        1. [Ensure Team Deployments are Uniform](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/PythonSimulationTools.md)
-        2. [Produce Deployment Documentation](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/PythonSimulationTools.md)
+        1. [Esnure Emulation Environments meet Requirements](Documentation/Milestone2/Simulation_Tools.md)
+        3. [Produce Deployment Documentation](Documentation/Milestone2/Simulation_Tools.md)
+     
+    * **Task:** Team Progress Documentation
+     1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
         
 15. **Week 4** - Design Novel DCS
 
