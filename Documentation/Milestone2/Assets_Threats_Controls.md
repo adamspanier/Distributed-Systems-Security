@@ -2,6 +2,8 @@
 
 [HOME](https://github.com/adamspanier/Distributed-Systems-Security)
 
+<hr>
+
 ### Distributed Control System Assets
 
   #### Hardware Assets
