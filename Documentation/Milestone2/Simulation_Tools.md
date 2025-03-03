@@ -182,25 +182,15 @@ Based on the criteria above, the following tools are identified:
 
 To test the tools, a Linode instance is deployed using a standard Ubuntu distribution. From this node, each tool is installed and deployed. During deployment and testing, the pros and cons of each tool are outlined below.
 
-1. Tool - Overview of the test.
-    * Pros
-    * Cons
+### REES Selection
 
-### Python Tool Ranking
+What was selected?
 
-1. Best Tool
-2. ...
-3. Worst Tool
-
-### Chosen Tool
-
-Tool - About
-
-### Python Simulation Tool Setup
+### REES Setup
 
 How to set it up on a computer
 
-### Python Simulation Tool use
+### REES USE
 
 How to Use.
 
