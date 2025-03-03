@@ -29,9 +29,8 @@ This repository serves the distributed systems security research and development
         1. [Identify Assets in DCSs](Documentation/Milestone2/Assets_Threats_Controls.md)
         2. [Identify Threat/Asset Pairs](Documentation/Milestone2/Assets_Threats_Controls.md)
 
-    * **Task:** Identify and Choose Emulation Tools
+    * **Task:** Identify and Explore Emulation Platforms
         1. [Identify Environment Emualtion Tools](Documentation/Milestone2/Simulation_Tools.md)
-        2. [Test and Choose Simulation Tools](Documentation/Milestone2/Simulation_Tools.md)
      
     * **Task:** Team Progress Documentation
         1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
