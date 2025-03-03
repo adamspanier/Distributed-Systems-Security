@@ -48,7 +48,7 @@ This repository serves the distributed systems security research and development
     * **Task:** Team Progress Documentation
         1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
   
-3. **Week 3** - Requirements Engineering, Outlines, Controls, and Deployments
+3. **Week 3** - Requirements Engineering, Outlines, Controls, and Deployments --> CURRENT
 
     * **Task:** Requirements Engineering
         1. [Functional and Non-Functional Requirements](Documentation/Milestone2/Requirements.md)
