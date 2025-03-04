@@ -1,21 +1,21 @@
 # **Distributed Industrial Control System (DCS) Deployment Report**
 
 ## **1. Overview of Work**
-This project involved setting up a **Distributed Industrial Control System (DCS)** using **Docker** to simulate an industrial environment with **encrypted and non-encrypted networks**. The system includes **Programmable Logic Controllers (PLCs), SCADA, MQTT communication, InfluxDB for data storage, and Grafana for visualization**.
+This project involved setting up a Distributed Industrial Control System (DCS) using Docker to simulate an industrial environment with encrypted and non-encrypted networks. The system includes Programmable Logic Controllers (PLCs), SCADA, MQTT communication, InfluxDB for data storage, and Grafana for visualization.
 
 The objectives were:
-- Deploy **two separate environments** (encrypted & non-encrypted) to compare performance and security.
-- Establish **PLC communication** using **Modbus TCP & OPC-UA**.
-- Set up **MQTT for IoT sensor data exchange**.
-- Use **InfluxDB** for real-time process data logging.
-- Implement **Grafana dashboards** to monitor industrial data.
+- Deploy two separate environments (encrypted & non-encrypted) to compare performance and security.
+- Establish PLC communication using Modbus TCP & OPC-UA.
+- Set up MQTT for IoT sensor data exchange.
+- Use InfluxDB for real-time process data logging.
+- Implement Grafana dashboards to monitor industrial data.
 
 ---
 
 ## **2. Steps Performed**
 
-### **1️⃣ Setting Up the Linux Server and Docker Host**
-- Provisioned a **virtual Linux server** for hosting Docker-based industrial control systems.
+### **2.1 Setting Up the Linux Server and Docker Host**
+- Provisioned a virtual Linux server for hosting Docker-based industrial control systems.
 - Installed required dependencies:
   ```bash
   sudo apt update && sudo apt install -y docker.io docker-compose net-tools
@@ -28,8 +28,8 @@ The objectives were:
 
 ---
 
-### **2️⃣ Creating Docker-Compose Files for Encrypted & Non-Encrypted Environments**
-#### **📌 Docker Images Used**
+### **2.2 Creating Docker-Compose Files for Encrypted & Non-Encrypted Environments**
+#### **Docker Images Used**
 The system was built using the following Docker images:
 | Component       | Image Used                           | Description |
 |----------------|--------------------------------------|-------------|
@@ -38,19 +38,60 @@ The system was built using the following Docker images:
 | **MQTT Broker**| `eclipse-mosquitto`                 | MQTT for real-time IoT messaging |
 | **Database**   | `influxdb`                          | Time-series database for industrial data |
 | **Grafana**    | `grafana/grafana`                   | Dashboarding tool for visualization |
+| **WireGuard**  | `linuxserver/wireguard`             | PLC-to-PLC encrypted communication (VPN) |
+| **Stunnel**    | `dweomer/stunnel`                   | Encrypts traffic between two hosts |
+| **Open62541**  | `open62541/open62541`               | OPC UA Communication Between PLCs and SCADA |
 
-#### **📌 YAML Configuration**
+#### **YAML Configuration**
 Two separate **`docker-compose.yml`** files were created:
 
-**🔹 `docker-compose.yml` (Encrypted Environment)**
+**`docker-compose-crypto.yml` (Encrypted Environment)**
 ```yaml
 version: '3.8'
+
 services:
   plc1:
     image: fdamador/openplc
     container_name: plc1
     ports:
-      - "502:502"
+      - "5502:5502"   # Encrypted Modbus TCP over TLS
+    networks:
+      - industrial_net
+    depends_on:
+      - modbus-tls
+    environment:
+      - MODBUS_SECURE=true
+
+  plc2:
+    image: fdamador/openplc
+    container_name: plc2
+    ports:
+      - "5503:5502"
+    networks:
+      - industrial_net
+    depends_on:
+      - modbus-tls
+    environment:
+      - MODBUS_SECURE=true
+
+  plc3:
+    image: fdamador/openplc
+    container_name: plc3
+    ports:
+      - "5504:5502"
+    networks:
+      - industrial_net
+    depends_on:
+      - modbus-tls
+    environment:
+      - MODBUS_SECURE=true
+
+  modbus-tls:
+    image: dweomer/stunnel
+    container_name: modbus-tls
+    volumes:
+      - ./stunnel/stunnel.conf:/etc/stunnel/stunnel.conf
+      - ./certs:/etc/stunnel/certs
     networks:
       - industrial_net
 
@@ -61,45 +102,113 @@ services:
       - "8088:8088"
     networks:
       - industrial_net
+    depends_on:
+      - opc-ua
+    environment:
+      - OPCUA_SECURE=true
 
   mqtt-broker:
     image: eclipse-mosquitto
     container_name: mqtt-broker
     ports:
-      - "1883:1883"
+      - "8883:8883"  # Encrypted MQTT over TLS
+    volumes:
+      - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ./certs:/mosquitto/config/certs
     networks:
       - industrial_net
 
   database:
     image: influxdb
     container_name: influxdb-secure
-    ports:
-      - "8086:8086"
     networks:
       - industrial_net
+    environment:
+      - INFLUXDB_DB=plc_data
+      - INFLUXDB_HTTP_HTTPS_ENABLED=true
+      - INFLUXDB_HTTP_CERTIFICATE=/etc/ssl/influxdb.pem
+    ports:
+      - "8086:8086"  # Encrypted InfluxDB listens on host port 8086
+    volumes:
+      - ./influxdb/influxdb.conf:/etc/influxdb/influxdb.conf
+      - ./certs:/etc/ssl
 
-  grafana:
+  opc-ua:
+    image: open62541/open62541
+    container_name: opc-ua
+    networks:
+      - industrial_net
+    environment:
+      - OPCUA_SERVER_SECURITY_MODE=SignAndEncrypt
+      - OPCUA_SERVER_CERTIFICATE=/etc/opc-ua/cert.pem
+      - OPCUA_SERVER_PRIVATE_KEY=/etc/opc-ua/private_key.pem
+    volumes:
+      - ./certs:/etc/opc-ua
+
+  vpn:
+    image: linuxserver/wireguard
+    container_name: vpn
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    networks:
+      - industrial_net
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - SERVERPORT=51820
+      - PEERS=3
+    volumes:
+      - ./vpn:/config
+
+  grafana-secure:
     image: grafana/grafana
     container_name: grafana-secure
+    restart: always
     ports:
       - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    depends_on:
+      - database
     networks:
       - industrial_net
+    user: "472:472"  # Run as Grafana user
+    volumes:
+      - ./grafana-secure:/var/lib/grafana
 
 networks:
   industrial_net:
     driver: bridge
 ```
 
-**🔹 `docker-compose-no-crypto.yml` (Non-Encrypted Environment)**
+**`docker-compose-no-crypto.yml` (Non-Encrypted Environment)**
 ```yaml
 version: '3.8'
+
 services:
   plc1:
     image: fdamador/openplc
     container_name: plc1_no_crypto
     ports:
-      - "505:502"
+      - "502:502"   # Modbus TCP
+    networks:
+      - industrial_no_crypto
+
+  plc2:
+    image: fdamador/openplc
+    container_name: plc2_no_crypto
+    ports:
+      - "503:502"
+    networks:
+      - industrial_no_crypto
+
+  plc3:
+    image: fdamador/openplc
+    container_name: plc3_no_crypto
+    ports:
+      - "504:502"
     networks:
       - industrial_no_crypto
 
@@ -115,25 +224,38 @@ services:
     image: eclipse-mosquitto
     container_name: mqtt-broker-no-crypto
     ports:
-      - "1884:1883"
+      - "1883:1883"  # MQTT (Unsecured)
     networks:
       - industrial_no_crypto
 
   database:
     image: influxdb
     container_name: influxdb-no-crypto
-    ports:
-      - "8087:8086"
     networks:
       - industrial_no_crypto
+    environment:
+      - INFLUXDB_DB=plc_data
+    ports:
+      - "8087:8086"  # Non-encrypted InfluxDB listens on host port 8087
+    volumes:
+      - ./influxdb-no-crypto:/var/lib/influxdb
 
-  grafana:
+  grafana-no-crypto:
     image: grafana/grafana
     container_name: grafana-no-crypto
+    restart: always
     ports:
       - "3002:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    depends_on:
+      - database
     networks:
       - industrial_no_crypto
+    user: "472:472"  # Run as Grafana user
+    volumes:
+      - ./grafana-no-crypto:/var/lib/grafana
 
 networks:
   industrial_no_crypto:
@@ -144,7 +266,7 @@ networks:
 
 ---
 
-### **3️⃣ Configuring PLC Communication**
+### **2.3 Configuring PLC Communication**
 - **Verified PLC communication using Modbus TCP**:
   ```bash
   docker exec -it scada modbus_client --debug -m tcp -u 1 -a 1 -t 3 -r 0 plc1:502
@@ -153,7 +275,7 @@ networks:
 
 ---
 
-### **4️⃣ Setting Up MQTT Communication**
+### **2.4 Setting Up MQTT Communication**
 - Verified **MQTT broker connectivity** by subscribing to PLC data:
   ```bash
   docker exec -it scada mosquitto_sub -h mqtt-broker -t "plc1/data" -v
@@ -162,7 +284,7 @@ networks:
 
 ---
 
-### **5️⃣ Configuring InfluxDB for Data Storage**
+### **2.5 Configuring InfluxDB for Data Storage**
 - **Checked if InfluxDB is running:**
   ```bash
   docker ps | grep influxdb
@@ -178,7 +300,7 @@ networks:
 
 ---
 
-### **6️⃣ Setting Up Grafana Dashboards**
+### **2.6 Setting Up Grafana Dashboards**
 - **Two Grafana instances** were deployed:
   - **Secure:** `http://<server-ip>:3001`
   - **Non-Secure:** `http://<server-ip>:3002`
@@ -195,6 +317,4 @@ networks:
 ✔ **Configured PLCs to communicate via Modbus TCP & OPC-UA.**  
 ✔ **Implemented MQTT messaging for real-time sensor data exchange.**  
 ✔ **Set up InfluxDB for industrial process data logging.**  
-✔ **Created Grafana dashboards for live monitoring & historical analysis.**  
-
-🎉 **The DCS is now fully operational and ready for industrial automation testing!** 🚀  
+✔ **Created Grafana dashboards for live monitoring & historical analysis.**
