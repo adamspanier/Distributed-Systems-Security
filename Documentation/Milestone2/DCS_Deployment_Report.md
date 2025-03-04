@@ -89,11 +89,18 @@ services:
   modbus-tls:
     image: dweomer/stunnel
     container_name: modbus-tls
+    environment:
+      - STUNNEL_SERVICE=modbus-tls
+      - STUNNEL_ACCEPT=8502   # Port where encrypted Modbus traffic is received
+      - STUNNEL_CONNECT=plc1:502  # Forward traffic to unencrypted PLC port
+    ports:
+      - "8502:8502"
     volumes:
       - ./stunnel/stunnel.conf:/etc/stunnel/stunnel.conf
       - ./certs:/etc/stunnel/certs
     networks:
       - industrial_net
+    restart: always
 
   scada:
     image: inductiveautomation/ignition
