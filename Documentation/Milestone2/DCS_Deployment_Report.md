@@ -124,7 +124,7 @@ services:
       - "8883:8883"  # Encrypted MQTT over TLS
     volumes:
       - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf
-      - ./certs:/mosquitto/config/certs
+      - ./mosquitto/config/certs:/mosquitto/config/certs
     networks:
       - industrial_net
 
