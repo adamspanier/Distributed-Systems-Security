@@ -89,6 +89,7 @@ services:
   modbus-tls:
     image: dweomer/stunnel
     container_name: modbus-tls
+    privileged: true  # <-- Add this to allow volume access
     environment:
       - STUNNEL_SERVICE=modbus-tls
       - STUNNEL_ACCEPT=8502   # Port where encrypted Modbus traffic is received
@@ -96,8 +97,10 @@ services:
     ports:
       - "8502:8502"
     volumes:
-      - ./stunnel/stunnel.conf:/etc/stunnel/stunnel.conf
-      - ./certs:/etc/stunnel/certs
+      - /root/Capstone/stunnel.conf:/etc/stunnel/stunnel.conf
+      - /root/Capstone/certs/stunnel.pem:/etc/stunnel/stunnel.pem
+      - /root/Capstone/certs/stunnel.key:/etc/stunnel/stunnel.key
+      - /root/Capstone/certs/ca-cert-stunnel-ca.pem:/etc/stunnel/ca-cert-stunnel-ca.pem
     networks:
       - industrial_net
     restart: always
