@@ -6,15 +6,70 @@
 
 ### System Description
 
-List all the assets and security controls that are used and why
+#### Assets
+
+1. Operational Technology Components
+* PLCs
+* RTUs
+* HMI Systems
+* Field Devices
+* Safety Instrumented Systems
+
+2. Communication Infrastructure
+* Industrial Protocols
+* Network Segments
+* Remote Access Points
+* Protocol Gateways
+* Wireless Communications
+
+3. System Data
+* Control Logic
+* Configuration Files
+* Historical Process Data
+* Setpoints and Parameters
+* Authentication Credentials
+
+#### Security Controls
+
+1. Zero Trust Architecture
+* Continuous authentication
+* Micro-segmentation
+* Least privilege access
+
+2. Distributed Authentication
+* Peer-to-peer identity verification
+* Blockchain-based credential management
+* Distributed PKI
+
+3. Network Redundancy
+* Multiple independent communication paths
+* Distributed routing protocols
+* Failover mechanisms
+
+4. Decentralized Monitoring
+* Distributed intrusion detection
+* Peer-validated anomaly detection
+* Distributed logging
+
 
 ### Design Process
 
-Describe the process we took in designing the system.
+1.	Threat Modeling
+2.	Asset Identification
+3.	Security Control Selection
+4.	Architecture Development
+5.	Prototype Validation
+6.	Iterative Refinement
 
 ### Functional Description
 
-Describe how the system will function
+* Authenticate every device interaction
+* Isolate network segments
+* Implement multi-layer encryption
+* Provide redundant communication paths
+* Enable localized threat detection
+* Support rapid incident response
+
 
 ### System Design Diagram
 
@@ -22,12 +77,27 @@ Here be a diagram outlining the system design
 
 ### System Application Benefits
 
-What makes this system better?
+1.	Enhanced network resilience
+2.	Reduced single point of failure
+3.	Improved threat detection
+4.	Granular access control
+5.	Scalable security architecture
+
 
 ### System Application Drawbacks
 
-What are the things that get worse when using this system?
+1.	Increased complexity
+2.	Higher computational overhead
+3.	More complex management
+4.	Potential performance latency
+5.	Higher initial implementation cost
+
 
 ### System Refinement Process
 
-Indicate how the system is distilled and refined to make a clean, concise, and efficent design.
+1.	Continuous threat assessment
+2.	Performance metric analysis
+3.	Regular security control evaluation
+4.	Technology stack updates
+5.	Stakeholder feedback integration
+
