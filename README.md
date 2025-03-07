@@ -69,7 +69,6 @@ This repository serves the distributed systems security research and development
 
     * **Task:** Security Control Aggregation
         1. [Aggregate Useuful Decentralized Security Controls](Documentation/Milestone2/DCS_Architecture.md)
-        2. [Add Decentralized Security Controls to Pertinent Assets](Documentation/Milestone2/DCS_Architecture.md)
 
     * **Task:** System Design Methodology
         1. [Describe the Design Method](Documentation/Milestone2/DCS_Architecture.md)
