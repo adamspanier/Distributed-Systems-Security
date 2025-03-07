@@ -47,7 +47,7 @@ This repository serves the distributed systems security research and development
     * **Task:** Team Progress Documentation
         1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
   
-3. **Week 3** - Requirements Engineering, Outlines, Controls, and Deployments --> CURRENT
+3. **Week 3** - Requirements Engineering, Outlines, Controls, and Deployments
 
     * **Task:** Requirements Engineering
         1. [Functional and Non-Functional Requirements](Documentation/Milestone2/Requirements.md)
@@ -65,7 +65,7 @@ This repository serves the distributed systems security research and development
     * **Task:** Team Progress Documentation
         1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
         
-4. **Week 4** - Security Control Aggregation and System Design Methodology
+4. **Week 4** - Security Control Aggregation and System Design Methodology --> CURRENT
 
     * **Task:** Security Control Aggregation
         1. [Aggregate Useuful Decentralized Security Controls](Documentation/Milestone2/DCS_Architecture.md)
