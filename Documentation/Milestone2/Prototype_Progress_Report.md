@@ -78,6 +78,46 @@ also list them out like this:
 
 <hr>
 
+## Progress Report Week of 3/3/2025
+
+### Report Overview
+  * Generated System Requirements
+  * Created a paper outline
+  * Researched and finalized decentralized controls
+  * Investigated emulation specifics
+  * Produce deployment documentation
+
+### Outcomes
+  * _System Requirements_
+    * ICS Functional research carried out
+    * Basic OT-based ICS network considerations outlined
+    * ICS network core requirements discussed
+    * ICS security requirements outlined
+    * Function requirements created
+    * Non-Functional requirements created
+  * _Paper Outline_
+    * Sections delineated
+    * Each section is explained
+    * Project goals honed to meet paper requirements 
+  * _Decentralized Controls_
+    * Decentralized controls investigated
+    * Decentralized controls associated with corresponding asset/threat pairs
+    * Pertinent controls listed for the system 
+  * _Emulation Systems_
+    * Docker images, configuration, and emulation explored
+    * Basic system spun up
+    * Encrypted system created 
+  * _Deployment Documentation_
+    * Documentation regarding how the emulation works created 
+
+### Hindrances
+  * Time scheduling conflicts arose
+  * Team member travel required meeting modifications
+  * Work loads put pressure on meeting deadlines
+  * The design of the paper required some notable changes to the planning of the project
+
+<hr>
+
 ## Progress Report Week of 3/10/2025
 
 ### Report Overview
@@ -105,19 +145,6 @@ also list them out like this:
 <hr>
 
 ## Progress Report Week of 3/24/2025
-
-### Report Overview
-  * 
-
-### Outcomes
-  * 
-
-### Hindrances
-  * 
-
-<hr>
-
-## Progress Report Week of 3/31/2025
 
 ### Report Overview
   * 
