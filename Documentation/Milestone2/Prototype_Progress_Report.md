@@ -86,6 +86,7 @@ also list them out like this:
   * Researched and finalized decentralized controls
   * Investigated emulation specifics
   * Produce deployment documentation
+  * Created and completed DCS architecture documentation
 
 ### Outcomes
   * _System Requirements_
@@ -108,7 +109,10 @@ also list them out like this:
     * Basic system spun up
     * Encrypted system created 
   * _Deployment Documentation_
-    * Documentation regarding how the emulation works created 
+    * Documentation regarding how the emulation works created
+  * _DCS Architecture_
+    * Researched DCS Architecure requirements
+    * Created Documentation around best practices
 
 ### Hindrances
   * Time scheduling conflicts arose
@@ -166,8 +170,8 @@ also list them out like this:
 |Challenges in demonstrating practical exploits (42) | 7 | 6 | The team will not have access to physical PLC's for testing, this could present challenges in simulation and demonstration.  |
 |Hardware-level security limitations (42) | 6 | 7 | Due to testing being completed on virtual devices, there will be limitations in what can be completed on them.   |
 |Time management challenges (42) | 6 | 7 | All of the members of this team are also full-time employees, it will take good time management to complete the necessary pieces of this project.  | Yes | Task reassignment based on availability of members
-|Scheduling conflicts (42) | 6 | 7 | All of the members of this team are also full-time employees, there will naturally be weeks where time is at a premium and scheduling could become an issue.  |
-|External commitment interference (42) | 6 | 7 | All of the members of this team are also full-time employees and some have families and other external commitments, there will be times where these could interfere.  |
+|Scheduling conflicts (42) | 6 | 7 | All of the members of this team are also full-time employees, there will naturally be weeks where time is at a premium and scheduling could become an issue.  | Yes | Weekly team meeting modified to accomodate. |
+|External commitment interference (42) | 6 | 7 | All of the members of this team are also full-time employees and some have families and other external commitments, there will be times where these could interfere.  | Yes | Weekly team meeting modified to accomodate. |
 |Varying commitment levels (42) | 6 | 7 | Not all team members will feel the same level of commitment to the project, this could become an issue.  |
 |Cryptographic implementation flaws (40) | 8 | 5 | Issues with implementing the correct cryptography protocol  |
 |Varied understanding of industrial control systems (40) | 5 | 8 | Not all team members have experience working with ICS systems.  | Yes | Progressive education on how these systems work
