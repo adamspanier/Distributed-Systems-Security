@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  server:
+    image: adamspanier/server:latest
+    ports:
+      - "1065:1065"
+    networks:
+      - ics
+  client:
+    image: adamspanier/client:latest
+    depends_on:
+      - server
+    networks:
+      - ics
+networks:
+  ics:
