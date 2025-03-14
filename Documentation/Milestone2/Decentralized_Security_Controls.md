@@ -58,26 +58,26 @@ When analyzing the security control groups above, DCSs clearly fall into several
          A blockchain is a collaborative, tamper-resistant ledger that maintains transactional records. The transactional records (data) are grouped into blocks. A block is connected to the previous one by including a unique identifier that is based on the previous block’s data. As a result, if the data is changed in one block, it’s unique identifier changes, which can be seen in every subsequent block (providing tamper evidence). This domino effect allows all users within the blockchain to know if a previous block’s data has been tampered with. Since a blockchain network is difficult to alter or destroy, it provides a resilient method of collaborative record keeping. - [NIST](https://www.nist.gov/blockchain)
         
       * Why use it?
-        * Eliminates Single Points of Failure
-        * Immutable Ledger for Audit and Integrity
-        * Enhanced Identity and Access Management
-        * Trustless Security Mechanisms
-        * Resistance to DDoS Attacks
+        * Eliminates single points of failure
+        * Immutable ledger for audit and integrity
+        * Enhanced identity and access management
+        * Trustless security mechanisms
+        * Resistance to DDoS attacks
       * What does it apply to?
-        * Identity and Access Management
-        * Cybersecurity and Data Integrity
-        * Financial Transactions and Fraud Prevention
-        * Supply Chain Security
-        * Critical Infrastructure Security
+        * Identity and access management
+        * Cybersecurity and data integrity
+        * Financial transactions and fraud prevention
+        * Supply chain security
+        * Critical infrastructure security
       * Pros
         * Decentralization
-        * Enhanced Transparency & Auditability
-        * Secure Data Sharing & Interoperability
-        * Energy-Efficient Alternatives Emerging
+        * Enhanced transparency and auditability
+        * Secure data sharing and interoperability
+        * Energy-Efficient alternatives emerging
       * Cons
         * Public blockchains can suffer from slow transaction processing times
         * Some industries have strict regulations that might conflict with blockchain’s immutable nature
-        * Proof-of-Work blockchains consume significant energy, though newer models mitigate this.
+        * Proof-of-Work blockchains consume significant energy, though newer models mitigate this
 
 2. Digital Signature
       * **Definition:**
@@ -85,27 +85,27 @@ When analyzing the security control groups above, DCSs clearly fall into several
          As an electronic analogue of a written signature, a digital signature provides assurance that: 1) the claimed signatory signed the information, and 2) the information was not modified after signature generation. - [NIST CSRC](https://csrc.nist.gov/projects/digital-signatures)
 
       * Why use it?
-        * Provides Data Integrity
-        * Ensures Authentication Without a Central Authority
-        * Prevents Man-in-the-Middle Attacks
-        * Enhances Security for Smart Contracts and DAO Governance
-        * Reduces Reliance on Centralized Key Management
+        * Provides data integrity
+        * Ensures authentication without a central authority
+        * Prevents Man-in-the-Middle attacks
+        * Enhances security for smart contracts and DAO governance
+        * Reduces reliance on centralized key management
       * What does it apply to?
-        * Blockchain and Cryptocurrencies
-        * Decentralized Finance and Smart Contracts
-        * Internet of Things Security
-        * Digital Contracts & Document Signing
-        * Decentralized Voting & Governance
+        * Blockchain and cryptocurrencies
+        * Decentralized finance and smart contracts
+        * Internet of things security
+        * Digital contracts and document signing
+        * Decentralized voting and governance
       * Pros
-        * Enables Non-Repudiation
-        * Automates Trustless Transactions in Smart Contracts
-        * Enhances Privacy & Selective Disclosure
-        * Eliminates Single Points of Failure
+        * Enables non-repudiation
+        * Automates trustless transactions in smart contracts
+        * Enhances privacy and selective disclosure
+        * Eliminates single points of failure
       * Cons
-        * Private Key Management Complexity
-        * Signatures Cannot Be Changed or Revoked
-        * Dependence on a Secure Cryptographic Algorithm
-        * Potential for Signature Forgery with Poor Implementation
+        * Private key management complexity
+        * Signatures cannot be changed or revoked
+        * Dependence on a secure cryptographic algorithm
+        * Potential for signature forgery with poor implementation
 
 3. Code Signing
       * **Definition:**
@@ -113,23 +113,23 @@ When analyzing the security control groups above, DCSs clearly fall into several
          Digitally signing code provides both data integrity to prove that the code was not modified, and source authentication to identify who was in control of the code at the time it was signed. When the recipient verifies the signature, he is assured that the code came from the source that signed it, and that it has not been modified in transit. - [NIST CSWP](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01262018.pdf)
 
       * Why use it?
-        * Eliminates the Need for Centralized Certificate Authorities
-        * Future-Proofing Against Quantum Threats
-        * Strengthens Open-Source Security in Decentralized Repositories
+        * Eliminates the need for centralized certificate authorities
+        * Future-Proofing Aagainst quantum threats
+        * Strengthens open-source security in decentralized repositories
       * What does it apply to?
-        * Open-Source Software & Package Management
-        * Secure P2P Networks & Decentralized Apps
-        * Web3 Development & Metaverse Security
+        * Open-Source software and package management
+        * Secure P2P networks and decentralized apps
+        * Web3 development and metaverse security
       * Pros
-        * Supports Secure Software Distribution in Open-Source Projects
-        * Enables Trustless Verification in Decentralized Systems
-        * Reduces the Risk of Malware & Fake Software
-        * Prevents Supply Chain Attacks
+        * Supports secure software distribution in open-source projects
+        * Enables trustless verification in decentralized systems
+        * Reduces the risk of malware and fake software
+        * Prevents supply chain attacks
       * Cons
-        * No Built-in Revocation in Decentralized Systems
-        * High Computational Overhead for Verification
-        * Usability Challenges for Non-Technical Users
-        * Scalability Issues in Large-Scale Decentralized Systems
+        * No built-in revocation in decentralized systems
+        * High computational overhead for verification
+        * Usability challenges for non-technical users
+        * Scalability issues in large-scale decentralized systems
 
 4. Device Fingerprinting
       * **Definition:**
@@ -137,25 +137,25 @@ When analyzing the security control groups above, DCSs clearly fall into several
          A fingerprint is a trace of the information left by someone. It is a well-known term in various bio- metric applications such as personal identification, access control, and security. When computers, networks, and security are discussed, it is referred to as a digital fingerprint, browser fingerprint, Device Fingerprint/Fingerprinting (DFP), or machine fingerprint - [Kumar et al.](https://dl.acm.org/doi/10.1145/3584944)
 
       * Why use it?
-        * Prevents Bot Attacks & Automated Fraud in Decentralized Networks
-        * Works Even in Permissionless & Pseudonymous Environments
-        * Decentralized & Privacy-Preserving Fingerprinting with Blockchain
-        * Provides Continuous Authentication for dApps & Smart Contracts
+        * Prevents bot attacks and automated fraud in decentralized networks
+        * Works even in permissionless and pseudonymous environments
+        * Decentralized & privacy-preserving fingerprinting with blockchain
+        * Provides continuous authentication for dApps and smart contracts
       * What does it apply to?
-        * Blockchain-Based Voting & DAOs
-        * Preventing Fraud & Bots in Decentralized Applications
-        * Preventing Insider Threats & Data Leaks in Decentralized Storage
-        * Privacy-Preserving Authentication for Decentralized Web
+        * Blockchain-Based voting and DAOs
+        * Preventing fraud and bots in decentralized applications
+        * Preventing insider threats and data leaks in decentralized storage
+        * Privacy-Preserving authentication for decentralized web
       * Pros
-        * Prevents Unauthorized Access & Account Takeovers
-        * Works as a Privacy-Preserving Security Measure
-        * Works Without Traditional Tracking Method
-        * Reduces Insider Threats & Data Leaks in Decentralized Storage
+        * Prevents unauthorized access and account takeovers
+        * Works as a privacy-preserving security measure
+        * Works without traditional tracking method
+        * Reduces insider threats and data leaks in decentralized storage
       * Cons
-        * Easy to Spoof or Bypass with Advanced Attack Techniques
-        * Device Changes Can Lead to Access Issues
-        * Legal & Regulatory Compliance Risks
-        * Limited Effectiveness in Highly Decentralized & Anonymous Systems
+        * Easy to spoof or bypass with advanced attack techniques
+        * Device changes can lead to access issues
+        * Legal and regulatory compliance risks
+        * Limited effectiveness in highly decentralized and anonymous systems
 
 5. Network Traffic Hashing/Fingerprinting
       * **Definition:**
@@ -163,25 +163,25 @@ When analyzing the security control groups above, DCSs clearly fall into several
          A fingerprint is a trace of the information left by someone. It is a well-known term in various bio- metric applications such as personal identification, access control, and security. When computers, networks, and security are discussed, it is referred to as a digital fingerprint, browser fingerprint, Device Fingerprint/Fingerprinting (DFP), or machine fingerprint - [Kumar et al.](https://dl.acm.org/doi/10.1145/3584944)
 
       * Why use it?
-        * Prevents Data Tampering in Power Grid Communication
-        * Works as a Lightweight & Scalable Security Solution
-        * Provides a Tamper-Proof Audit Trail for Grid Operations
-        * Detects Unauthorized Network Traffic & Cyber Threats
+        * Prevents data tampering in power grid communication
+        * Works as a lightweight and scalable security solution
+        * Provides a tamper-proof audit trail for grid operations
+        * Detects unauthorized network traffic and cyber threats
       * What does it apply to?
-        * Real-Time Intrusion Detection in Smart Grids
-        * Protecting Decentralized Renewable Energy Systems
-        * Securing Smart Grid Communication
-        * Securing IoT & Smart Meter Networks
+        * Real-Time intrusion detection in smart grids
+        * Protecting decentralized renewable energy systems
+        * Securing smart grid communication
+        * Securing IoT and smart meter networks
       * Pros
-        * Detects Unauthorized Network Traffic in Real-Time
-        * Ensures Tamper-Proof Communication
-        * Supports Regulatory Compliance & Auditing
-        * Strengthens Resilience Against Insider Threats
+        * Detects unauthorized network traffic in real-time
+        * Ensures tamper-proof communication
+        * Supports regulatory compliance and auditing
+        * Strengthens resilience against insider threats
       * Cons
-        * Hashing Cannot Prevent Attacks, only Detect Them
-        * Potential for False Positives & Anomaly Detection Challenges
-        * Not Effective for Encrypted Network Traffic
-        * Susceptible to Replay Attacks If Not Combined with Timestamps
+        * Hashing cannot prevent attacks, only detect them
+        * Potential for false positives and anomaly detection challenges
+        * Not effective for encrypted network traffic
+        * Susceptible to replay attacks if not combined with timestamps
 
 6. Zero Trust Architecture
       * **Definition:**
