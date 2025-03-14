@@ -177,11 +177,11 @@ also list them out like this:
 |Varying commitment levels (42) | 6 | 7 | Not all team members will feel the same level of commitment to the project, this could become an issue.  |
 |Cryptographic implementation flaws (40) | 8 | 5 | Issues with implementing the correct cryptography protocol  |
 |Varied understanding of industrial control systems (40) | 5 | 8 | Not all team members have experience working with ICS systems.  | Yes | Progressive education on how these systems work
-|Different technical programming skill levels (40) | 5 | 8 | Each team member comes from a different technological background, not all have strong programming or scripting skills.  |
+|Different technical programming skill levels (40) | 5 | 8 | Each team member comes from a different technological background, not all have strong programming or scripting skills.  | Yes | Less technical members rely on the technical members and fill gaps when applicable. |
 |Ethical considerations in vulnerability research (40) | 5 | 8 | Vulnerability research always involves ethics. The team needs to keep in mind ethical considerations for all paths taken and decisions made.  |
 |Individual motivation inconsistencies (30) | 6 | 5 | People could face issues with other classes or in their personal lives where motivation to work on this project becomes an issue.  |
 |Personality conflicts (30) | 5 | 6 | People don't always communicate well, there will be times where people do not "get along" and conflicts could arise.  | No | Na
-|Communication breakdowns (24) | 4 | 6 | People don't always communicate well, there will be times where communication suffers and could break down.  |
+|Communication breakdowns (24) | 4 | 6 | People don't always communicate well, there will be times where communication suffers and could break down.  | Yes | Lack of communication between weeks with no meetings. |
 |Unequal workload distribution (24) | 4 | 6 | A full team of 5 people could lead to an unequal workload distribution.  |
 |Misaligned project expectations (20) | 4 | 5 | It is important to set expectations at the beginning of the project and keep them appropriately set throughout the project.  |
 |Divergent research methodologies (20) | 4 | 5 | Not all team members will have the same thought processes or plans for research methodology.  |
