@@ -75,21 +75,39 @@ When analyzing the security control groups above, DCSs clearly fall into several
         * Secure Data Sharing & Interoperability
         * Energy-Efficient Alternatives Emerging
       * Cons
-        * Scalability Issues - Public blockchains can suffer from slow transaction processing times
-        * Regulatory Compliance: Some industries have strict regulations that might conflict with blockchain’s immutable nature
-        * Energy Consumption: Proof-of-Work blockchains consume significant energy, though newer models mitigate this.
+        * Public blockchains can suffer from slow transaction processing times
+        * Some industries have strict regulations that might conflict with blockchain’s immutable nature
+        * Proof-of-Work blockchains consume significant energy, though newer models mitigate this.
 
-3. Digital Signature
+2. Digital Signature
       * **Definition:**
 
          As an electronic analogue of a written signature, a digital signature provides assurance that: 1) the claimed signatory signed the information, and 2) the information was not modified after signature generation. - [NIST CSRC](https://csrc.nist.gov/projects/digital-signatures)
 
       * Why use it?
+        * Provides Data Integrity
+        * Ensures Authentication Without a Central Authority
+        * Prevents Man-in-the-Middle Attacks
+        * Enhances Security for Smart Contracts and DAO Governance
+        * Reduces Reliance on Centralized Key Management
       * What does it apply to?
+        * Blockchain and Cryptocurrencies
+        * Decentralized Finance and Smart Contracts
+        * Internet of Things Security
+        * Digital Contracts & Document Signing
+        * Decentralized Voting & Governance
       * Pros
+        * Enables Non-Repudiation
+        * Automates Trustless Transactions in Smart Contracts
+        * Enhances Privacy & Selective Disclosure
+        * Eliminates Single Points of Failure
       * Cons
+        * Private Key Management Complexity
+        * Signatures Cannot Be Changed or Revoked
+        * Dependence on a Secure Cryptographic Algorithm
+        * Potential for Signature Forgery with Poor Implementation
 
-5. Code Signing
+3. Code Signing
       * **Definition:**
 
          Digitally signing code provides both data integrity to prove that the code was not modified, and source authentication to identify who was in control of the code at the time it was signed. When the recipient verifies the signature, he is assured that the code came from the source that signed it, and that it has not been modified in transit. - [NIST CSWP](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01262018.pdf)
@@ -99,7 +117,7 @@ When analyzing the security control groups above, DCSs clearly fall into several
       * Pros
       * Cons
 
-6. Device Fingerprinting
+4. Device Fingerprinting
       * **Definition:**
 
          A fingerprint is a trace of the information left by someone. It is a well-known term in various bio- metric applications such as personal identification, access control, and security. When computers, networks, and security are discussed, it is referred to as a digital fingerprint, browser fingerprint, Device Fingerprint/Fingerprinting (DFP), or machine fingerprint - [Kumar et al.](https://dl.acm.org/doi/10.1145/3584944)
@@ -109,7 +127,7 @@ When analyzing the security control groups above, DCSs clearly fall into several
       * Pros
       * Cons
 
-7. Network Traffic Hashing/Fingerprinting
+5. Network Traffic Hashing/Fingerprinting
       * **Definition:**
 
          A fingerprint is a trace of the information left by someone. It is a well-known term in various bio- metric applications such as personal identification, access control, and security. When computers, networks, and security are discussed, it is referred to as a digital fingerprint, browser fingerprint, Device Fingerprint/Fingerprinting (DFP), or machine fingerprint - [Kumar et al.](https://dl.acm.org/doi/10.1145/3584944)
@@ -119,7 +137,7 @@ When analyzing the security control groups above, DCSs clearly fall into several
       * Pros
       * Cons
 
-9. Zero Trust Architecture
+6. Zero Trust Architecture
       * **Definition:**
 
          A zero trust architecture (ZTA) is an enterprise cybersecurity architecture that is based on zero trust principles and designed to prevent data breaches and limit internal lateral movement. This publication discusses ZTA, its logical components, possible deployment scenarios, and threats. It also presents a general road map for organizations wishing to migrate to a zero trust design approach and discusses relevant federal policies that may impact or influence a zero trust architecture. - [NIST SP 800-207](https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.800-207.pdf)
@@ -143,7 +161,7 @@ When analyzing the security control groups above, DCSs clearly fall into several
       * Increased management complexity
 
        
-2. Distributed Authentication
+7. Distributed Authentication
    * **Definition:**
 
       The distribution of authentication operations accross a peer-to-peer network. This distribution eliminates the need for a single sign on point of entry, and removes a SPoF for most systems.        
@@ -166,7 +184,7 @@ When analyzing the security control groups above, DCSs clearly fall into several
       * Performance latency
       * More complex key management
      
-4. Network Redundancy
+8. Network Redundancy
       * **Definition:**
 
         Multiple paths or systems are provided so that if one fails, another can automatically take over, ensuring continued functionality and improving reliability and resilience. - [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
@@ -189,7 +207,7 @@ When analyzing the security control groups above, DCSs clearly fall into several
          * Higher implementation costs
          * Additional maintenance overhead
 
-6. Decentralized Monitoring
+9. Decentralized Monitoring
       * **Definition:**
 
         The distrubtion of montiroing activities accross a peer-to-peer network.
