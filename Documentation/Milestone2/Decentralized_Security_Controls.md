@@ -58,9 +58,26 @@ When analyzing the security control groups above, DCSs clearly fall into several
          A blockchain is a collaborative, tamper-resistant ledger that maintains transactional records. The transactional records (data) are grouped into blocks. A block is connected to the previous one by including a unique identifier that is based on the previous block’s data. As a result, if the data is changed in one block, it’s unique identifier changes, which can be seen in every subsequent block (providing tamper evidence). This domino effect allows all users within the blockchain to know if a previous block’s data has been tampered with. Since a blockchain network is difficult to alter or destroy, it provides a resilient method of collaborative record keeping. - [NIST](https://www.nist.gov/blockchain)
         
       * Why use it?
+        * Eliminates Single Points of Failure
+        * Immutable Ledger for Audit and Integrity
+        * Enhanced Identity and Access Management
+        * Trustless Security Mechanisms
+        * Resistance to DDoS Attacks
       * What does it apply to?
+        * Identity and Access Management
+        * Cybersecurity and Data Integrity
+        * Financial Transactions and Fraud Prevention
+        * Supply Chain Security
+        * Critical Infrastructure Security
       * Pros
+        * Decentralization
+        * Enhanced Transparency & Auditability
+        * Secure Data Sharing & Interoperability
+        * Energy-Efficient Alternatives Emerging
       * Cons
+        * Scalability Issues - Public blockchains can suffer from slow transaction processing times
+        * Regulatory Compliance: Some industries have strict regulations that might conflict with blockchain’s immutable nature
+        * Energy Consumption: Proof-of-Work blockchains consume significant energy, though newer models mitigate this.
 
 3. Digital Signature
       * **Definition:**
