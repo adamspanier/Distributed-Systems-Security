@@ -75,6 +75,7 @@ also list them out like this:
   * Listing critical assets in a distributed control system that require security protection include operational technology components, communication infrastructure, system data, and support systems.
   * Python coding packages seem insufficient for testing environments
   * A lack of definition in the initial design caused a re-assessment to be done
+  * Travel for work restricted time and metting avilability
 
 <hr>
 
@@ -103,7 +104,8 @@ also list them out like this:
   * _Decentralized Controls_
     * Decentralized controls investigated
     * Decentralized controls associated with corresponding asset/threat pairs
-    * Pertinent controls listed for the system 
+    * Pertinent controls listed for the system
+    * Specified controls down to specific use cases and planned implementation
   * _Emulation Systems_
     * Docker images, configuration, and emulation explored
     * Basic system spun up
