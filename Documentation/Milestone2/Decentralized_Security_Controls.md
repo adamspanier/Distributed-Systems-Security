@@ -113,9 +113,23 @@ When analyzing the security control groups above, DCSs clearly fall into several
          Digitally signing code provides both data integrity to prove that the code was not modified, and source authentication to identify who was in control of the code at the time it was signed. When the recipient verifies the signature, he is assured that the code came from the source that signed it, and that it has not been modified in transit. - [NIST CSWP](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01262018.pdf)
 
       * Why use it?
+        * Eliminates the Need for Centralized Certificate Authorities
+        * Future-Proofing Against Quantum Threats
+        * Strengthens Open-Source Security in Decentralized Repositories
       * What does it apply to?
+        * Open-Source Software & Package Management
+        * Secure P2P Networks & Decentralized Apps
+        * Web3 Development & Metaverse Security
       * Pros
+        * Supports Secure Software Distribution in Open-Source Projects
+        * Enables Trustless Verification in Decentralized Systems
+        * Reduces the Risk of Malware & Fake Software
+        * Prevents Supply Chain Attacks
       * Cons
+        * No Built-in Revocation in Decentralized Systems
+        * High Computational Overhead for Verification
+        * Usability Challenges for Non-Technical Users
+        * Scalability Issues in Large-Scale Decentralized Systems
 
 4. Device Fingerprinting
       * **Definition:**
@@ -123,9 +137,25 @@ When analyzing the security control groups above, DCSs clearly fall into several
          A fingerprint is a trace of the information left by someone. It is a well-known term in various bio- metric applications such as personal identification, access control, and security. When computers, networks, and security are discussed, it is referred to as a digital fingerprint, browser fingerprint, Device Fingerprint/Fingerprinting (DFP), or machine fingerprint - [Kumar et al.](https://dl.acm.org/doi/10.1145/3584944)
 
       * Why use it?
+        * Prevents Bot Attacks & Automated Fraud in Decentralized Networks
+        * Works Even in Permissionless & Pseudonymous Environments
+        * Decentralized & Privacy-Preserving Fingerprinting with Blockchain
+        * Provides Continuous Authentication for dApps & Smart Contracts
       * What does it apply to?
+        * Blockchain-Based Voting & DAOs
+        * Preventing Fraud & Bots in Decentralized Applications
+        * Preventing Insider Threats & Data Leaks in Decentralized Storage
+        * Privacy-Preserving Authentication for Decentralized Web
       * Pros
+        * Prevents Unauthorized Access & Account Takeovers
+        * Works as a Privacy-Preserving Security Measure
+        * Works Without Traditional Tracking Method
+        * Reduces Insider Threats & Data Leaks in Decentralized Storage
       * Cons
+        * Easy to Spoof or Bypass with Advanced Attack Techniques
+        * Device Changes Can Lead to Access Issues
+        * Legal & Regulatory Compliance Risks
+        * Limited Effectiveness in Highly Decentralized & Anonymous Systems
 
 5. Network Traffic Hashing/Fingerprinting
       * **Definition:**
@@ -133,9 +163,25 @@ When analyzing the security control groups above, DCSs clearly fall into several
          A fingerprint is a trace of the information left by someone. It is a well-known term in various bio- metric applications such as personal identification, access control, and security. When computers, networks, and security are discussed, it is referred to as a digital fingerprint, browser fingerprint, Device Fingerprint/Fingerprinting (DFP), or machine fingerprint - [Kumar et al.](https://dl.acm.org/doi/10.1145/3584944)
 
       * Why use it?
+        * Prevents Data Tampering in Power Grid Communication
+        * Works as a Lightweight & Scalable Security Solution
+        * Provides a Tamper-Proof Audit Trail for Grid Operations
+        * Detects Unauthorized Network Traffic & Cyber Threats
       * What does it apply to?
+        * Real-Time Intrusion Detection in Smart Grids
+        * Protecting Decentralized Renewable Energy Systems
+        * Securing Smart Grid Communication
+        * Securing IoT & Smart Meter Networks
       * Pros
+        * Detects Unauthorized Network Traffic in Real-Time
+        * Ensures Tamper-Proof Communication
+        * Supports Regulatory Compliance & Auditing
+        * Strengthens Resilience Against Insider Threats
       * Cons
+        * Hashing Cannot Prevent Attacks, only Detect Them
+        * Potential for False Positives & Anomaly Detection Challenges
+        * Not Effective for Encrypted Network Traffic
+        * Susceptible to Replay Attacks If Not Combined with Timestamps
 
 6. Zero Trust Architecture
       * **Definition:**
