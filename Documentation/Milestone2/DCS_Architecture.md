@@ -73,10 +73,12 @@
 
 ### System Design Diagram
 
-Unencrypted Environment
+#### Unencrypted Environment
+
 ![image](https://github.com/user-attachments/assets/912c2833-6906-4abd-9a3a-4e402d5a5da4)
 
-Encrypted Environment
+#### Encrypted Environment
+
 ![image](https://github.com/user-attachments/assets/2a0c3eb3-23a2-4cb4-96fa-ad3aa9c32313)
 
 
