@@ -4,7 +4,7 @@
 
 <hr>
 
-### I. Test System Purpose
+### I. System Model Purpose and Design
 
 #### Cyber-Physical Systems
 
@@ -91,7 +91,7 @@ In the design above, the high voltage lines denoted in orange carry high voltage
 
 The notable components in the system above are the 5 **PLCs** controlling the voltage flow, the **breaker control center (RTU)**, the SCADA control system, and the **logging** and **function** **databases**. The test system will correspond with the PLCs, the MQTT data, the SCADA system, and the databases present in the design above.
 
-### II. Test System Description
+### II. Emulation System Description
 
 #### Assets
 
