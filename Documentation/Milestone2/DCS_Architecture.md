@@ -19,13 +19,73 @@ As noted above, each of these example functions is highly integrated into the ph
 
 The innate connection between the physical function, the industrial design serving the function, and the ICS system make each ICS network completely unique. Even across the same application domain, no two OT or ICS networks are going to be the same. Though one system may serve an oilfield in Wyoming and another in Texas, the topography, landscape, accessibility, weather, and spacial limitations make both systems completely different. This difference from ICS system to ICS system necessitates that general designs must be flexible and loosely defined; not the optimal atmosphere to carry out testing for real-world implications.
 
-Due to the uniqueness of every ICS network in it's function, the only way to experiment with novel system security designs is to explicitly define what Cyber-Physical function the test system will be responsible for. Without an adequately designed and defined industrial function, the benchmarks and system limits are completely unknown. Without any understanding of how the system must perform, the integration of novel security controls cannot be adequately tested for impact. While system requirements serve as a general litmus test for function, only with a explicitly designed industrial system for an industrial function can actual functionality of novel DSCs be measured. 
+Due to the uniqueness of every ICS network in it's function, the only way to experiment with novel system security designs is to explicitly define what Cyber-Physical function the test system will be responsible for. Without an adequately designed and defined industrial function, the benchmarks and system limits are completely unknown. Without any understanding of how the system must perform, the integration of novel security controls cannot be adequately tested for impact. While system requirements serve as a general litmus test for function, only with a explicitly designed industrial system for an industrial function can actual functionality of novel DSCs be measured. Knowing any test system must have an explicitly defined system purpose, this work seeks to outline the industrial system function below.
 
 #### Test System Industrial Function
 
-Knowing any test system must have an explicitly defined system purpose, this work seeks to outline the industrial system function below.
+The testbed system used in this work will emulate a Power Distribution Substation (PSS). A Power Distribution Substation is nothing more than a physical location that distributes high frequency alternating current to different users in the system. Generally, power substations will step-down high frequency power feeds, divert them to low voltage power lines, regulate the voltages both coming and going out, and ensure that all customers have power. If any issue arises, the safety functions of the substations will automatically operate relays and breakers to protect the system from physical damage. Many times, in an effort to avoid physical damages, substations going offline can cause cascading failures in power grid systems by diverting electrical current through other PSSs. The more current moving through a PSS, the higher the probability that PSS will need to go offline to protect itself. Given enough PSSs drop, large rolling blackouts can occur.
+
+There are three primary sections of a power substation:
+1. Incoming Transmission
+2. Power Routing and Conversion
+3. Outgoing Distribution
+Source: [https://www.osha.gov/etools/electric-power/illustrated-glossary/sub-station](https://www.osha.gov/etools/electric-power/illustrated-glossary/sub-station)
+
+The incoming transmission section is comprised of incoming high voltage transmission lines. The distribution section is comprised of outgoing low voltage transmission lines. The power routing and coversion section holds the majority of the PSS devices:
+
+* **Lightning arresters (Surge Arrestors)** - Serve to divert abnormally high voltages to ground, generally in the case of a lightning strike
+
+<img src="https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/Considerations-in-Arrester-Lead-Design-Application.jpeg" alt="drawing" width="500"/>
+
+Source: [inmr.com](https://www.inmr.com/arrester-lead-design-application/)
+
+* **Air-break Switches** - Switches with contacts in the open air. As they open, the resistance of the air quenches the circuit, though an arc generally forms for a few moments
+
+<img src="https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/air-break_switch.jpg" alt="drawing" width="500"/>
+
+Source: [southernstatesllc.com](https://www.southernstatesllc.com/applications/group-operated-disconnect-switches)
+  
+* **Step-down Transformers** - A device that transforms high voltage signals to low voltage signals through the use of electrical induction in copper coils
+
+<img src="https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/step_down.jpg" alt="drawing" width="500"/>
+
+Source: [eaton.com](https://www.eaton.com/us/en-us/catalog/medium-voltage-power-distribution-control-systems/substation-transformer.html)
+  
+* **Oil Circuit Breakers** - Much like an air-break switch, but uses oil to quench arcs instead of air
+
+<img src="https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/oil_breaker.jpeg" alt="drawing" width="500"/>
+
+Source: [electricalengineering.xyz](https://www.electricalengineering.xyz/high-voltage-circuit-breakers/)
+
+* Voltage Regulators - Maintain power distribution system voltages within a predefined range
+
+<img src="https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/voltage_reg.jpg" alt="drawing" width="500"/>
+
+Source: [eaton.com](https://www.eaton.com/us/en-us/products/medium-voltage-power-distribution-control-systems/voltage-regulators/voltage-regulators--fundamentals-of-voltage-regulators.html)
+
+* Distribution Busses - A metal bar that connectes substation components and carries current
+
+<img src="https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/busbar.jpg" alt="drawing" width="500"/>
+
+Source: [semanticscholar.org](https://www.semanticscholar.org/paper/Automatic-busbar-detection-in-substation%3A-Using-and-Hongkai-Shiying/86f914ce00674ff27e2dc4325179e8deb7812a25)
+
+* Control Housings - The location of the electrical control components in the substation
+
+<img src="https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/control_house.jpg" alt="drawing" width="500"/>
+
+source: [kva-emc.com](https://kva-emc.com/substation-control-enclosures/)
+
+The devices listed above can be seen below in Figure 1:
+
+<img src="https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/substation_energy_flow.jpg" alt="drawing" width="900"/>
+
+source: [osha.gov](https://www.osha.gov/etools/electric-power/illustrated-glossary/sub-station)
+
+#### Test System Industrial Design
 
 ### II. Test System Design Methodology
+
+The specifics of the system
 
 ### III. Test System Description
 
