@@ -127,26 +127,80 @@ also list them out like this:
 ## Progress Report Week of 3/10/2025
 
 ### Report Overview
-  * 
+  * Explored Docker network setup
+  * Finalized two of three Docker network testbeds
+  * Developed custom docker server for DSC implementation
+  * Completed decentralized control listings
+  * Aggregated useful DSC controls
+  * Reorganized documentation
 
 ### Outcomes
-  * 
+  * _Docker Network_
+    * Docker containers combined
+    * Docker Compose yml files completed
+    * Limited testing carried out
+  * _Finalized Docker Network Testbeds_
+    * The non-encrypted, non-secured testbed is complete
+    * The standard security testbed is complete 
+  * _Developed custom docker servers_
+    * To implement custon DSCs in the system, Python-based docker servers were created
+    * A sockets version is complete and working
+    * A requests version is under development
+  * _Decentralized control listings_
+    * Decentralized controls are complete and described
+    * Each control is defined and explained
+    * Pros and cons for each are mentioned
+  * _Aggregated DSC controls_
+    * DSC controls are mapped to their corresponding assets
+  * _Reorganized documentation_
+    * Documentation and sprint planning were reorganized 
 
 ### Hindrances
-  * 
+  * As the semester is progressing, time is becoming more and more of an issue
+  * All of the team members are very busy with both work and school
+  * Snow-days and sickness are causing coordination problems
 
 <hr>
 
 ## Progress Report Week of 3/17/2025
 
 ### Report Overview
-  * 
+  * ICS System Model Description
+  * ICS System Model Design and Purpose
+  * System Emulation Description
+  * System Emulation Diagrams
+  * Paper created in overleaf
+  * Introduction Started
+  * Requests version server is being developed
 
 ### Outcomes
-  * 
+  * _System Model Description_
+    *  Cyber-Physical system requirements analyzed
+    *  A system purpose is established - Power Substation
+    *  Power substation architectures analyzed
+  * _System Model Design and Purpose_
+    * System model outlined based on power substation
+    * System industrial function and components added
+    * Industrial function diagrammed 
+  * _System Emulation Description_
+    * The emulation for the System Model is discussed
+    * Assets and security controls were added
+    * Security functions described
+  * _System Emulation Diagrams_
+    * Non-encrypted system emulation diagram created
+    * Standard security system emulation diagram created 
+  * _Paper created_
+    * Final paper document created in Overleaf
+  * _Introduction started_
+    * The introduction is currently in rough draft 
+  * _Requests version server is being developed_
+    * Along with the sockets version of our test DCS servers, a requests version is under development.
+  * Documentation Touch Ups
+    * Milestone 2 documents were better indexed on the main readme
 
 ### Hindrances
-  * 
+  * Spring break caused scheduling issues
+  * Business is making forward progress difficult
 
 <hr>
 
