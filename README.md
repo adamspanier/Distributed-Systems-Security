@@ -15,6 +15,8 @@ This repository serves the distributed systems security research and development
 1. [Proposal](Documentation/Milestone1/Initial_Proposal.md) - Prototype proposal presented for a vote
 
 ### II. Milestone 1
+
+#### Research Documentation
 1. [Executive Summary](Documentation/Milestone1/Summary.md)
 2. [Timeline](Documentation/Milestone1/Timeline.md)
 3. [Risks](Documentation/Milestone1/Risks.md)
