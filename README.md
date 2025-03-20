@@ -23,6 +23,21 @@ This repository serves the distributed systems security research and development
 
 ### III. Milestone 2
 
+#### Research Documentation
+1. [Assets and Threats](Documentation/Milestone2/Assets_Threats_Controls.md)
+2. [Decentralized Secuirty Controls](Documentation/Milestone2/Decentralized_Security_Controls.md)
+4. [Test System Requirements](Documentation/Milestone2/Requirements.md)
+5. [Test System Function, Design, and Methodology](Documentation/Milestone2/DCS_Architecture.md)
+
+#### System Emulation and Prototyping
+1. [Explored Simulation Tools](Documentation/Milestone2/Simulation_Tools.md)
+2. [DCS Deployment Reporting](Documentation/Milestone2/DCS_Deployment_Report.md)
+
+#### Paper Details
+1. [Paper Outline](Documentation/Milestone2/Outline.md)
+
+#### Sprint Plan
+
 1. **Week 1** - ICS Investigation and Environment Exploration
 
     * **Task:** Identify DCS Assets and Threats
@@ -65,7 +80,7 @@ This repository serves the distributed systems security research and development
     * **Task:** Team Progress Documentation
         1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
         
-4. **Week 4** - Security Control Aggregation and System Design Methodology --> CURRENT
+4. **Week 4** - Security Control Aggregation and System Design Methodology
 
     * **Task:** Security Control Aggregation
         1. [Aggregate Useuful Decentralized Security Controls](Documentation/Milestone2/DCS_Architecture.md)
