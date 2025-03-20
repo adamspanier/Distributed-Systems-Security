@@ -83,11 +83,15 @@ source: [osha.gov](https://www.osha.gov/etools/electric-power/illustrated-glossa
 
 #### Test System Industrial Design
 
-### II. Test System Design Methodology
+The system we will be using is outlined in Figure 2 below:
 
-The specifics of the system
+![Industrial Design](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/SDF.png)
 
-### III. Test System Description
+In the design above, the high voltage lines denoted in orange carry high voltage from the incoming feeders through to the outgoing feeders. In the transfer, the voltage moves from a breaker on the high voltage side through a step down transformer and through a lower voltage breaker before hitting the output bus and moving into the outgoing feeders. Each breaker is controlled via a PLC and each PLC is connected to the breaker control module. A set of relays are used to determine voltage irregularities and signal the control system to break the circuits.
+
+The notable components in the system above are the 5 PLCs controlling the voltage flow, the breaker control center (RTU), and the SCADA control system.
+
+### II. Test System Description
 
 #### Assets
 
