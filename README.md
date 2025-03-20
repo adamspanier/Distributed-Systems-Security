@@ -26,9 +26,9 @@ This repository serves the distributed systems security research and development
 ### III. Milestone 2
 
 #### Research Documentation
-1. [Assets and Threats](Documentation/Milestone2/Assets_Threats_Controls.md)
-2. [Decentralized Secuirty Controls](Documentation/Milestone2/Decentralized_Security_Controls.md)
-4. [Test System Requirements](Documentation/Milestone2/Requirements.md)
+1. [Assets and Threats](Documentation/Milestone2/Assets_Threats_Controls.md) - x
+2. [Decentralized Secuirty Controls](Documentation/Milestone2/Decentralized_Security_Controls.md) - x
+4. [Test System Requirements](Documentation/Milestone2/Requirements.md) - x
 5. [Test System Function, Design, and Methodology](Documentation/Milestone2/DCS_Architecture.md)
 
 #### System Emulation and Prototyping
