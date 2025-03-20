@@ -38,7 +38,7 @@ This repository serves the distributed systems security research and development
 #### Paper Details
 1. [Paper Outline](Documentation/Milestone2/Outline.md)
 
-#### Sprint Plan
+#### Milestone 2 : Sprint Plan
 
 1. **Week 1** - ICS Investigation and Environment Exploration
 
