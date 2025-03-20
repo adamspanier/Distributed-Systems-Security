@@ -4,7 +4,7 @@
 
 <hr>
 
-### I. System Model Purpose and Design
+### I. System Model - Purpose and Design
 
 #### Cyber-Physical Systems
 
@@ -81,7 +81,7 @@ The devices listed above can be seen below in Figure 1:
 
 source: [osha.gov](https://www.osha.gov/etools/electric-power/illustrated-glossary/sub-station)
 
-#### Test System Industrial Design
+#### System Model - Industrial Design
 
 The system we will be using is outlined in Figure 2 below:
 
@@ -91,7 +91,7 @@ In the design above, the high voltage lines denoted in orange carry high voltage
 
 The notable components in the system above are the 5 **PLCs** controlling the voltage flow, the **breaker control center (RTU)**, the SCADA control system, and the **logging** and **function** **databases**. The test system will correspond with the PLCs, the MQTT data, the SCADA system, and the databases present in the design above.
 
-### II. Emulation System Description
+### II. Model Emulation System - Description
 
 #### Assets
 
@@ -138,7 +138,6 @@ The notable components in the system above are the 5 **PLCs** controlling the vo
 * Peer-validated anomaly detection
 * Distributed logging
 
-
 ### Design Process
 
 1.	Threat Modeling
@@ -165,11 +164,15 @@ The notable components in the system above are the 5 **PLCs** controlling the vo
 ![image](https://github.com/user-attachments/assets/912c2833-6906-4abd-9a3a-4e402d5a5da4)
 
 
-
 #### Encrypted Environment
 
 ![image](https://github.com/user-attachments/assets/2a0c3eb3-23a2-4cb4-96fa-ad3aa9c32313)
 
+#### DSC Environment 1
+
+#### DSC Environment 2
+
+#### DSC Environment 3
 
 ### System Application Benefits
 
@@ -179,7 +182,6 @@ The notable components in the system above are the 5 **PLCs** controlling the vo
 4.	Granular access control
 5.	Scalable security architecture
 
-
 ### System Application Drawbacks
 
 1.	Increased complexity
@@ -187,7 +189,6 @@ The notable components in the system above are the 5 **PLCs** controlling the vo
 3.	More complex management
 4.	Potential performance latency
 5.	Higher initial implementation cost
-
 
 ### System Refinement Process
 
