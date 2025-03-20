@@ -1,10 +1,33 @@
-# Novel Distributed Control Architecture
+# Distributed Control Architecture Testbed
 
 [HOME](https://github.com/adamspanier/Distributed-Systems-Security)
 
 <hr>
 
-### System Description
+### I. Test System Purpose
+
+#### Cyber-Physical Systems
+
+All ICS networks serve and support real-world operations. These systems are called _Cyber-Physical systems_. The operations of these systems embed ICS devices in functional environments where they are tasked with interacting with real-world sensor input and real-world actuators. Due to the mechanical and Cyber-Physical nature of ICS networks, each ICS serves a very specific, very well defined _function_. This function, served by the system, is the _most important_ service the system must fulfill. These functions cover a _wide range_ of operations:
+* Assembly line robotics control
+* Oil field pumping, storage, and distribution management
+* Power substation monitoring, protection, and operation
+* Nuclear centrifuge automation and protection
+* Hydroelectric dam operations
+
+As noted above, each of these example functions is highly integrated into the physical environment it serves. The computers in the system must control pumps, arms, robots, relays, motors, locks, and more; each serving an innately physical function. In each instance, where a human once operated such a physical device or interacted with such a physical system, now a computer is tasked with doing so. The benefits of automation in this way are seven-fold: no longer are humans put in the same dangers as they once were, operations can be streamlined with faster reaction times, and systems can be scaled up and down with ease. Alongside such notable benefits, the integration of computer controls in Cyber-Physical systems also brings a number of drawbacks; namely, if a computer fails or operates too slowly, the system can experience catastrophic failures, sometimes even leading to the loss of life.
+
+The innate connection between the physical function, the industrial design serving the function, and the ICS system make each ICS network completely unique. Even across the same application domain, no two OT or ICS networks are going to be the same. Though one system may serve an oilfield in Wyoming and another in Texas, the topography, landscape, accessibility, weather, and spacial limitations make both systems completely different. This difference from ICS system to ICS system necessitates that general designs must be flexible and loosely defined; not the optimal atmosphere to carry out testing for real-world implications.
+
+Due to the uniqueness of every ICS network in it's function, the only way to experiment with novel system security designs is to explicitly define what Cyber-Physical function the test system will be responsible for. Without an adequately designed and defined industrial function, the benchmarks and system limits are completely unknown. Without any understanding of how the system must perform, the integration of novel security controls cannot be adequately tested for impact. While system requirements serve as a general litmus test for function, only with a explicitly designed industrial system for an industrial function can actual functionality of novel DSCs be measured. 
+
+#### Test System Industrial Function
+
+Knowing any test system must have an explicitly defined system purpose, this work seeks to outline the industrial system function below.
+
+### II. Test System Design Methodology
+
+### III. Test System Description
 
 #### Assets
 
