@@ -31,9 +31,9 @@ The objectives were:
 ### **2.2 Creating Docker-Compose Files for Encrypted & Non-Encrypted Environments**
 #### **Docker Images Used**
 The system was built using the following Docker images:
-| Component       | Image Used                           | Description |
-|----------------|--------------------------------------|-------------|
-| **PLC**        | `fdamador/openplc`                  | Simulated PLCs using OpenPLC |
+| Component      | Image Used                          | Description |
+|----------------|-------------------------------------|-------------|
+| **PLC**        | `openplc`                           | Simulated PLCs using OpenPLC |
 | **SCADA**      | `inductiveautomation/ignition`      | Ignition SCADA for process control |
 | **MQTT Broker**| `eclipse-mosquitto`                 | MQTT for real-time IoT messaging |
 | **Database**   | `influxdb`                          | Time-series database for industrial data |
@@ -51,40 +51,49 @@ version: '3.8'
 
 services:
   plc1:
-    image: fdamador/openplc
+    image: openplc:v3
     container_name: plc1
+    privileged: true
     ports:
       - "5502:5502"   # Encrypted Modbus TCP over TLS
+      - "8084:8080"   # Webserver
     networks:
       - industrial_net
     depends_on:
       - modbus-tls
     environment:
       - MODBUS_SECURE=true
+      - MODBUS_PORT=5502  # Ensure Modbus listens on the correct port
 
   plc2:
-    image: fdamador/openplc
+    image: openplc:v3
     container_name: plc2
+    privileged: true
     ports:
       - "5503:5502"
+      - "8085:8080"
     networks:
       - industrial_net
     depends_on:
       - modbus-tls
     environment:
       - MODBUS_SECURE=true
+      - MODBUS_PORT=5503
 
   plc3:
-    image: fdamador/openplc
+    image: openplc:v3
     container_name: plc3
+    privileged: true
     ports:
       - "5504:5502"
+      - "8086:8080"
     networks:
       - industrial_net
     depends_on:
       - modbus-tls
     environment:
       - MODBUS_SECURE=true
+      - MODBUS_PORT=5504
 
   modbus-tls:
     image: dweomer/stunnel
@@ -95,7 +104,7 @@ services:
       - STUNNEL_ACCEPT=8502   # Port where encrypted Modbus traffic is received
       - STUNNEL_CONNECT=plc1:502  # Forward traffic to unencrypted PLC port
     ports:
-      - "8502:8502"
+      - "9502:8502"
     volumes:
       - /root/Capstone/stunnel.conf:/etc/stunnel/stunnel.conf
       - /root/Capstone/certs/stunnel.pem:/etc/stunnel/stunnel.pem
@@ -127,6 +136,7 @@ services:
       - ./mosquitto/config/certs:/mosquitto/config/certs
     networks:
       - industrial_net
+    command: ["sh", "-c", "apk add --no-cache iputils net-tools && mosquitto -c /mosquitto/config/mosquitto.conf"]
 
   database:
     image: influxdb
@@ -134,14 +144,23 @@ services:
     networks:
       - industrial_net
     environment:
-      - INFLUXDB_DB=plc_data
-      - INFLUXDB_HTTP_HTTPS_ENABLED=true
-      - INFLUXDB_HTTP_CERTIFICATE=/etc/ssl/influxdb.pem
+      - INFLUXD_HTTP_HTTPS_ENABLED=true
+      - INFLUXD_HTTP_CERTIFICATE=/etc/ssl/influxdb.pem
+      - INFLUXD_HTTP_PRIVATE_KEY=/etc/ssl/influxdb.key
+      - INFLUXD_HTTP_BIND_ADDRESS=:8097
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=admin
+      - DOCKER_INFLUXDB_INIT_PASSWORD=admin123
+      - DOCKER_INFLUXDB_INIT_ORG=my-org-secure
+      - DOCKER_INFLUXDB_INIT_BUCKET=plc_data
+      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=${INFLUX_SECURE_TOKEN}
     ports:
-      - "8086:8086"  # Encrypted InfluxDB listens on host port 8086
+      - "8097:8097"
     volumes:
-      - ./influxdb/influxdb.conf:/etc/influxdb/influxdb.conf
-      - ./certs:/etc/ssl
+      - /root/Capstone/influxdb/influxdb.conf:/etc/influxdb/influxdb.conf:ro
+      - /root/Capstone/certs:/etc/ssl:ro
+      - influxdb-data:/var/lib/influxdb2  # Persist database data and auth tokens
+    command: ["influxd", "--tls-cert", "/etc/ssl/influxdb.pem", "--tls-key", "/etc/ssl/influxdb.key", "--http-bind-address=:8097"]
 
   opc-ua:
     image: open62541/open62541
@@ -187,10 +206,14 @@ services:
     user: "472:472"  # Run as Grafana user
     volumes:
       - ./grafana-secure:/var/lib/grafana
+    command: ["bash", "-c", "apt update && apt install -y iputils-ping net-tools && /run.sh"]
 
 networks:
   industrial_net:
     driver: bridge
+
+volumes:
+  influxdb-data:  # Persistent storage for InfluxDB
 ```
 
 **`docker-compose-no-crypto.yml` (Non-Encrypted Environment)**
@@ -199,28 +222,37 @@ version: '3.8'
 
 services:
   plc1:
-    image: fdamador/openplc
+    image: openplc:v3
     container_name: plc1_no_crypto
+    privileged: true
     ports:
-      - "502:502"   # Modbus TCP
+      - "8081:8080"  # Webserver
+      - "1502:502"   # Modbus TCP
     networks:
       - industrial_no_crypto
+    restart: "no"
 
   plc2:
-    image: fdamador/openplc
+    image: openplc:v3
     container_name: plc2_no_crypto
+    privileged: true
     ports:
-      - "503:502"
+      - "8082:8080"  # Webserver
+      - "1503:502"   # Modbus TCP
     networks:
       - industrial_no_crypto
+    restart: "no"
 
   plc3:
-    image: fdamador/openplc
+    image: openplc:v3
     container_name: plc3_no_crypto
+    privileged: true
     ports:
-      - "504:502"
+      - "8083:8080"  # Webserver
+      - "1504:502"   # Modbus TCP
     networks:
       - industrial_no_crypto
+    restart: "no"
 
   scada:
     image: inductiveautomation/ignition
@@ -237,6 +269,7 @@ services:
       - "1883:1883"  # MQTT (Unsecured)
     networks:
       - industrial_no_crypto
+    command: ["sh", "-c", "apk add --no-cache iputils net-tools && mosquitto -c /mosquitto/config/mosquitto.conf"]
 
   database:
     image: influxdb
@@ -248,7 +281,8 @@ services:
     ports:
       - "8087:8086"  # Non-encrypted InfluxDB listens on host port 8087
     volumes:
-      - ./influxdb-no-crypto:/var/lib/influxdb
+      - /root/Capstone/influxdb-no-crypto:/var/lib/influxdb2  # Fix path for InfluxDB v2
+    command: ["bash", "-c", "apt update && apt install -y iputils-ping net-tools && influxd"]
 
   grafana-no-crypto:
     image: grafana/grafana
@@ -266,6 +300,7 @@ services:
     user: "472:472"  # Run as Grafana user
     volumes:
       - ./grafana-no-crypto:/var/lib/grafana
+    command: ["bash", "-c", "apt update && apt install -y iputils-ping net-tools && /run.sh"]
 
 networks:
   industrial_no_crypto:
