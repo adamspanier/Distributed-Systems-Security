@@ -2,6 +2,12 @@
 
 ## Non-Secure Environment (No-Crypto)
 
+**Communication Overview**
+* PLCs periodically publish data to MQTT broker.
+* SCADA polls PLCs over Modbus TCP.
+* SCADA and MQTT forward data to InfluxDB.
+* Grafana queries InfluxDB to visualize historical trends.
+
 **Network:** `no_crypto_env_industrial_no_crypto`  
 **Subnet:** `172.18.0.0/16`
 
@@ -15,9 +21,20 @@
 | Grafana             | grafana-no-crypto      | 172.18.0.8     | 3002:3000                        |
 | SCADA               | scada-no-crypto        | 172.18.0.5     | 8090:8088                        |
 
+**Non-Secure Environment Diagram**
+
+![image](https://github.com/user-attachments/assets/ba349bd0-9962-4bc6-bd23-e0b2129a7bab)
+
 ---
 
 ## Secure Environment
+
+**Secure Communication Overview**
+* PLCs are accessed using TLS over port 550X.
+* All MQTT communications are encrypted via port 8883.
+* InfluxDB runs behind HTTPS (TLS), port 8097.
+* SCADA polls PLCs over secure TLS Modbus.
+* Data storage and visualization handled via InfluxDB + Grafana (secured).
 
 **Network:** `encrypted_env_industrial_net`  
 **Subnet:** `172.19.0.0/16`
@@ -34,3 +51,7 @@
 | Modbus-TLS Gateway  | modbus-tls        | 172.19.0.2     | 9502:8502                          |
 | VPN Gateway         | vpn               | 172.19.0.5     | 51820:51820/udp                    |
 | OPC-UA Server       | opc-ua            | 172.19.0.3     | 4840:4840                          |
+
+**Secure Environment Diagram**
+
+![image](https://github.com/user-attachments/assets/535a0ab6-4f2d-415f-84e3-465a34afd2e9)
