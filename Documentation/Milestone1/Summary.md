@@ -25,6 +25,7 @@ When designing an ICS system, security and functionality are _always_ competing 
 ### The Question
 
 **RQ1: How can Distributed Control Systems be designed for security using novel cryptographic techniques?**
+
 **RQ2: How can these techniques be applied to and combined in ICS networks to increase security?**
 
 ### The Solution: Goals and Objectives
