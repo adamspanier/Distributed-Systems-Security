@@ -98,12 +98,18 @@ This repository serves the distributed systems security research and development
   
 5. **Week 5:** System Emulation, System Testing, Prototyping
 
-    * **Task:** System Test Prototype
+    * **Task:** Test System Functions and Capture Packets
         1. [Create System Prototpye in Emulation Software](Documentation/Milestone2/System_Emulation.md) 
         2. [Describe the Functionality of the Emulated System](Documentation/Milestone2/System_Emulation.md)
         
     * **Task:** System Design Refinement
         1. [Combine, Streamline, and Reduce DCS Architecture](Documentation/Milestone2/DCS_Architecture.md)
+     
+    * **Task:** Milestone 2 Deliverables Examination
+
+    * **Task:** Repository Revisions and Corrections
+
+    * **Task:** Paper - Introduction and Backtround rough draft 
      
     * **Task:** Team Progress Documentation
         1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
