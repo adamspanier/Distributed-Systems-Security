@@ -20,14 +20,9 @@
 ## III. Related Work
 * Related Works - Expanded literature survey
 
-## IV. System Requirements - Assets/Threats/Controls
-* Assets in ICS Systems
-* Threat/Asset Groupings
-* Decentralized Security Controls and Threat Groups
-* System Functional Requirements
-* System Non-Functional Requirements
+## IV. System Design
 
-## V. System Design Methodology
+### System Design Methodology
 * How did we choose to design the system?
 * Why did we choose to design the system in this way?
 * Are there alternatives?
@@ -36,15 +31,24 @@
     * Standard Protection ICS System
     * Decentralized Security Control Combinations
 
-## VI. System Design
+### System Purpose
 * System Purpose? - What does this system do?
 * System Components
 * System Security Controls
+* * Functional Explanation of the system
+    
+### System Architecture
 * System Diagrams
-* Functional Explanation of the system
 * How does this design fit the methodology and does it solve the problem?
 
-## VII. System Emulation
+### System Reqirements
+* Assets in ICS Systems
+* Threat/Asset Groupings
+* Decentralized Security Controls and Threat Groups
+* System Functional Requirements
+* System Non-Functional Requirements
+  
+## V. System Emulation
 * System Emulation Software Explanation
     * Why did we choose this approach
 * System Emulation Implementation Methodology
@@ -52,16 +56,16 @@
 * System Architecture
 * System demonstration
 
-## VIII. Testing
+## VI. Testing
 * What tests will be use?
 * How did we come up with these tests?
 * How were the tests deployed?
 * What are the raw results?
   
-## IX. Discussion
+## VII. Discussion
 * How did we attempt to answer the research questions?
 * Did we actually answer them?
 * If so, what is the answer?
   
-## X. Conclusion
+## VIII. Conclusion
 * Overview of the findings of the paper
