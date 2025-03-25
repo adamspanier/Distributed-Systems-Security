@@ -37,6 +37,7 @@ This repository serves the distributed systems security research and development
 
 #### Paper Details
 1. [Paper Outline](Documentation/Milestone2/Outline.md)
+2. [Current Paper Version](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Distributed_Security_Controls_in_Industrial_Control_Systems_3-24-25.pdf)
 
 #### Milestone 2 : Sprint Plan
 
