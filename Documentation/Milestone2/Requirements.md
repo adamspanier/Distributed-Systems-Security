@@ -4,10 +4,10 @@
 
 <hr>
 
-Industrial Control Systems (ICS), due to their critical nature in critical infrastructure, exhibit very strict requirements. ICS networks, comprised of Operational Technology (OT), have a number of design considerations based on functionality that must be met. Based on [NIST SP 800-82r3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf) the following seven (7) considerations must be taken when designing OT-based ICS:
+Industrial Control Systems (ICS), due to their critical nature in critical infrastructure, exhibit very strict requirements. ICS networks, comprised of Operational Technology (OT), have several design considerations based on functionality that must be met. Based on [NIST SP 800-82r3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf), the following seven (7) considerations must be taken into account when designing OT-based ICS:
 
 1. **Safety:** ICS networks must be able to detect unsafe conditions and reduce unsafe conditions to safe ones.
-2. **Control Timing Requirements:** ICS networks have time-related requirements such that the system can synchronize to meet it's function.
+2. **Control Timing Requirements:** ICS networks have time-related requirements such that the system can synchronize to meet its function.
 3. **Geographic Distribution:** ICS networks can be very localized or widely distributed.
 4. **Hierarchy:** ICS networks generally use a centralized supervisory control system to manage the system.
 5. **Control Complexity:** The complexity of the system must be managed such that the control actions meet the objectives of the system.
@@ -22,13 +22,13 @@ Based on the considerations above and the requirements stated in [NIST SP 800-82
 4. **Physical Process Requirements:** The physical events required by the system must be understood.
 5. **System Operation Requirements:** The operational requirements between IT and OT-based ICS are not the same.
 6. **Resource Constraints:** ICS systems use resource-constrained real-time operating systems that cannot include typical IT capabilities.
-7. **Communications Requirements:** Communications in ICS networks are very different that IT systems and are sometimes proprietary.
+7. **Communications Requirements:** Communications in ICS networks are very different from IT systems and are sometimes proprietary.
 8. **Change Management Requirements:**  How the system changes must be carefully planned and monitored.
 9. **Managed Support Requirements:** The entities that are supporting the hardware and software environment used in the ICS must be tracked and documented.
-10. **Component Lifetime Requirements:** Hardware lifetimes must be strictly tracked and hardware should be replaced when EoL is reached.
-11. **Component Location Requirements:** The possibly remote locations of components must be considered when designing the system.
+10. **Component Lifetime Requirements:** Hardware lifetimes must be strictly tracked, and hardware should be replaced when EoL is reached.
+11. **Component Location Requirements:** The possible remote locations of components must be considered when designing the system.
 
-Beyond the functional and non-functional requirements of an OT-based ICS network, there are number of special considerations that must be taken regarding the security of the system. Based on [NIST SP 800-82r3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf), the following eleven (11) considerations must be taken to secure an ICS.
+Beyond the functional and non-functional requirements of an OT-based ICS network, several special considerations must be taken regarding the security of the system. Based on [NIST SP 800-82r3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf), the following eleven (11) considerations must be taken into account to secure an ICS.
 
 Security controls must not:
 1. Impair the real-time nature of an ICS network
@@ -36,7 +36,7 @@ Security controls must not:
 3. Cause unsafe states or risk to loss of life and public property
 4. Cause the physical processes in the system to fail
 5. Restrict the operational functionality of the system
-6. Overburden resource-constrained hardware devices
+6. Overburdened resource-constrained hardware devices
 7. Limit or impair communications between devices in ICS networks
 8. Impair change management tracking and functions in the system
 9. Prohibit managed support functions in the system
