@@ -35,7 +35,7 @@
 * System Purpose? - What does this system do?
 * System Components
 * System Security Controls
-* * Functional Explanation of the system
+* Functional Explanation of the system
     
 ### System Architecture
 * System Diagrams
@@ -50,7 +50,7 @@
   
 ## V. System Emulation
 * System Emulation Software Explanation
-    * Why did we choose this approach
+    * Why did we choose this approach?
 * System Emulation Implementation Methodology
 * How does the emulation system work?
 * System Architecture
