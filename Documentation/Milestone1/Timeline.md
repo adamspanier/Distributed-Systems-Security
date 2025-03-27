@@ -5,7 +5,7 @@ To follow scientific guidelines and conduct a research experiment with actionabl
 
 ## 1.1 Determine Python Environment/Emulation Setup (1 Week)
 
-The group will determine if an existing Python repository will satisfy the requirements for our emulation environment, or if the group needs to code an environment themselves. Existing environments include:
+The group will determine if an existing Python repository will satisfy the requirements for our emulation environment or if the group needs to code an environment themselves. Existing environments include:
 - [SCADASim](https://github.com/cmu-sei/SCADASim)
 - [Cpppo](https://github.com/pjkundert/cpppo) and [Cpppo-ENIP-API](https://hardconsulting.com/products/6-cpppo-enip-api)
 
@@ -29,4 +29,4 @@ The Python-emulated DCS environment with novel cryptographic functions applied w
 
 ## 1.6 Report Findings (3 Weeks)
 
-The entire process of this project, from implementing the Python environment to deploying novel cryptographic functions, will be documented. At the conclusion of the testing phase, the observations and results will be compiled into a report. Successful implementations, failure scenarios, and areas for further expansion of testing efforts will be discussed in the report.
+The entire process of this project, from implementing the Python environment to deploying novel cryptographic functions, will be documented. After the testing phase, the observations and results will be compiled into a report. Successful implementations, failure scenarios, and areas for further expansion of testing efforts will be discussed in the report.
