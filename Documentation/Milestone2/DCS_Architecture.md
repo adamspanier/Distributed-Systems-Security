@@ -8,22 +8,22 @@
 
 #### Cyber-Physical Systems
 
-All ICS networks serve and support real-world operations. These systems are called _Cyber-Physical systems_. The operations of these systems embed ICS devices in functional environments where they are tasked with interacting with real-world sensor input and real-world actuators. Due to the mechanical and Cyber-Physical nature of ICS networks, each ICS serves a very specific, very well defined _function_. This function, served by the system, is the _most important_ service the system must fulfill. These functions cover a _wide range_ of operations:
+All ICS networks serve and support real-world operations. These systems are called _Cyber-Physical systems_. The operations of these systems embed ICS devices in functional environments where they are tasked with interacting with real-world sensor input and real-world actuators. Due to the mechanical and Cyber-Physical nature of ICS networks, each ICS serves a very specific, very well-defined _function_. This function, served by the system, is the _most important_ service the system must fulfill. These functions cover a _wide range_ of operations:
 * Assembly line robotics control
 * Oil field pumping, storage, and distribution management
 * Power substation monitoring, protection, and operation
 * Nuclear centrifuge automation and protection
 * Hydroelectric dam operations
 
-As noted above, each of these example functions is highly integrated into the physical environment it serves. The computers in the system must control pumps, arms, robots, relays, motors, locks, and more; each serving an innately physical function. In each instance, where a human once operated such a physical device or interacted with such a physical system, now a computer is tasked with doing so. The benefits of automation in this way are seven-fold: no longer are humans put in the same dangers as they once were, operations can be streamlined with faster reaction times, and systems can be scaled up and down with ease. Alongside such notable benefits, the integration of computer controls in Cyber-Physical systems also brings a number of drawbacks; namely, if a computer fails or operates too slowly, the system can experience catastrophic failures, sometimes even leading to the loss of life.
+As noted above, each of these example functions is highly integrated into the physical environment it serves. The computers in the system must control pumps, arms, robots, relays, motors, locks, and more, each serving an innately physical function. In each instance where a human once operated such a physical device or interacted with such a physical system, now a computer is tasked with doing so. The benefits of automation in this way are seven-fold: no longer are humans put in the same dangers as they once were, operations can be streamlined with faster reaction times, and systems can be scaled up and down with ease. Alongside such notable benefits, the integration of computer controls in Cyber-Physical systems also brings several drawbacks; namely, if a computer fails or operates too slowly, the system can experience catastrophic failures, sometimes even leading to the loss of life.
 
-The innate connection between the physical function, the industrial design serving the function, and the ICS system make each ICS network completely unique. Even across the same application domain, no two OT or ICS networks are going to be the same. Though one system may serve an oilfield in Wyoming and another in Texas, the topography, landscape, accessibility, weather, and spacial limitations make both systems completely different. This difference from ICS system to ICS system necessitates that general designs must be flexible and loosely defined; not the optimal atmosphere to carry out testing for real-world implications.
+The innate connection between the physical function, the industrial design serving the function, and the ICS system make each ICS network unique. Even across the same application domain, no two OT or ICS networks are going to be the same. Though one system may serve an oilfield in Wyoming and another in Texas, the topography, landscape, accessibility, weather, and spatial limitations make both systems completely different. This difference from ICS system to ICS system necessitates that general designs must be flexible and loosely defined, not the optimal atmosphere to carry out testing for real-world implications.
 
-Due to the uniqueness of every ICS network in it's function, the only way to experiment with novel system security designs is to explicitly define what Cyber-Physical function the test system will be responsible for. Without an adequately designed and defined industrial function, the benchmarks and system limits are completely unknown. Without any understanding of how the system must perform, the integration of novel security controls cannot be adequately tested for impact. While system requirements serve as a general litmus test for function, only with a explicitly designed industrial system for an industrial function can actual functionality of novel DSCs be measured. Knowing any test system must have an explicitly defined system purpose, this work seeks to outline the industrial system function below.
+Due to the uniqueness of every ICS network in its function, the only way to experiment with novel system security designs is to explicitly define what Cyber-Physical function the test system will be responsible for. Without an adequately designed and defined industrial function, the benchmarks and system limits are completely unknown. Without any understanding of how the system must perform, the integration of novel security controls cannot be adequately tested for impact. While system requirements serve as a general litmus test for function, only with an explicitly designed industrial system for an industrial function can the actual functionality of novel DSCs be measured. Knowing any test system must have an explicitly defined system purpose, this work seeks to outline the industrial system function below.
 
 #### System Model - Industrial Function
 
-The testbed system used in this work will emulate a Power Distribution Substation (PSS). A Power Distribution Substation is nothing more than a physical location that distributes high frequency alternating current to different users in the system. Generally, power substations will step-down high frequency power feeds, divert them to low voltage power lines, regulate the voltages both coming and going out, and ensure that all customers have power. If any issue arises, the safety functions of the substations will automatically operate relays and breakers to protect the system from physical damage. Many times, in an effort to avoid physical damages, substations going offline can cause cascading failures in power grid systems by diverting electrical current through other PSSs. The more current moving through a PSS, the higher the probability that PSS will need to go offline to protect itself. Given enough PSSs drop, large rolling blackouts can occur.
+The testbed system used in this work will emulate a Power Distribution Substation (PSS). A Power Distribution Substation is nothing more than a physical location that distributes high-frequency alternating current to different users in the system. Generally, power substations will step down high-frequency power feeds, divert them to low voltage power lines, regulate the voltages both coming and going out, and ensure that all customers have power. If any issue arises, the safety functions of the substations will automatically operate relays and breakers to protect the system from physical damage. Many times, to avoid physical damage, substations going offline can cause cascading failures in power grid systems by diverting electrical current through other PSSs. The more current moving through a PSS, the higher the probability that PSS will need to go offline to protect itself. Given enough PSSs drop, large rolling blackouts can occur.
 
 There are three primary sections of a power substation:
 1. Incoming Transmission
@@ -31,7 +31,7 @@ There are three primary sections of a power substation:
 3. Outgoing Distribution
 Source: [https://www.osha.gov/etools/electric-power/illustrated-glossary/sub-station](https://www.osha.gov/etools/electric-power/illustrated-glossary/sub-station)
 
-The incoming transmission section is comprised of incoming high voltage transmission lines. The distribution section is comprised of outgoing low voltage transmission lines. The power routing and coversion section holds the majority of the PSS devices:
+The incoming transmission section is comprised of incoming high voltage transmission lines. The distribution section is comprised of outgoing low voltage transmission lines. The power routing and conversion section holds the majority of the PSS devices:
 
 * **Lightning arresters (Surge Arrestors)** - Serve to divert abnormally high voltages to ground, generally in the case of a lightning strike
 
@@ -63,7 +63,7 @@ Source: [electricalengineering.xyz](https://www.electricalengineering.xyz/high-v
 
 Source: [eaton.com](https://www.eaton.com/us/en-us/products/medium-voltage-power-distribution-control-systems/voltage-regulators/voltage-regulators--fundamentals-of-voltage-regulators.html)
 
-* Distribution Busses - A metal bar that connectes substation components and carries current
+* Distribution Busses - A metal bar that connects substation components and carries current
 
 <img src="https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/busbar.jpg" alt="drawing" width="500"/>
 
@@ -73,7 +73,7 @@ Source: [semanticscholar.org](https://www.semanticscholar.org/paper/Automatic-bu
 
 <img src="https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/control_house.jpg" alt="drawing" width="500"/>
 
-source: [kva-emc.com](https://kva-emc.com/substation-control-enclosures/)
+Source: [kva-emc.com](https://kva-emc.com/substation-control-enclosures/)
 
 The devices listed above can be seen below in Figure 1:
 
@@ -87,7 +87,7 @@ The system we will be using is outlined in Figure 2 below:
 
 <img src="https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/SDF2.png" alt="drawing" width="900"/>
 
-In the design above, the high voltage lines denoted in orange carry high voltage from the incoming feeders through to the outgoing feeders. In the transfer, the voltage moves from a breaker on the high voltage side through a step down transformer and through a lower voltage breaker before hitting the output bus and moving into the outgoing feeders. Each breaker is controlled via a PLC and each PLC is connected to the breaker control module. A set of relays are used to determine voltage irregularities and signal the control system to break the circuits.
+In the design above, the high voltage lines denoted in orange carry high voltage from the incoming feeders through to the outgoing feeders. In the transfer, the voltage moves from a breaker on the high voltage side through a step-down transformer and a lower voltage breaker before hitting the output bus and moving into the outgoing feeders. Each breaker is controlled via a PLC, and each PLC is connected to the breaker control module. A set of relays is used to determine voltage irregularities and signal the control system to break the circuits.
 
 The notable components in the system above are the 5 **PLCs** controlling the voltage flow, the **breaker control center (RTU)**, the SCADA control system, and the **logging** and **function** **databases**. The test system will correspond with the PLCs, the MQTT data, the SCADA system, and the databases present in the design above.
 
