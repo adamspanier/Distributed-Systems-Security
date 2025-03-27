@@ -26,7 +26,7 @@ Non-functional – Log is written at some point
 The system SHALL do xyz
 Take a piece of a real system, use it, and then determine how to test it. - centrifuge or power lines, etc.
 Eliminate the term “normal operations.”
-Createan  operational system state graph and work with it a bit
+Create an  operational system state graph and work with it a bit
 Maybe some data out there on how some systems work?
 Say we will run the system and baseline it.
 	High traffic, low traffic, high use, low use, etc.
