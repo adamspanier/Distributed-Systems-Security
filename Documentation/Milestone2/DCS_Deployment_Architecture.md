@@ -3,7 +3,7 @@
 ## Non-Secure Environment (No-Crypto)
 
 **Communication Overview**
-* PLCs periodically publish data to MQTT broker.
+* PLCs periodically publish data to the MQTT broker.
 * SCADA polls PLCs over Modbus TCP.
 * SCADA and MQTT forward data to InfluxDB.
 * Grafana queries InfluxDB to visualize historical trends.
