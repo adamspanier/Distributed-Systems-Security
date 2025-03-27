@@ -5,11 +5,11 @@
 
 ### ***** NEWS ALERT START *****
 
-**29 JUL 2027 : 0300** 
+**29 JUL 2027: 0300** 
 
 A wave of darkness covers the United States as power sub-station after power sub-station fails. The cascading blackout ripples slowly cross the country, shutting down water, coolant, and industrial production systems in its wake. City after city, home after home, fall eerily quiet as air conditioners, refrigerators, freezers, fans, and electrical devices fall into silence. The people are scared, but with fully charged phone batteries and backup generators, the population remains calm.
 
-**27 AUG 2027 : 1200** 
+**27 AUG 2027: 1200** 
 
 Panic grips the population. The phones have been dead for weeks now. Natural gas production is dead. All but a handful of generators have stopped producing electricity. The black start has begun, and portions of the grid are back up, but only for short durations due to heavy electrical loads. Water is running short, and the flow of gasoline is drying up. The lingering possibility that this may last for months more threatens the tenuous peace that keeps the population from taking matters into their own hands.
 
@@ -55,5 +55,5 @@ This research will carry out an analysis of threats against PLC-based ICS networ
 2. Indicate how each attack can be mitigated with a novel decentralized cryptographic primitive
 3. Assemble mitigations into an ICS sub-system
 4. Model the system in code
-5. Focus on maintaining speed, efficiency, and real-time capability of the PLCs and the ICS
+5. Focus on maintaining the speed, efficiency, and real-time capability of the PLCs and the ICS
 -->
