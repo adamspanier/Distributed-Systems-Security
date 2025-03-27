@@ -39,9 +39,9 @@
     
 ### System Architecture
 * System Diagrams
-* How does this design fit the methodology and does it solve the problem?
+* How does this design fit the methodology, and does it solve the problem?
 
-### System Reqirements
+### System Requirements
 * Assets in ICS Systems
 * Threat/Asset Groupings
 * Decentralized Security Controls and Threat Groups
@@ -57,14 +57,14 @@
 * System demonstration
 
 ## VI. Testing
-* What tests will be use?
+* What tests will be used?
 * How did we come up with these tests?
 * How were the tests deployed?
 * What are the raw results?
   
 ## VII. Discussion
 * How did we attempt to answer the research questions?
-* Did we actually answer them?
+* Did we answer them?
 * If so, what is the answer?
   
 ## VIII. Conclusion
