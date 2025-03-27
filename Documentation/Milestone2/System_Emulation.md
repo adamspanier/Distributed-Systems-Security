@@ -6,6 +6,6 @@
 
 ### Create System Prototype
 
-### Explain Emulation System Implementaion
+### Explain Emulation System Implementation
 
-### Expalin How Implementation Meets Design Criteria
+### Explain How Implementation Meets Design Criteria
