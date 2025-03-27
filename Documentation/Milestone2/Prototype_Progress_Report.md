@@ -4,16 +4,16 @@
 <br>
 # Progress Report (insert date here)
 ## Overview
-(insert brief overview of efforts made)
+(Insert brief overview of efforts made)
 ## Outcomes
-(brief overview of outcomes - what did you achieve?)
-also list them out like this:
+(Brief overview of outcomes - what did you achieve?)
+Also, list them out like this:
 * outcome 1
 * outcome 2
 ## Hindrances
-(insert brief discussion of challenges encountered)
+(Insert brief discussion of challenges encountered)
 ## Ongoing Risks
-(address your project risks identified from Milestone 1 and update them based on your current progress, this should be a table)
+(Address your project risks identified from Milestone 1 and update them based on your current progress; this should be a table)
 <br>
 <br>
 -->
@@ -60,14 +60,14 @@ also list them out like this:
     *  Hardware, Software, Data, communication, Human, and Organizational assets identified
 
   * _Populated an extensive list of ICS Threats_
-    * Architectural, Operational, Cyber Attacks, Insider, Governance and Compliance, Supply China, Physical, and Environmental threats identified
+    * Architectural, Operational, Cyber Attacks, Insider, Governance and Compliance, Supply chain, Physical, and Environmental threats identified
 
   * _Created Asset/Threat Groups_
     * Threats were gathered into groups related to the assets stated above
 
   * _Explored System Emulation Software_
     * Python packages explored, but insufficient packages found
-    * Docker images explored, as a reasonable alternative
+    * Docker images explored as a reasonable alternative
     * Docker emulation system successfully deployed
     * Expansion on Docker systems
 
@@ -96,7 +96,7 @@ also list them out like this:
     * ICS network core requirements discussed
     * ICS security requirements outlined
     * Function requirements created
-    * Non-Functional requirements created
+    * Non-functional requirements created
   * _Paper Outline_
     * Sections delineated
     * Each section is explained
@@ -113,13 +113,13 @@ also list them out like this:
   * _Deployment Documentation_
     * Documentation regarding how the emulation works created
   * _DCS Architecture_
-    * Researched DCS Architecure requirements
+    * Researched DCS Architecture requirements
     * Created Documentation around best practices
 
 ### Hindrances
   * Time scheduling conflicts arose
   * Team member travel required meeting modifications
-  * Work loads put pressure on meeting deadlines
+  * Workloads put pressure on meeting deadlines
   * The design of the paper required some notable changes to the planning of the project
 
 <hr>
@@ -143,7 +143,7 @@ also list them out like this:
     * The non-encrypted, non-secured testbed is complete
     * The standard security testbed is complete 
   * _Developed custom docker servers_
-    * To implement custon DSCs in the system, Python-based docker servers were created
+    * To implement customer DSCs in the system, Python-based docker servers were created
     * A sockets version is complete and working
     * A requests version is under development
   * _Decentralized control listings_
@@ -158,7 +158,7 @@ also list them out like this:
 ### Hindrances
   * As the semester is progressing, time is becoming more and more of an issue
   * All of the team members are very busy with both work and school
-  * Snow-days and sickness are causing coordination problems
+  * Snow days and sickness are causing coordination problems
 
 <hr>
 
@@ -175,7 +175,7 @@ also list them out like this:
 
 ### Outcomes
   * _System Model Description_
-    *  Cyber-Physical system requirements analyzed
+    *  Analyze cyber-physical system requirements
     *  A system purpose is established - Power Substation
     *  Power substation architectures analyzed
   * _System Model Design and Purpose_
@@ -220,22 +220,22 @@ also list them out like this:
 |Risk name (value)  | Impact     | Likelihood | Description | Occurrence?| Mitigation |
 |-------------------|------------|------------|-------------|-------------|-------------|
 |Limited academic research on specific PLC vulnerabilities (64) | 8 | 8 | This project hinges on expanding upon previous academic research; if there is not a sufficient amount of research, it could hamper the project.  |
-|Constrained testing environments (64) | 8 | 8 | Any testing done on PLC's will be on virtual devices, this could create constraints.  | Yes | Progressive exploration of alternative solutions 
-|Difficulty obtaining comprehensive attack surface data (48) | 6 | 8 | The team needs to know what they are protecting in order to attempt to protect it, if this cannot be obtained, it will hamper the project's path forward.  |
-|Inability to simulate real-world attack scenarios (48) | 8 | 6 | The project will culminate with a simulation of cryptography working on a PLC, simulation could be an issue.  |
-|Challenges in demonstrating practical exploits (42) | 7 | 6 | The team will not have access to physical PLC's for testing, this could present challenges in simulation and demonstration.  |
+|Constrained testing environments (64) | 8 | 8 | Any testing done on PLCs will be on virtual devices; this could create constraints.  | Yes | Progressive exploration of alternative solutions 
+|Difficulty obtaining comprehensive attack surface data (48) | 6 | 8 | The team needs to know what they are protecting to attempt to protect it; if this cannot be obtained, it will hamper the project's path forward.  |
+|Inability to simulate real-world attack scenarios (48) | 8 | 6 | The project will culminate with a simulation of cryptography working on a PLC; simulation could be an issue.  |
+|Challenges in demonstrating practical exploits (42) | 7 | 6 | The team will not have access to physical PLCs for testing; this could present challenges in simulation and demonstration.  |
 |Hardware-level security limitations (42) | 6 | 7 | Due to testing being completed on virtual devices, there will be limitations in what can be completed on them.   |
-|Time management challenges (42) | 6 | 7 | All of the members of this team are also full-time employees, it will take good time management to complete the necessary pieces of this project.  | Yes | Task reassignment based on availability of members
-|Scheduling conflicts (42) | 6 | 7 | All of the members of this team are also full-time employees, there will naturally be weeks where time is at a premium and scheduling could become an issue.  | Yes | Weekly team meeting modified to accomodate. |
-|External commitment interference (42) | 6 | 7 | All of the members of this team are also full-time employees and some have families and other external commitments, there will be times where these could interfere.  | Yes | Weekly team meeting modified to accomodate. |
-|Varying commitment levels (42) | 6 | 7 | Not all team members will feel the same level of commitment to the project, this could become an issue.  |
+|Time management challenges (42) | 6 | 7 | All of the members of this team are also full-time employees; it will take good time management to complete the necessary pieces of this project.  | Yes | Task reassignment based on availability of members
+|Scheduling conflicts (42) | 6 | 7 | All of the members of this team are also full-time employees; there will naturally be weeks where time is at a premium, and scheduling could become an issue.  | Yes | Weekly team meeting modified to accommodate. |
+|External commitment interference (42) | 6 | 7 | All of the members of this team are also full-time employees, and some have families and other external commitments; there will be times when these could interfere.  | Yes | Weekly team meeting modified to accommodate. |
+|Varying commitment levels (42) | 6 | 7 | Not all team members will feel the same level of commitment to the project; this could become an issue.  |
 |Cryptographic implementation flaws (40) | 8 | 5 | Issues with implementing the correct cryptography protocol  |
 |Varied understanding of industrial control systems (40) | 5 | 8 | Not all team members have experience working with ICS systems.  | Yes | Progressive education on how these systems work
-|Different technical programming skill levels (40) | 5 | 8 | Each team member comes from a different technological background, not all have strong programming or scripting skills.  | Yes | Less technical members rely on the technical members and fill gaps when applicable. |
+|Different technical programming skill levels (40) | 5 | 8 | Each team member comes from a different technological background; not all have strong programming or scripting skills.  | Yes | Less technical members rely on the technical members and fill gaps when applicable. |
 |Ethical considerations in vulnerability research (40) | 5 | 8 | Vulnerability research always involves ethics. The team needs to keep in mind ethical considerations for all paths taken and decisions made.  |
 |Individual motivation inconsistencies (30) | 6 | 5 | People could face issues with other classes or in their personal lives where motivation to work on this project becomes an issue.  |
-|Personality conflicts (30) | 5 | 6 | People don't always communicate well, there will be times where people do not "get along" and conflicts could arise.  | No | Na
-|Communication breakdowns (24) | 4 | 6 | People don't always communicate well, there will be times where communication suffers and could break down.  | Yes | Lack of communication between weeks with no meetings. |
+|Personality conflicts (30) | 5 | 6 | People don't always communicate well; there will be times when people do not "get along," and conflicts could arise.  | No | Na
+|Communication breakdowns (24) | 4 | 6 | People don't always communicate well; there will be times when communication suffers and breaks down.  | Yes | Lack of communication between weeks with no meetings. |
 |Unequal workload distribution (24) | 4 | 6 | A full team of 5 people could lead to an unequal workload distribution.  |
 |Misaligned project expectations (20) | 4 | 5 | It is important to set expectations at the beginning of the project and keep them appropriately set throughout the project.  |
 |Divergent research methodologies (20) | 4 | 5 | Not all team members will have the same thought processes or plans for research methodology.  |
