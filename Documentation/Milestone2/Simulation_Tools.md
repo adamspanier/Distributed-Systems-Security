@@ -4,7 +4,7 @@
 
 <hr>
 
-In this section, an exploration of potential emulation tools for DCS and SCADA system emulation are explored. 
+In this section, potential emulation tools for DCS and SCADA system emulation are explored. 
 
 Definitions
 
@@ -18,19 +18,19 @@ Definitions
 
 ### Tool Purpose
 
-This research work uses the following proces:
+This research work uses the following processes:
 
 1. Survey existing ICS and SCADA architectures
-2. Identify the most commons assets and functions in these systems
+2. Identify the most common assets and functions in these systems
 3. Determine the most common threats to the assets and functions of these systems
 4. Discover potential DSC processes to mitigate these threats
 5. Design an ICS system augmented by combinations of DSC systems
 6. Model the ICS design in the REES
-7. Test the system to determine functionality, efficiency, and functionality of the added security controls
+7. Test the system to determine the efficiency and functionality of the added security controls
 
-Based on this research design, a tool or set of tools (referred to as the Research Environment Emulation System(REES)) will be needed to implement the novel design and test its functionality. From the design stated above, these emulation tools must allow coders/researchers to deploy and connect a variety of different DCS devices, networks, applications, and configurations. Additionally, the REES enable researchers to augment the system with both traditional security controls (encryption, authentication, etc) and novel security approaches (decentralized security controls). 
+Based on this research design, a tool or set of tools (referred to as the Research Environment Emulation System(REES)) will be needed to implement the novel design and test its functionality. From the design stated above, these emulation tools must allow coders/researchers to deploy and connect a variety of different DCS devices, networks, applications, and configurations. Additionally, the REES enables researchers to augment the system with both traditional security controls (encryption, authentication, etc) and novel security approaches (decentralized security controls). 
 
-After adding these systems, the REES must allow coders to run the system both with and without the security controls to determine effectiveness of security control application. Due to the constraints above, the REES chosen must be flexible, scalable, expandable, and likely open-source such that researchers can not only use the intended functionality fo the tool, but also augment the functions with custom code structures.
+After adding these systems, the REES must allow coders to run the system both with and without the security controls to determine the effectiveness of security control application. Due to the constraints above, the REES chosen must be flexible, scalable, expandable, and likely open-source such that researchers can not only use the intended functionality of the tool but also augment the functions with custom code structures.
 
 ### Tool Requirements
 
@@ -62,7 +62,7 @@ Based on the criteria above, the following tools are identified:
 
 1. [Distributed Control System Library](https://github.com/flyingmeat/aktos-dcs)
 
-      * **DESCRIPTION**: The aktos_dcs package for Python is designed for creating fault tolerant, realtime, massively concurrent, distributed (even behind firewalls), io-bound (eg. heavy-traffic web server), scalable (both vertically and horizontally), cross-platform and language agnostic applications. This tool would necessitate the use of a Python-based environment.
+      * **DESCRIPTION**: The aktos_dcs package for Python is designed for creating fault tolerant, real-time, massively concurrent, distributed (even behind firewalls), io-bound (eg. heavy-traffic web server), scalable (both vertically and horizontally), cross-platform, and language-agnostic applications. This tool would necessitate the use of a Python-based environment.
 
       * **INSTALL**:
          * Clone repo
@@ -80,21 +80,21 @@ Based on the criteria above, the following tools are identified:
 
 4. [PyScada](https://github.com/pyscada/PyScada)
 
-      * **DESCRIPTION**: This Python-based package is an Open Source SCADA System with HTML5 HMI, build using the Django framework. This tool would necessitate the use of a Python-based environment.
+      * **DESCRIPTION**: This Python-based package is an open-source SCADA System with HTML5 HMI, built using the Django framework. This tool would necessitate the use of a Python-based environment.
 
       * **INSTALL**:
          * See [https://pyscada.readthedocs.io/en/main/quick_install.html](https://pyscada.readthedocs.io/en/main/quick_install.html)
          
 6. [C104](https://pypi.org/project/c104/) - Only protocol?
 
-      * **DESCRIPTION**: This Python-based package is designed to simulate SCADA sytsmes and RTUs that communication using IEC 60870-5-104 protocol. IEC 60870-5-104 is a protocol in the IEC 60870 set of standards that allows control of SCADA systems.
+      * **DESCRIPTION**: This Python-based package is designed to simulate SCADA systems and RTUs that communicate using the IEC 60870-5-104 protocol. IEC 60870-5-104 is a protocol in the IEC 60870 set of standards that allows control of SCADA systems.
         
       * **INSTALL**:
          * See [https://pyscada.readthedocs.io/en/main/quick_install.html](https://pyscada.readthedocs.io/en/main/quick_install.html)
  
 8. [RapidSCADA](https://rapidscada.org/) - Create custom SCADA setups - Maybe help?
 
-      * **DESCRIPTION**: This Python-based package is an Open Source SCADA System with HTML5 HMI, build using the Django framework. This tool would necessitate the use of a Python-based environment.
+      * **DESCRIPTION**: This Python-based package is an open-source SCADA System with HTML5 HMI, built using the Django framework. This tool would necessitate the use of a Python-based environment.
 
       * **INSTALL**:
          * <code>python3 -m pip install c104</code>
@@ -134,7 +134,7 @@ Based on the criteria above, the following tools are identified:
 
 5. [InfluxDB Database Image](https://hub.docker.com/_/influxdb)
 
-      * **DESCRIPTION**: This image provides an open source time series database built for real-time analytic workloads.
+      * **DESCRIPTION**: This image provides an open-source time series database built for real-time analytic workloads.
         
       * **INSTALL**:
          *<code>docker pull influxdb</code>
@@ -155,7 +155,7 @@ Based on the criteria above, the following tools are identified:
 
 7. [Ignition Image](https://hub.docker.com/r/inductiveautomation/ignition)
 
-      * **DESCRIPTION**: This image is a powerful integrated development environment with everything you need to create virtually any kind of industrial application – SCADA, IIoT, MES and beyond – all on one platform. 
+      * **DESCRIPTION**: This image is a powerful integrated development environment with everything you need to create virtually any kind of industrial application – SCADA, IIoT, MES, and beyond – all on one platform. 
         
       * **INSTALL**:
          *<code>docker pull inductiveautomation/ignition</code>
@@ -175,7 +175,7 @@ Based on the criteria above, the following tools are identified:
 | OpenPLC   | Provides open-source PLC emulations |
 | MQTT      | Facilitaes the machine-to-machine message queueing service |
 | InfuxDB   | A Database built specifically for time-series data in high-volume, high-velocity systems |
-| Grafana   | Provides visualization tools for data presentation in web applciations |
+| Grafana   | Provides visualization tools for data presentation in web applications |
 | STunnel   | Provides TLS/SSL tunneling services |
 | WireGuard | Provides open-source VPN servicing |
 
