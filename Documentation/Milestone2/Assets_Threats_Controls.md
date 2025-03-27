@@ -603,7 +603,7 @@
       * Sabotage by Disgruntled Staff
       * Bypassing Security Controls for Convenience
 
-### Distrubuted Controls in DCSs
+### Distributed Controls in DCSs
    
 1. Process Control Functions
    * Setpoint Control
@@ -631,7 +631,7 @@
 4. Communication and Network Controls
    * Industrial Protocol Management
    * Redundant Network Management
-   * Time-Sensitive Networking (TSN)
+   * Time-sensitive networking (TSN)
    * Secure Remote Access Control
    * Edge Computing and Fog Computing
    
