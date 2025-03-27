@@ -97,7 +97,7 @@ This repository serves the distributed systems security research and development
     * **Task:** Team Progress Documentation
         1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
   
-5. **Week 5:** System Emulation, System Testing, Prototyping
+5. **Week 5:** System Emulation, System Testing, and Prototyping
 
     * **Task:** Test System Functions and Capture Packets
         1. [Create System Prototpye in Emulation Software](Documentation/Milestone2/System_Emulation.md) 
