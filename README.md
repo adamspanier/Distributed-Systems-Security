@@ -34,6 +34,7 @@ This repository serves the distributed systems security research and development
 #### System Emulation and Prototyping
 1. [Explored Simulation Tools](Documentation/Milestone2/Simulation_Tools.md)
 2. [DCS Deployment Reporting](Documentation/Milestone2/DCS_Deployment_Report.md)
+3. [Packet Capture and Analysis](Documentation/Milestone2/Packet_Capture.md)
 
 #### Paper Details
 1. [Paper Outline](Documentation/Milestone2/Outline.md)
