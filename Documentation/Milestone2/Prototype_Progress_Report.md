@@ -133,7 +133,7 @@ Also, list them out like this:
   * Completed decentralized control listings
   * Aggregated useful DSC controls
   * Reorganized documentation
-
+  * Added documentation to the DCS Architecture section 
 ### Outcomes
   * _Docker Network_
     * Docker containers combined
@@ -153,7 +153,9 @@ Also, list them out like this:
   * _Aggregated DSC controls_
     * DSC controls are mapped to their corresponding assets
   * _Reorganized documentation_
-    * Documentation and sprint planning were reorganized 
+    * Documentation and sprint planning were reorganized
+  * _Added documentation_
+    * Clarifications were added to the documentation to ensure understanding
 
 ### Hindrances
   * As the semester is progressing, time is becoming more and more of an issue
@@ -207,6 +209,8 @@ Also, list them out like this:
 ## Progress Report Week of 3/24/2025
 
 ### Report Overview
+  * Documentation edited to ensure grammar and spelling are correct
+  * Current GitHub content reviewed to ensure everything is present for M2 assignment
   * 
 
 ### Outcomes
@@ -219,7 +223,7 @@ Also, list them out like this:
 ### Ongoing Risks
 |Risk name (value)  | Impact     | Likelihood | Description | Occurrence?| Mitigation |
 |-------------------|------------|------------|-------------|-------------|-------------|
-|Limited academic research on specific PLC vulnerabilities (64) | 8 | 8 | This project hinges on expanding upon previous academic research; if there is not a sufficient amount of research, it could hamper the project.  |
+|Limited academic research on specific PLC vulnerabilities (64) | 8 | 8 | This project hinges on expanding upon previous academic research; if there is not a sufficient amount of research, it could hamper the project.  | No| |
 |Constrained testing environments (64) | 8 | 8 | Any testing done on PLCs will be on virtual devices; this could create constraints.  | Yes | Progressive exploration of alternative solutions 
 |Difficulty obtaining comprehensive attack surface data (48) | 6 | 8 | The team needs to know what they are protecting to attempt to protect it; if this cannot be obtained, it will hamper the project's path forward.  |
 |Inability to simulate real-world attack scenarios (48) | 8 | 6 | The project will culminate with a simulation of cryptography working on a PLC; simulation could be an issue.  |
