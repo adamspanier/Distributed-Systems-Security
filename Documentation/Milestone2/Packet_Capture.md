@@ -17,8 +17,23 @@ Once the packet capture is complete, the results can be exported to a local comp
 * Export the .pcap for analysis
 
 ### Install Necessary Programs
+To capture packets within the Docker environment, ensure that Wireshark and tcpdump are installed on the host instance. 
+
+Wireshark install:
+```bash
+  sudo apt install wireshark
+```
+tcpdump install:
+```bash
+  sudo apt install tcpdump
+```
 
 ### Identify Docker Networks
+Before capturing packets on the Docker-simulated network, be sure to examine the available networks to determine which one you want to use when generating a .pcap file. 
+```bash
+docker network ls
+```
+---put response from docker network ls here---
 
 ### Utilize tcpdump to generate a .pcap
 
