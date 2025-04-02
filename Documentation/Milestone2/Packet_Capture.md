@@ -33,7 +33,9 @@ Before capturing packets on the Docker-simulated network, be sure to examine the
 ```bash
 docker network ls
 ```
----put response from docker network ls here---
+The result should look similar to this:
+![image](https://github.com/user-attachments/assets/ed97cc0d-eb9b-4e8d-b7d6-108bc58a37de)
+
 
 ### Utilize tcpdump to generate a .pcap
 
