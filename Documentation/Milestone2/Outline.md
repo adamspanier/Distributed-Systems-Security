@@ -204,9 +204,17 @@
 
 * Three emulated networks will be created for this experiment
   * Network 1 (Control): A network with four PLCs, an MQTT broker, a SCADA controller, and a Database.
+
+![net1](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/423647388-912c2833-6906-4abd-9a3a-4e402d5a5da4.png)
+
   * Network 2 (Comparison): Network 1 but with encryption and tunneling enabled
+
+![net2](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/enc.png)
+
   * Network 3 (experiment): Network 1 but with decentralized security controls
     * The decentralized security controls will be a Fingerprinting server and a logging blockchain
+   
+![net3](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/net3.jpg)
 
 * Model System Requirements
   *  The model system will meet the requirements stated in the section above
@@ -217,6 +225,9 @@
   * Docker is an imaging tool that allows compartmentalized containers to be deployed in virtual networks
   * Operations can be automated in these networks and the functionality of the network can be observed
 
+*Linode
+  * The Docker test networks will be implemented via a Linode server
+    
 * Other Approaches
   * Initially a Python approach was considered, but shelved due to limited functional code
   * Other code-bases like Java can also be used
