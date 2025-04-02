@@ -210,26 +210,29 @@
 * Model System Requirements
   *  The model system will meet the requirements stated in the section above
 
-* Model System Implementation
-  * A set of Docker networks will be used to emulate the three test networks
-  * HERE
-
-* How does this design fit the methodology, and does it solve the problem?
-*     * Control ICS System for Baselines
-    * Standard Protection ICS System
-    * Decentralized Security Control Combinations
- 
-Something about the three networks, about docker, etc
-
-
-  
 ## V. System Emulation
-* System Emulation Software Explanation
-    * Why did we choose this approach?
-* System Emulation Implementation Methodology
-* How does the emulation system work?
-* System Architecture
-* System demonstration
+* Docker
+  * The system model stated above will be implemented across the three networks outlined above using Docker
+  * Docker is an imaging tool that allows compartmentalized containers to be deployed in virtual networks
+  * Operations can be automated in these networks and the functionality of the network can be observed
+
+* Other Approaches
+  * Initially a Python approach was considered, but shelved due to limited functional code
+  * Other code-bases like Java can also be used
+  * Emulation software is available, but generally costs money
+
+* Docker Rationale
+  * Docker is free
+  * Docker provides Docker Hub
+  * The Docker Hub allows access to emulations of the hardware we are testing
+  * Docker is flexible and easy to use
+  * Docker allows the network model above to be reasonably implemented for testing
+  * The creation of custom Docker containers is free and relatively easy to accomplish
+
+* Docker Implementation Specifics
+  * To build the network docker compose files were used to outline the services and functions in the system
+  * A master control shell script is used to tear down and reboot the test networks
+  * The third network implements custom sockets-based servers that emulate the blockchain and fingerprinting test functions
 
 ## VI. Testing
 * What tests will be used?
