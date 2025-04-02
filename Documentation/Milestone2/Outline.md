@@ -116,31 +116,96 @@
 
 ## IV. System Design
 
-### System Design Methodology
-* How did we choose to design the system?
-* Why did we choose to design the system in this way?
-* Are there alternatives?
-* What is our design plan?
-    * Control ICS System for Baselines
-    * Standard Protection ICS System
-    * Decentralized Security Control Combinations
+* To begin testing ICS security mechanisms, we need to create a model system
 
-### System Purpose
-* System Purpose? - What does this system do?
-* System Components
-* System Security Controls
-* Functional Explanation of the system
+### Model System Overview
+  
+* Model System Function
+  * Our model system function is that of a power substation
+  * A power substation takes high voltage power and steps it down for commercial and residential applications
+  * IN a power substation a step down transformer changes the voltage and distribution busses transmit the lower volatge power
+  * The power lines in the substation are protected by breakers
+  * These breakers, while coming in multiple types, are controlled via PLCs
+  * The PLCs use sensor inputs to connect the breaker mechanisms via ladder logic
+  * The PLCs connect to the SCADA system using an MQTT broker
+  * Message Queuing Telemetry Transport is the messaging protocol commonly used in ICS networks
+  * The SCADA system tracks data with a database
     
-### System Architecture
-* System Diagrams
-* How does this design fit the methodology, and does it solve the problem?
+* There are many other types of ICS network functions
+  * Power plants, factories, hydroelectric dams
+  * We chose a substation due to its simplicity
+  * This simplicity allows us to better undersatnd the system for better testing results
+  * The simplicity of the system also allows a more robust model to be created
 
-### System Requirements
-* Assets in ICS Systems
+* System Operation
+  * The model system will analyze voltages
+  * If volatges fall outside acceptable parameters, the breakers will be thrown
+  * Security violations occur if the breakers cannot sufficiently react
+    
+* System Diagram
+
+![Function](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Images/SDF2.png)
+
+### ICS System Requirements
+* ICS Systems have the following assets
+  * Hardware: PLCs, RTUs, Human Machine Interfaces (HMI), workstations, servers, sensors, actuators, relays, routers, and switches
+  * Software: SCADA, DCS controllers, PLC ladder logic, firmware, HMI, historian, drivers, and databases
+  * Data: Variable data, set points, thresholds, configurations, historical data, backups, parameters, topology information, and control recipes and sequences
+  * Communication: Protocols, OPC comms, fieldbus networks, serial comms, and remote access
+  * Human: Engineers and operators, maintenance personnel, security personnel, policies, procedures, compliance, regulations, disaster recovery plans
+
+* ICS Systems have the following Threats
+  * Architectural Threats: lack of defense in depth, single points of failure, improper security boundaries, etc.
+  * Operational Threats: improper change management procedures, delayed patching, human error, inconsistent backups, etc.
+  * Cyber Attack Threats: APTs, ransomware, supply chain attacks, C&C exploitation, Cyber-Physical attacks, etc.
+  * Physical Threats: unauthorized physical access, HVAC failure, fire, tampering, power, etc.
+  * Data Threats: integrity violations, MiTM attacks, time sync attacks, data historian compromises, etc.
+  * Insider Threats: malicious insider threats, social engineering, shared credential abuse, remote access exploitation, etc.
+  * Governance Threats: inadequate security policies, insufficient risk assessment processes, inadequate security testing, etc.
+  * Supply Chain Threats: compromised third party software, single-source vendor dependency, use of out-dated components, etc.
+
 * Threat/Asset Groupings
-* Decentralized Security Controls and Threat Groups
+  * Asset to threat groupings diagrams based on the data [here](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone2/Assets_Threats_Controls.md)
+    
+* Decentralized Security Controls
+  * Fingerprinting, blockchain logging, digital signatures and code signing is used to protect the assets above via applicable threat vectors
+  * Blockchain: data integrity validations, MiTM mitigations, time sync attack mitigations, intrusion detection, etc.
+  * Fingerprinting: anomalous behavior, malfunction, failure detection, fire detection, tampering detection, ransomware detection, etc.
+  * Digital Signatures: APT defense, malware defense, ransomware defense
+     
 * System Functional Requirements
 * System Non-Functional Requirements
+
+### Model System Architecture
+* To model this system, Docker will be used to create an emulation of the environemnt and system described above
+
+* The basic network components will be:
+  * Four PLCs
+  * An MQTT Broker
+  * A SCADA control system
+  * A Database
+  * Emulation and Model
+    * The PLCs in the emulation will control the breakers
+    * The SCADA system will be responsible for tracking the function of the system
+
+* Three emulated networks will be created for this experiment
+  * Network 1 (Control): A network with four PLCs, an MQTT broker, a SCADA controller, and a Database.
+  * Network 2 (Comparison): Network 1 but with encryption and tunneling enabled
+  * Network 3 (experiment): Network 1 but with decentralized security controls
+    * The decentralized security controls will be a Fingerprinting server and a logging blockchain
+
+* Model System Requirements
+  *  
+
+
+* How does this design fit the methodology, and does it solve the problem?
+*     * Control ICS System for Baselines
+    * Standard Protection ICS System
+    * Decentralized Security Control Combinations
+ 
+Something about the three networks, about docker, etc
+
+
   
 ## V. System Emulation
 * System Emulation Software Explanation
