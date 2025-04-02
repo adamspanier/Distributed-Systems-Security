@@ -34,8 +34,8 @@
       * Most attempts are focused only on the security control, not a cohesive system design
 
 *  In this research, we explore the following questions to address the challenges above
-   * RQ1: How can Distributed Industrial Control Systems be designed for security from a system design standpoint using distributed cryptographic security controls?
-   * RQ2: How can these distributed security controls be applied and combined in ICS networks as a means to increase security?
+   * **RQ1:** How can Distributed Industrial Control Systems be designed for security from a system design standpoint using distributed cryptographic security controls?
+   * **RQ2:** How can these distributed security controls be applied and combined in ICS networks as a means to increase security?
 
 ## II. Background
 * ICS System Fundamentals
