@@ -174,7 +174,20 @@
   * Digital Signatures: APT defense, malware defense, ransomware defense
      
 * System Functional Requirements
+  * Synchronize hardware and software assets according to the specific time-critical functions of the system
+  * Limit latency, delay, and jitter in communication circuits to accepted tolerances
+  * Detect unsafe states and transfer from unsafe to safe with as little human intervention as possible
+  * Facilitate bi-directional communication between connected devices
+  * Carry out the physical movements needed to both maintain a safe state and carry out system objectives
+  * Operate within the constraints of the PLCs and other network devices in the system
+  * Exhibit the simplest control complexity possible to meet system operation objectives
+  * Coordinate widely distributed hardware devices
+
 * System Non-Functional Requirements
+  * Log all access requests
+  * Log all successful access
+  * Log all data transfers
+  * Log all program updates
 
 ### Model System Architecture
 * To model this system, Docker will be used to create an emulation of the environemnt and system described above
@@ -195,8 +208,11 @@
     * The decentralized security controls will be a Fingerprinting server and a logging blockchain
 
 * Model System Requirements
-  *  
+  *  The model system will meet the requirements stated in the section above
 
+* Model System Implementation
+  * A set of Docker networks will be used to emulate the three test networks
+  * HERE
 
 * How does this design fit the methodology, and does it solve the problem?
 *     * Control ICS System for Baselines
