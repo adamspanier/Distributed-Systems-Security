@@ -1,0 +1,89 @@
+version: '3.8'
+
+services:
+  plc1:
+    image: openplc:v3
+    container_name: plc1_no_crypto
+    privileged: true
+    ports:
+      - "8081:8080"  # Webserver
+      - "1502:502"   # Modbus TCP
+    networks:
+      - industrial_no_crypto
+    restart: "no"
+
+  plc2:
+    image: openplc:v3
+    container_name: plc2_no_crypto
+    privileged: true
+    ports:
+      - "8082:8080"  # Webserver
+      - "1503:502"   # Modbus TCP
+    networks:
+      - industrial_no_crypto
+    restart: "no"
+
+  plc3:
+    image: openplc:v3
+    container_name: plc3_no_crypto
+    privileged: true
+    ports:
+      - "8083:8080"  # Webserver
+      - "1504:502"   # Modbus TCP
+    networks:
+      - industrial_no_crypto
+    restart: "no"
+
+  scada:
+    image: inductiveautomation/ignition
+    container_name: scada-no-crypto
+    ports:
+      - "8090:8088"
+    networks:
+      - industrial_no_crypto
+
+  mqtt-broker:
+    image: eclipse-mosquitto
+    container_name: mqtt-broker-no-crypto
+    ports:
+      - "1883:1883"  # MQTT (Unsecured)
+    networks:
+      - industrial_no_crypto
+    command: ["sh", "-c", "apk add --no-cache iputils net-tools && mosquitto -c /mosquitto/config/mosquitto.conf"]
+
+  database:
+    image: influxdb
+    container_name: influxdb-no-crypto
+    networks:
+      - industrial_no_crypto
+    environment:
+      - INFLUXDB_DB=plc_data
+    ports:
+      - "8087:8086"  # Non-encrypted InfluxDB listens on host port 8087
+    volumes:
+      - /root/Capstone/influxdb-no-crypto:/var/lib/influxdb2  # Fix path for InfluxDB v2
+    command: ["bash", "-c", "apt update && apt install -y iputils-ping net-tools && influxd"]
+
+  grafana-no-crypto:
+    image: grafana/grafana
+    container_name: grafana-no-crypto
+    restart: always
+    ports:
+      - "3002:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    depends_on:
+      - database
+    networks:
+      - industrial_no_crypto
+    user: "472:472"  # Run as Grafana user
+    volumes:
+      - ./grafana-no-crypto:/var/lib/grafana
+    command: ["bash", "-c", "apt update && apt install -y iputils-ping net-tools && /run.sh"]
+
+networks:
+  industrial_no_crypto:
+    driver: bridge
+
+

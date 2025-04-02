@@ -1,0 +1,168 @@
+version: '3.8'
+
+services:
+  plc1:
+    image: openplc:v3
+    container_name: plc1
+    privileged: true
+    ports:
+      - "5502:5502"   # Encrypted Modbus TCP over TLS
+      - "8084:8080"   # Webserver
+    networks:
+      - industrial_net
+    depends_on:
+      - modbus-tls
+    environment:
+      - MODBUS_SECURE=true
+      - MODBUS_PORT=5502  # Ensure Modbus listens on the correct port
+
+  plc2:
+    image: openplc:v3
+    container_name: plc2
+    privileged: true
+    ports:
+      - "5503:5502"
+      - "8085:8080"
+    networks:
+      - industrial_net
+    depends_on:
+      - modbus-tls
+    environment:
+      - MODBUS_SECURE=true
+      - MODBUS_PORT=5503
+
+  plc3:
+    image: openplc:v3
+    container_name: plc3
+    privileged: true
+    ports:
+      - "5504:5502"
+      - "8086:8080"
+    networks:
+      - industrial_net
+    depends_on:
+      - modbus-tls
+    environment:
+      - MODBUS_SECURE=true
+      - MODBUS_PORT=5504
+
+  modbus-tls:
+    image: dweomer/stunnel
+    container_name: modbus-tls
+    privileged: true  # <-- Add this to allow volume access
+    environment:
+      - STUNNEL_SERVICE=modbus-tls
+      - STUNNEL_ACCEPT=8502   # Port where encrypted Modbus traffic is received
+      - STUNNEL_CONNECT=plc1:502  # Forward traffic to unencrypted PLC port
+    ports:
+      - "9502:8502"
+    volumes:
+      - /root/Capstone/stunnel.conf:/etc/stunnel/stunnel.conf
+      - /root/Capstone/certs/stunnel.pem:/etc/stunnel/stunnel.pem
+      - /root/Capstone/certs/stunnel.key:/etc/stunnel/stunnel.key
+      - /root/Capstone/certs/ca-cert-stunnel-ca.pem:/etc/stunnel/ca-cert-stunnel-ca.pem
+    networks:
+      - industrial_net
+    restart: always
+
+  scada:
+    image: inductiveautomation/ignition
+    container_name: scada
+    ports:
+      - "8088:8088"
+    networks:
+      - industrial_net
+    depends_on:
+      - opc-ua
+    environment:
+      - OPCUA_SECURE=true
+
+  mqtt-broker:
+    image: eclipse-mosquitto
+    container_name: mqtt-broker
+    ports:
+      - "8883:8883"  # Encrypted MQTT over TLS
+    volumes:
+      - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ./mosquitto/config/certs:/mosquitto/config/certs
+    networks:
+      - industrial_net
+    command: ["sh", "-c", "apk add --no-cache iputils net-tools && mosquitto -c /mosquitto/config/mosquitto.conf"]
+
+  database:
+    image: influxdb
+    container_name: influxdb-secure
+    networks:
+      - industrial_net
+    environment:
+      - INFLUXD_HTTP_HTTPS_ENABLED=true
+      - INFLUXD_HTTP_CERTIFICATE=/etc/ssl/influxdb.pem
+      - INFLUXD_HTTP_PRIVATE_KEY=/etc/ssl/influxdb.key
+      - INFLUXD_HTTP_BIND_ADDRESS=:8097
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=admin
+      - DOCKER_INFLUXDB_INIT_PASSWORD=admin123
+      - DOCKER_INFLUXDB_INIT_ORG=my-org-secure
+      - DOCKER_INFLUXDB_INIT_BUCKET=plc_data
+      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=${INFLUX_SECURE_TOKEN}
+    ports:
+      - "8097:8097"
+    volumes:
+      - /root/Capstone/influxdb/influxdb.conf:/etc/influxdb/influxdb.conf:ro
+      - /root/Capstone/certs:/etc/ssl:ro
+      - influxdb-data:/var/lib/influxdb2  # Persist database data and auth tokens
+    command: ["influxd", "--tls-cert", "/etc/ssl/influxdb.pem", "--tls-key", "/etc/ssl/influxdb.key", "--http-bind-address=:8097"]
+
+  opc-ua:
+    image: open62541/open62541
+    container_name: opc-ua
+    networks:
+      - industrial_net
+    environment:
+      - OPCUA_SERVER_SECURITY_MODE=SignAndEncrypt
+      - OPCUA_SERVER_CERTIFICATE=/etc/opc-ua/cert.pem
+      - OPCUA_SERVER_PRIVATE_KEY=/etc/opc-ua/private_key.pem
+    volumes:
+      - ./certs:/etc/opc-ua
+
+  vpn:
+    image: linuxserver/wireguard
+    container_name: vpn
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    networks:
+      - industrial_net
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - SERVERPORT=51820
+      - PEERS=3
+    volumes:
+      - ./vpn:/config
+
+  grafana-secure:
+    image: grafana/grafana
+    container_name: grafana-secure
+    restart: always
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    depends_on:
+      - database
+    networks:
+      - industrial_net
+    user: "472:472"  # Run as Grafana user
+    volumes:
+      - ./grafana-secure:/var/lib/grafana
+    command: ["bash", "-c", "apt update && apt install -y iputils-ping net-tools && /run.sh"]
+
+networks:
+  industrial_net:
+    driver: bridge
+
+volumes:
+  influxdb-data:  # Persistent storage for InfluxDB
+
