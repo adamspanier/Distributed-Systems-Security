@@ -34,10 +34,19 @@ Before capturing packets on the Docker-simulated network, be sure to examine the
 docker network ls
 ```
 The result should look similar to this:
+
 ![image](https://github.com/user-attachments/assets/b00aea6d-f702-4786-9875-ecb53c15c090)
 
 
-
 ### Utilize tcpdump to generate a .pcap
+Now that the different networks on the Docker environment are known, the next step is to generate a packet capture (.pcap) file for analysis. This will only be successful if the different network elements (Docker images) are actively talking to each other; otherwise, no traffic will be captured. The general syntax of the tcpdump command to capture network traffic is:
+```bash
+sudo tcpdump -i <Docker network name> -w </path/to/folder/file_name>.pcap
+```
+The -i option indicates which interface will be monitored for network traffic. The -w option allows the user to specify the path that they want the .pcap file written to and the name of the .pcap.
+
+In the Docker environment, the executed command will look similar to this:
+![image](https://github.com/user-attachments/assets/628d1d1a-b704-4148-ae1f-5cbd4138fdc7)
+Note that the system was not running, so no packets were captured in this screenshot. Also, CTRL+C is the command to end the packet capture.
 
 ### Export .pcap for analysis
