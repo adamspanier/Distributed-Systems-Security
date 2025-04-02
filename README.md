@@ -123,7 +123,7 @@ This repository serves the distributed systems security research and development
         2. [Identify Test Application Specifics](Documentation/Milestone2/Testing.md)
 
     * **Task:** Testing Deployemnt
-        1. [Start Testing the System and Record Resulsts](Documentation/Milestone2/Testing.md)
+        1. [Start Testing the System and Record Results](Documentation/Milestone2/Testing.md)
      
     * **Task:** Team Progress Documentation
         1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
