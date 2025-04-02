@@ -5,6 +5,7 @@
 <hr>
 
 ## Abstract
+
 * Summation of the work
 
 ## I. Introduction
@@ -235,15 +236,22 @@
   * The third network implements custom sockets-based servers that emulate the blockchain and fingerprinting test functions
 
 ## VI. Testing
-* What tests will be used?
-* How did we come up with these tests?
-* How were the tests deployed?
-* What are the raw results?
+* To test the system, an over-voltage scenario will be implemented wherein the automated breakers must flip
+* The scenario will be run on each network without a cyber attack and the responsiveness of the network measured
+* The scenario will be run on each network with a cyber attack testing security controls and responsiveness will be measured
+* Network functionality will also be noted
+* Criteria:
+  * If the network fails to protect against the attack, the network fails
+  * If the network fails to meet real-time specification, the network fails
+* Discussion of raw results
+  * When we have the results, the raw material will be discussed here  
   
 ## VII. Discussion
-* How did we attempt to answer the research questions?
-* Did we answer them?
-* If so, what is the answer?
+* Restate the research questions:
+   * RQ1: How can Distributed Industrial Control Systems be designed for security from a system design standpoint using distributed cryptographic security controls?
+   * RQ2: How can these distributed security controls be applied and combined in ICS networks as a means to increase security?
+* Explain how we answered each
+* Explain the meaning of these discoveries
   
 ## VIII. Conclusion
-* Overview of the findings of the paper
+* Present a final overview of the findings of the paper
