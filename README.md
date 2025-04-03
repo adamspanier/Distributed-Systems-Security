@@ -40,6 +40,10 @@ This repository serves the distributed systems security research and development
 1. [Paper Outline](Documentation/Milestone2/Outline.md)
 2. [Current Paper Version](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Distributed_Security_Controls_in_Industrial_Control_Systems_3-24-25.pdf)
 
+#### M2 Update and Prototype Video
+
+[Video Download](https://uofnebraska-my.sharepoint.com/:v:/g/personal/57974254_nebraska_edu/Efm8_AuFuC1Bk5-jzEVnS9UBbhbo7soEFKHIYzXOlgLXNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=orAB99)
+
 #### Milestone 2 : Sprint Plan
 
 1. **Week 1** - ICS Investigation and Environment Exploration
