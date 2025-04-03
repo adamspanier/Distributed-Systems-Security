@@ -218,26 +218,26 @@ Also, list them out like this:
 
 ### Outcomes
   * _Documentataion_
-   * All markdown documentation edited for spelling and grammar
-   * Content edited for consistency errors due to shifting requirements
+    * All markdown documentation edited for spelling and grammar
+    * Content edited for consistency errors due to shifting requirements
   * _M2 Deliverables_
-   * M2 deliverable documentation parsed
-   * M2 requirements lists generated
-   * Coordintation with team members to ensure M2 deliverables are present
-   * Check lists for final submissions
+    * M2 deliverable documentation parsed
+    * M2 requirements lists generated
+    * Coordintation with team members to ensure M2 deliverables are present
+    * Check lists for final submissions
   * _Testing_
-   * Validate test scripts work
-   * Send packets across the networks
-   * Capture packets
-   * Validate packet contents
-   * Ensure encryption is working
+    * Validate test scripts work
+    * Send packets across the networks
+    * Capture packets
+    * Validate packet contents
+    * Ensure encryption is working
   * _Packet Capture_
-   * Setup packet capture capabilities inside networks
+    * Setup packet capture capabilities inside networks
   * _System Function_
-   * Generate a model system purpose
-   * Outline the model system functionality 
+    * Generate a model system purpose
+    * Outline the model system functionality 
   * _System Design_
-   * Design a system to meet the requirements based on the function  
+    * Design a system to meet the requirements based on the function  
 
 ### Hindrances
   * Time
