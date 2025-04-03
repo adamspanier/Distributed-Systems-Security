@@ -42,7 +42,7 @@ This repository serves the distributed systems security research and development
 
 #### M2 Update and Prototype Video
 
-1. [Video Download](https://uofnebraska-my.sharepoint.com/:v:/g/personal/57974254_nebraska_edu/Efm8_AuFuC1Bk5-jzEVnS9UBbhbo7soEFKHIYzXOlgLXNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=orAB99)
+1. [Video Download](https://uofnebraska-my.sharepoint.com/:v:/g/personal/57974254_nebraska_edu/Efm8_AuFuC1Bk5-jzEVnS9UBbhbo7soEFKHIYzXOlgLXNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ta551y)
 
 #### Milestone 2 : Sprint Plan
 
