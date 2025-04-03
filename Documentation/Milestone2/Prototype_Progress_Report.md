@@ -243,6 +243,9 @@ Also, list them out like this:
   * Time
   * Burnout
   * Team Coordination
+  * Technical Understanding
+  * Docker Configuration specifics
+  * Communication
 
 ## Progress Report Week of 3/31/2025
 
@@ -250,17 +253,34 @@ Also, list them out like this:
   * Video Preparation
   * M2 Deliverables Preparation and Coordination
   * Test net 3 work
+  * Paper Outline Updates
   * Emulation Documentation Generation
 
 ### Outcomes
-  * Video
-  * Deliverables
-  * Emulation
-  * Test Net 3
-  * 
+  * _Video_
+    * Created a video outline to tell the research story thus far 
+    * Coordinated demonstration activities
+    * Recorded Video and Audio clips
+    * Edited Video 
+  * _Deliverables_
+    * Double check that deliverables for M2 are being met
+    * Validate documentation
+  * _Paper Outline Updates_
+    * Modify paper outline to better meet specifications
+  * _Emulation_
+    * Refine control and comparison networks
+  * _Test Net 3_
+    * Integrate sockets image into third docker config file 
+  * _Emulation Documentation_
+    * Produce documentation expalining emulation processes 
 
 ### Hindrances
-  * 
+  * Time
+  * Coordination
+  * Travel
+  * Family Occurances
+  * Technical Knowledge
+  * Communication
 
 ### Ongoing Risks
 |Risk name (value)  | Impact     | Likelihood | Description | Occurrence?| Mitigation |
