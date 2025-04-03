@@ -226,15 +226,23 @@ Also, list them out like this:
    * Coordintation with team members to ensure M2 deliverables are present
    * Check lists for final submissions
   * _Testing_
-   * HERE
+   * Validate test scripts work
+   * Send packets across the networks
+   * Capture packets
+   * Validate packet contents
+   * Ensure encryption is working
   * _Packet Capture_
+   * Setup packet capture capabilities inside networks
   * _System Function_
+   * Generate a model system purpose
+   * Outline the model system functionality 
   * _System Design_
+   * Design a system to meet the requirements based on the function  
 
 ### Hindrances
   * Time
   * Burnout
-  * Coordination
+  * Team Coordination
 
 ## Progress Report Week of 3/31/2025
 
@@ -243,10 +251,12 @@ Also, list them out like this:
   * M2 Deliverables Preparation and Coordination
   * Test net 3 work
   * Emulation Documentation Generation
-  * Testing
-  * Packet Capture demonstration
 
 ### Outcomes
+  * Video
+  * Deliverables
+  * Emulation
+  * Test Net 3
   * 
 
 ### Hindrances
