@@ -210,13 +210,26 @@ Also, list them out like this:
 
 ### Report Overview
   * Documentation edited to ensure grammar and spelling are correct
-  * Current GitHub content reviewed to ensure everything is present for M2 assignment
   * M2 Deliverables Preparation and Coordination
   * Network Testing
   * Packet Capture Functionality
+  * System Function Creation
+  * System Functiona and Design Diagramming
 
 ### Outcomes
-  * 
+  * _Documentataion_
+   * All markdown documentation edited for spelling and grammar
+   * Content edited for consistency errors due to shifting requirements
+  * _M2 Deliverables_
+   * M2 deliverable documentation parsed
+   * M2 requirements lists generated
+   * Coordintation with team members to ensure M2 deliverables are present
+   * Check lists for final submissions
+  * _Testing_
+   * HERE
+  * _Packet Capture_
+  * _System Function_
+  * _System Design_
 
 ### Hindrances
   * Time
