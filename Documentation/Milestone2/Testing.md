@@ -1,4 +1,3 @@
-# Testing
 # Capturing Packets Transmitted Between Docker Images in the DCS Environment
 
 [HOME](https://github.com/adamspanier/Distributed-Systems-Security)
