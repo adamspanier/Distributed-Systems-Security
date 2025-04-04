@@ -166,7 +166,8 @@ The notable components in the system above are the 5 **PLCs** controlling the vo
 
 #### Encrypted Environment
 
-![image](https://github.com/user-attachments/assets/6a4ffad2-eafc-437c-914f-4c2475d4c63f)
+![image](https://github.com/user-attachments/assets/f31a34e5-75e9-42d1-959e-0cde8109a79e)
+
 
 
 #### DSC Environment 1
