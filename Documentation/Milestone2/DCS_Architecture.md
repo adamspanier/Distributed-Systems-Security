@@ -161,7 +161,7 @@ The notable components in the system above are the 5 **PLCs** controlling the vo
 
 #### Unencrypted Environment
 
-![image](https://github.com/user-attachments/assets/912c2833-6906-4abd-9a3a-4e402d5a5da4)
+![image](https://github.com/user-attachments/assets/3216da3a-c9e8-491e-b391-40e3930bb555)
 
 
 #### Encrypted Environment
