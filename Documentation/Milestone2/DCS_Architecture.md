@@ -19,7 +19,7 @@ As noted above, each of these example functions is highly integrated into the ph
 
 The innate connection between the physical function, the industrial design serving the function, and the ICS system make each ICS network unique. Even across the same application domain, no two OT or ICS networks are going to be the same. Though one system may serve an oilfield in Wyoming and another in Texas, the topography, landscape, accessibility, weather, and spatial limitations make both systems completely different. This difference from ICS system to ICS system necessitates that general designs must be flexible and loosely defined, not the optimal atmosphere to carry out testing for real-world implications.
 
-Due to the uniqueness of every ICS network in its function, the only way to experiment with novel system security designs is to explicitly define what Cyber-Physical function the test system will be responsible for. Without an adequately designed and defined industrial function, the benchmarks and system limits are completely unknown. Without any understanding of how the system must perform, the integration of novel security controls cannot be adequately tested for impact. While system requirements serve as a general litmus test for function, only with an explicitly designed industrial system for an industrial function can the actual functionality of novel DSCs be measured. Knowing any test system must have an explicitly defined system purpose, this work seeks to outline the industrial system function below.
+Due to the uniqueness of every ICS network in its function, the only way to experiment with novel system security designs is to explicitly define what Cyber-Physical function the test system will be responsible for. Without an adequately designed and defined industrial function, the benchmarks and system limits are completely unknown. Without any understanding of how the system must perform, the integration of novel security controls cannot be adequately tested for impact. While system requirements serve as a general litmus test for function, only with an explicitly designed industrial system for an industrial function can the actual functionality of novel DCSs be measured. Knowing any test system must have an explicitly defined system purpose, this work seeks to outline the industrial system function below.
 
 #### System Model - Industrial Function
 
@@ -170,11 +170,11 @@ The notable components in the system above are the 5 **PLCs** controlling the vo
 
 
 
-#### DSC Environment 1
+#### DCS Environment 1
 
-#### DSC Environment 2
+#### DCS Environment 2
 
-#### DSC Environment 3
+#### DCS Environment 3
 
 ### System Application Benefits
 
