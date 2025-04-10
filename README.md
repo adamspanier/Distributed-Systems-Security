@@ -80,7 +80,7 @@ This repository serves the distributed systems security research and development
         1. [System and Emulation Model Purpose, Design, and Description](Documentation/Milestone2/DCS_Architecture.md)
      
     * **Task:** Team Progress Documentation
-        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+        1. [Progress Report](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Progress_Report.md)
 
 2. **Week 2** - System Operations and Deployment
 
@@ -97,7 +97,7 @@ This repository serves the distributed systems security research and development
         1. [System and Emulation Model Purpose, Design, and Description](Documentation/Milestone2/DCS_Architecture.md)
      
     * **Task:** Team Progress Documentation
-        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+        1. [Progress Report](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Progress_Report.md)
      
 3. **Week 3** - System Attack and Measurement
 
@@ -111,7 +111,7 @@ This repository serves the distributed systems security research and development
         1. [Paper Outline](Documentation/Milestone2/Outline.md)
      
     * **Task:** Team Progress Documentation
-        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+        1. [Progress Report](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Progress_Report.md)
 
 4. **Week 4** - System Attack and Measuremen and Paper
 
@@ -128,7 +128,7 @@ This repository serves the distributed systems security research and development
         1. [Paper Outline](Documentation/Milestone2/Outline.md)
      
     * **Task:** Team Progress Documentation
-        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+        1. [Progress Report](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Progress_Report.md)
      
 5. **Week 5** - System Attack and Measuremen and Paper
 
@@ -142,7 +142,7 @@ This repository serves the distributed systems security research and development
         1. [Repo](https://github.com/adamspanier/Distributed-Systems-Security)
      
     * **Task:** Team Progress Documentation
-        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+        1. [Progress Report](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Progress_Report.md)
      
     * **Task:** Make Final Presentation
   
