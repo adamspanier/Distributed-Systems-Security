@@ -44,6 +44,113 @@ This repository serves the distributed systems security research and development
 
 1. [Video Download](https://uofnebraska-my.sharepoint.com/:v:/g/personal/57974254_nebraska_edu/Efm8_AuFuC1Bk5-jzEVnS9UBbhbo7soEFKHIYzXOlgLXNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ta551y)
 
+### Milestone 3
+
+#### System Emulation and Prototyping
+1. [DCS Deployment Reporting](Documentation/Milestone2/DCS_Deployment_Report.md)
+2. [Packet Capture and Analysis](Documentation/Milestone2/Packet_Capture.md)
+
+#### System Testing
+1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+2. [Outcomes](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Data.md)
+
+#### Paper Details
+1. [Paper Outline](Documentation/Milestone2/Outline.md)
+2. [Current Paper Version](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Distributed_Security_Controls_in_Industrial_Control_Systems_3-24-25.pdf)
+
+#### Milestone 3 : Sprint Plan
+
+1. **Week 1** - Planning and System Operations
+
+    * **Task:** Plan next steps
+        1. [Create Sprint Plan](https://github.com/adamspanier/Distributed-Systems-Security/tree/main)
+        2. [Update Project](https://github.com/users/adamspanier/projects/5)
+
+    * **Task:** Create System Scenario Script
+        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+           
+    * **Task:** Create System Attack Mechanism
+        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+
+    * **Task:** System Measurement Specifics
+        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+     
+    * **Task:** Complete Blockchain Server Image
+        1. [System and Emulation Model Purpose, Design, and Description](Documentation/Milestone2/DCS_Architecture.md)
+     
+    * **Task:** Team Progress Documentation
+        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+
+2. **Week 2** - System Operations and Deployment
+
+    * **Task:** Deploy System Scenario Script
+        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+           
+    * **Task:** Deploy System Attack Mechanism
+        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+
+    * **Task:** Create Measurement Scripts
+        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+     
+    * **Task:** Complete Fingerprinting Server Image
+        1. [System and Emulation Model Purpose, Design, and Description](Documentation/Milestone2/DCS_Architecture.md)
+     
+    * **Task:** Team Progress Documentation
+        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+     
+3. **Week 3** - System Attack and Measurement
+
+    * **Task:** Implement All Docker Networks
+        1. [DCS Deployment Reporting](Documentation/Milestone2/DCS_Deployment_Report.md)
+           
+    * **Task:** Run Full Tests and Gather Data
+        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+
+    * **Task:** Write System Emulation Portion of Paper
+        1. [Paper Outline](Documentation/Milestone2/Outline.md)
+     
+    * **Task:** Team Progress Documentation
+        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+
+4. **Week 4** - System Attack and Measuremen and Paper
+
+    * **Task:** Run Full Tests and Gather Data
+        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+
+    * **Task:** Write System Emulation Portion of Paper
+        1. [Paper Outline](Documentation/Milestone2/Outline.md)
+     
+    * **Task:** Write Testing Portion of Paper
+        1. [Paper Outline](Documentation/Milestone2/Outline.md)
+
+    * **Task:** Write Discussion Portion of Paper
+        1. [Paper Outline](Documentation/Milestone2/Outline.md)
+     
+    * **Task:** Team Progress Documentation
+        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+     
+5. **Week 5** - System Attack and Measuremen and Paper
+
+    * **Task:** Write Discussion Portion of Paper
+        1. [Paper Outline](Documentation/Milestone2/Outline.md)
+     
+    * **Task:** Proofread and Finalize Paper
+        1. [Current Paper Version](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Distributed_Security_Controls_in_Industrial_Control_Systems_3-24-25.pdf)
+     
+    * **Task:** Proofread and Finalize Repo
+        1. [Repo](https://github.com/adamspanier/Distributed-Systems-Security)
+     
+    * **Task:** Team Progress Documentation
+        1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
+     
+    * **Task:** Make Final Presentation
+  
+6. **Week 6** - System Attack and Measuremen and Paper
+     
+    * **Task:** Final Presentation - Monday, May 12 at 7pm
+
+<hr>
+
 #### Milestone 2 : Sprint Plan
 
 1. **Week 1** - ICS Investigation and Environment Exploration
@@ -132,7 +239,7 @@ This repository serves the distributed systems security research and development
     * **Task:** Team Progress Documentation
         1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
      
-### Milestone 3
+
 
 ## Meeting Notes
 
