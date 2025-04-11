@@ -424,7 +424,5 @@ networks:
 
 
 
-### Explain How Implementation Meets Design Criteria
-
 
 
