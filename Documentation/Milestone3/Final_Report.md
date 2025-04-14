@@ -1,4 +1,4 @@
-# Distributed Systems Security
+# Distributed Security Controls in Industrial Control Systems
 ## Executive Summary
 (overview of project, reuse from milestone 1, update if scope changed)
 
