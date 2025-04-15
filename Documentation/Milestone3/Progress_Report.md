@@ -7,26 +7,82 @@
 ## Progress Report Week of 4/7/2025
 
 ### Report Overview
-  * fill
+  * Milestone 3 Sprint Plan
+  * Project Documentation Update
+  * Simulation Details
+  * System Attacks
+  * Create Custon DSC Images
 
 ### Outcomes
-  * fill
+  * _Sprint Plan_
+    * Plan tasks for the rest of the semester
+    * Modify KanBan
+    * Update KanBan Tasks
+    * Week-by-week planning
+    * Gantt Chart and Timeline creation
+  * _Documentation_
+    * Add pertinent md files
+    * Update group regarding where information should go
+    * Reformat main index
+    * Add week-by-week outline
+  * _Simulation Details_
+    * Create a system scenario script
+    * Deploy scenario and test
+    * Research system evaluation methodology
+  * _System Attacks_
+    * Determine attack scenarios
+    * Design attack scripts
+    * Implement attack code
+  * _Custon DSC Images_
+    * Continue working on custom blockchain for packet logging
+    * Implement blockchain into Sockets server in Python
+    * Facilitate JSON traffic handling
+    * Test functionality in docker network
+    * Build Docker Compose files
 
 ### Hindrances
-  * fill
+  * Time - As the semester is round out, our time is getting more and more tight
+  * Communication - As related to the time constraints above, our communication can sometimes be limited
+  * Exhaustion - With all the work we've done up to this point, we are all wearing out
 
 <hr>
 
 ## Progress Report Week of 4/14/2025
 
 ### Report Overview
-  * fill
+  * Fingerprinting Function and Server Development
+  * Attack Method Deployment and Testing
+  * Scenario Expansion
+  * System Measurement
+  * Experimental Test Net Development
+  * Develop Data Gathering Process
 
 ### Outcomes
-  * fill
+  * _Fingerprinting_
+    * Design Fingerprinting functions
+    * Implement Fingerprinting functions in Python
+    * Test fingerprinting functionality
+  * _Attacks_
+    * Write attack scripts
+    * Test attack scripts
+    * Explore deployment in docker networks
+    * Evaluate accuracy of results
+  * _Scenario_
+    * Expand operational scenario scripts
+    * Ensure operational scenario is robust
+  * _Measurement_
+    * Determine the best measurements for system functionality
+    * Write scripts to capture these functions
+  * _Test Net_
+    * Design final test net
+    * Create docker compose files
+  * _Data Gathering Design_
+    * Determine process to be taken when testing the systems
 
 ### Hindrances
-  * fill
+  * Time - Due to the business of our work and personal lives, time is usually scarce
+  * Communication - With the limitations on time, communication is difficult. This week was far better than the previous, though!
+  * Exhaustion - We're all tired.
 
 <hr>
 
