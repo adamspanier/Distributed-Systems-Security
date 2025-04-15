@@ -1,0 +1,25 @@
+services:
+  server:
+    image: adamspanier/blockchain_packet_integrity_server:latest
+    ports:
+      - "1065:1065"
+    networks:
+      - ics
+    volumes:
+      - blockchain:/tmp
+      # - /etc/blockchain-server:/tmp  <--- figure this out... it's borked
+
+  client:
+    image: adamspanier/client:latest
+    depends_on:
+      - server
+    networks:
+      - ics
+    volumes:
+      - blockchain:/tmp
+
+networks:
+  ics:
+
+volumes:
+  blockchain:
