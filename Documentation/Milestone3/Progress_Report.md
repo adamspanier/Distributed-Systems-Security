@@ -11,7 +11,7 @@
   * Project Documentation Update
   * Simulation Details
   * System Attacks
-  * Create Custon DSC Images
+  * Create Custom DSC Images
 
 ### Outcomes
   * _Sprint Plan_
@@ -33,7 +33,7 @@
     * Determine attack scenarios
     * Design attack scripts
     * Implement attack code
-  * _Custon DSC Images_
+  * _Custom DSC Images_
     * Continue working on custom blockchain for packet logging
     * Implement blockchain into Sockets server in Python
     * Facilitate JSON traffic handling
