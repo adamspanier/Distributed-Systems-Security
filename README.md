@@ -65,7 +65,7 @@ This repository serves the distributed systems security research and development
     * **Task:** Plan next steps
         1. [Create Sprint Plan](https://github.com/adamspanier/Distributed-Systems-Security/tree/main)
         2. [Update Project](https://github.com/users/adamspanier/projects/5)
-        3. [Update Progress Report](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone2/Prototype_Progress_Report.md)
+        3. [Update Progress Report](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Progress_Report.md)
 
     * **Task:** Create System Scenario Script
         1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
