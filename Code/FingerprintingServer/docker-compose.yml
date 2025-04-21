@@ -1,0 +1,29 @@
+services:
+  server:
+    image: adamspanier/fingerprintingserver:latest
+    ports:
+      - "1065:1065"
+    networks:
+      - ics
+    volumes:
+      - blockchain:/tmp
+      # - /home/aspanier/Desktop/CIST 8950 - Spring 2025/Fingerprinting-Data:/tmp  <--- figure this out... it's borked
+      # - type: bind
+      #   source: /home/aspanier/Desktop/CIST 8950 - Spring 2025/Fingerprinting-Data
+      #   target: /tmp
+      #   read_only: false
+
+  client:
+    image: adamspanier/fingerprintingclient:latest
+    depends_on:
+      - server
+    networks:
+      - ics
+    volumes:
+      - blockchain:/tmp
+
+networks:
+  ics:
+
+volumes:
+  blockchain:
