@@ -89,13 +89,32 @@
 ## Progress Report Week of 4/21/2025
 
 ### Report Overview
-  * fill
+  * Extensive Effort on the Paper Composition
+  * Fingerprinting Server Image
+  * Test Net 3
+  * System Measurement
+  * System Security
 
 ### Outcomes
-  * fill
+  * _Paper_
+    * Composition of Sections IV - System Design
+    * Composition of Section V - Emulation
+  * _Fingerprinting_
+    * Create fingerprinting server that uses data fingerprinting for packet streams
+    * Test fingerprinting server
+  * _Test Net 3_
+    * Integrate new servers into experimental network
+  * _System Measurement_
+    * Finalize system measurement and quanitification for data gathering and analysis
+  * _System Security_
+    * Finalize system security measurement and stance for data gathering
 
 ### Hindrances
-  * fill
+  * Time
+  * Energy
+  * Burnout
+  * Communication
+  * Limitations on timeline
 
 <hr>
 
