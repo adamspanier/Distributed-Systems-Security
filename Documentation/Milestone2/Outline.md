@@ -4,7 +4,7 @@
 
 <hr>
 
-## Paper Outline - Feedback
+## Paper Outline - M2 Feedback
 - **Merge Related work with Background** - Comment: I would either incorporate the related work into the background section OR move it to the end of the paper ahead of the conclusion so that you can use it as an evaluation comparison point to your tool.
 - **Justify Model-based system before system design** - Prior to your system design section I think you need to explicitly justify model-based system engineering as an approach. Why use a model?
 - **Justify decentralized controls in system design** - In your system design section, you need to clearly state how and why you selected the specific controls or techniques (e.g. digital signatures, blockchain, etc) - why these and not others?
