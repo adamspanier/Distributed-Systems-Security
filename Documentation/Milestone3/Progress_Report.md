@@ -97,8 +97,9 @@
 
 ### Outcomes
   * _Paper_
-    * Composition of Sections IV - System Design
-    * Composition of Section V - Emulation
+    * Composition of Sections III - System Design
+    * Composition of Section IV - Emulation
+    * Beginnings of Composition of Section V - Testing
   * _Fingerprinting_
     * Create fingerprinting server that uses data fingerprinting for packet streams
     * Test fingerprinting server
