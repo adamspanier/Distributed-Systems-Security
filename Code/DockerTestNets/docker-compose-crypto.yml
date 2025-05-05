@@ -1,6 +1,13 @@
 version: '3.8'
 
 services:
+  data:
+    image: mpopelka/populate_data
+    container_name: populate-data-container-secure
+    networks:
+      - industrial_net
+    restart: "no"
+
   plc1:
     image: openplc:v3
     container_name: plc1
@@ -165,4 +172,3 @@ networks:
 
 volumes:
   influxdb-data:  # Persistent storage for InfluxDB
-
