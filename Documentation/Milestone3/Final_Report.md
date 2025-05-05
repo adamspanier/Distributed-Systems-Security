@@ -44,7 +44,7 @@ To carry out this research, an initial survey of decentralized security measures
 
 By allowing industrial control system designers to focus on the holistic, system-level security requirements of distributed industrial control systems, the networks they design can take a more robust, consistent, and predictable security profile. By using the method described above, the blind spots, computational bottlenecks, network complexities, and hidden threats common to distributed control systems can be systematically analyzed such that appropriate distributed security controls can be applied without affecting the functions of the system as a whole. By providing a more comprehensive security approach for industrial control system  designers, the critical systems that society relies upon for peace and order can be protected to the level that the people who need them expect.
 
-## Results / Findings
+### Results / Findings
 
 The use of decentralized security controls (DSC) like blockchains or fingerprinting mechanisms is not new in ICS security operations. The majority of research aimed at better understanding DSC implementations in ICS networks focuses primarily on the effectiveness of a single DSC. Existing research generally focuses on two DSC mechanisms: 1) blockchain-based data validation and 2) fingerprint-based anomaly detection. Both the blockchain validation and fingerprint anomaly detection controls are shown to be effective in ensuring data integrity and in intrusion and anomalous behavior detection functions. 
 
