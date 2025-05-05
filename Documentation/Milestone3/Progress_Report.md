@@ -106,9 +106,10 @@
   * _Test Net 3_
     * Integrate new servers into experimental network
   * _System Measurement_
-    * Finalize system measurement and quanitification for data gathering and analysis
+    * Finalize system measurement and quantification for data gathering and analysis
   * _System Security_
     * Finalize system security measurement and stance for data gathering
+    * Use vulnerability scripts
 
 ### Hindrances
   * Time
@@ -132,6 +133,7 @@
     * Revision of all Sections
   * _System Measurement_
     * Finalize system measurement and quantification for data gathering and analysis
+    * Completed testing for this
   * _Final Presentation_
     * Group member assigned to go through GitHub/paper sections to begin building out the final presentation
 
@@ -167,6 +169,7 @@
   * Burnout
   * Communication
   * Limitations on timeline
+  * Exhaustion
 
 <hr>
 
