@@ -1,0 +1,118 @@
+version: '3.8'
+
+services:
+  data:
+    image: mpopelka/populate_data
+    container_name: populate-data-container-dsc
+    networks:
+      - industrial_dsc
+    restart: "no"
+  
+  blockchain:
+    image: adamspanier/blockchain_packet_integrity_server:latest
+    container_name: blockchain-dsc
+    ports:
+      - "1065:1065"
+    networks:
+      - industrial_dsc
+    volumes:
+      - blockchain:/tmp
+
+  fingerprinting:
+    image: adamspanier/fingerprintingserver:latest
+    container_name: fingerprinting-dsc
+    ports:
+      - "1066:1066"
+    networks:
+      - industrial_dsc
+    volumes:
+      - fingerprinting:/tmp
+
+  plc1:
+    image: openplc:v3
+    container_name: plc1-dsc
+    privileged: true
+    ports:
+      - "18081:8080"  # Webserver
+      - "11502:502"   # Modbus TCP
+    networks:
+      - industrial_dsc
+    restart: "no"
+
+  plc2:
+    image: openplc:v3
+    container_name: plc2-dsc
+    privileged: true
+    ports:
+      - "18082:8080"  # Webserver
+      - "11503:502"   # Modbus TCP
+    networks:
+      - industrial_dsc
+    restart: "no"
+
+  plc3:
+    image: openplc:v3
+    container_name: plc3-dsc
+    privileged: true
+    ports:
+      - "18083:8080"  # Webserver
+      - "11504:502"   # Modbus TCP
+    networks:
+      - industrial_dsc
+    restart: "no"
+
+  scada:
+    image: inductiveautomation/ignition
+    container_name: scada-dsc
+    ports:
+      - "18090:8088"
+    networks:
+      - industrial_dsc
+
+  mqtt-broker:
+    image: eclipse-mosquitto
+    container_name: mqtt-broker-dsc
+    ports:
+      - "11883:1883"  # MQTT (Unsecured)
+    networks:
+      - industrial_dsc
+    command: ["sh", "-c", "apk add --no-cache iputils net-tools && mosquitto -c /mosquitto/config/mosquitto.conf"]
+
+  database:
+    image: influxdb
+    container_name: influxdb-dsc
+    networks:
+      - industrial_dsc
+    environment:
+      - INFLUXDB_DB=plc_data
+    ports:
+      - "18087:8086"  # Non-encrypted InfluxDB listens on host port 8087
+    volumes:
+      - /root/Capstone/influxdb-dsc:/var/lib/influxdb2  # Fix path for InfluxDB v2
+    command: ["bash", "-c", "apt update && apt install -y iputils-ping net-tools && influxd"]
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana-dsc
+    restart: always
+    ports:
+      - "13002:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    depends_on:
+      - database
+    networks:
+      - industrial_dsc
+    user: "472:472"  # Run as Grafana user
+    volumes:
+      - ./grafana-dsc:/var/lib/grafana
+    command: ["bash", "-c", "apt update && apt install -y iputils-ping net-tools && /run.sh"]
+
+networks:
+  industrial_dsc:
+    driver: bridge
+
+volumes:
+  blockchain:
+  fingerprinting:
