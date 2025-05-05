@@ -18,7 +18,7 @@ else
     echo "No networks found to remove."
 fi
 
-echo "🗑  Removing stale Docker volumes..."
+echo "🗑 Removing stale Docker volumes..."
 docker volume prune -f
 
 echo "🧹 Ensuring ports are freed..."
@@ -36,6 +36,7 @@ docker-compose build --no-cache
 echo "🚀 Starting Docker Compose environments..."
 docker-compose -p no_crypto_env -f docker-compose-no-crypto.yml up -d
 docker-compose -p encrypted_env -f docker-compose-crypto.yml up -d
+docker-compose -p dsc_env -f docker-compose-dsc.yml up -d
 
 # Function to retrieve a valid InfluxDB token
 get_influx_token() {
@@ -47,7 +48,7 @@ get_influx_token() {
     fi
 }
 
-echo "🛠  Setting up InfluxDB..."
+echo "🛠 Setting up InfluxDB..."
 sleep 5  # Allow time for InfluxDB to initialize
 
 # Ensure InfluxDB is running
@@ -100,10 +101,10 @@ if [[ ! -f influx_token.txt || ! -s influx_token.txt ]]; then
     if [[ -n "$INFLUX_TOKEN" && "$INFLUX_TOKEN" != "null" ]]; then
         echo "$INFLUX_TOKEN" > influx_token.txt
         echo "✅ InfluxDB setup complete. Token saved."
-
-        # Also update .bashrc to persist the secure token
+        
+	# Also update .bashrc to persist the secure token
         sed -i '/export INFLUX_TOKEN/d' ~/.bashrc
-        echo "export INFLUX_TOKEN=$(cat influx_token.txt)" >> ~/.bashrc
+	echo "export INFLUX_TOKEN=$(cat influx_token.txt)" >> ~/.bashrc
         source ~/.bashrc
     else
         echo "❌ ERROR: Failed to retrieve the Secure InfluxDB token! Check Secure InfluxDB logs."
@@ -120,7 +121,7 @@ docker exec influxdb-no-crypto influx config create \
   --token "$INFLUX_TOKEN" \
   --active || echo "⚠️ Warning: Config may already exist."
 
-echo "🛠   Setting up Secure InfluxDB..."
+echo "🛠  Setting up Secure InfluxDB..."
 sleep 5  # Allow time for Secure InfluxDB to initialize
 
 # Ensure Secure InfluxDB is running before setup
@@ -197,5 +198,76 @@ docker exec influxdb-secure influx config create \
   --active --configs-path /etc/influxdb2/influx-configs || echo "⚠️ Warning: Secure config may already exist."
 
 echo "✅ Secure InfluxDB deployment complete."
-echo "✅ All containers should now be running!"
 
+echo "🛠 Setting up DSC InfluxDB..."
+sleep 5  # Allow time for DSC InfluxDB to initialize
+
+# Ensure DSC InfluxDB is running
+MAX_RETRIES=10
+RETRY_COUNT=0
+while ! docker exec influxdb-dsc influx ping &>/dev/null; do
+    echo "⏳ Waiting for DSC InfluxDB to start..."
+    sleep 3
+    ((RETRY_COUNT++))
+    if [[ $RETRY_COUNT -eq $MAX_RETRIES ]]; then
+        echo "❌ ERROR: DSC InfluxDB failed to start!"
+        exit 1
+    fi
+done
+
+# 🔹 Retrieve the stored DSC token instead of recreating it
+if [[ -f influx_token-dsc.txt && -s influx_token-dsc.txt ]]; then
+    INFLUX_DSC_TOKEN=$(cat influx_token-dsc.txt)
+else
+    INFLUX_DSC_TOKEN=""
+fi
+
+# 🔹 Validate the stored token
+if [[ -n "$INFLUX_DSC_TOKEN" ]]; then
+    echo "🔍 Checking if DSC InfluxDB token is valid..."
+    if docker exec influxdb-dsc influx org list \
+      --token "$INFLUX_DSC_TOKEN" &>/dev/null; then
+        echo "✅ Using existing valid DSC InfluxDB token."
+    else
+        echo "⚠️ WARNING: DSC token validation failed. Removing and reconfiguring..."
+        rm -f influx_token-dsc.txt
+        INFLUX_DSC_TOKEN=""
+    fi
+fi
+
+# 🔹 If token is still empty, reinitialize InfluxDB
+if [[ -z "$INFLUX_DSC_TOKEN" ]]; then
+    echo "⚠️ DSC InfluxDB requires setup. Running setup now..."
+
+    # Run setup
+    docker exec influxdb-dsc influx setup \
+      --username admin \
+      --password admin123 \
+      --org my-org \
+      --bucket plc_data \
+      --retention 0 \
+      --force
+
+    # 🔹 Retrieve the newly generated token
+    INFLUX_DSC_TOKEN=$(docker exec influxdb-dsc influx auth list \
+      --json | jq -r '.[] | select(.description == "admin'\''s Token") | .token')
+
+    # 🔹 Save the token
+    if [[ -n "$INFLUX_DSC_TOKEN" && "$INFLUX_DSC_TOKEN" != "null" ]]; then
+        echo "$INFLUX_DSC_TOKEN" > influx_token-dsc.txt
+        echo "✅ DSC InfluxDB setup complete. Token saved."
+    else
+        echo "❌ ERROR: Failed to retrieve DSC InfluxDB token!"
+        exit 1
+    fi
+fi
+
+# 🔹 Configure CLI with the DSC token
+docker exec influxdb-dsc influx config create \
+  --config-name dsc-default \
+  --host-url http://localhost:18087 \
+  --org my-org \
+  --token "$INFLUX_DSC_TOKEN" \
+  --active || echo "⚠️ Warning: DSC config may already exist."
+
+echo "✅ All containers should now be running!"
