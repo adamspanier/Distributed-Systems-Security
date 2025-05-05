@@ -1,8 +1,8 @@
-# Distributed Security Controls in Industrial Control Systems
+# Distributed Security Controls in Industrial Control Systems - Final Report
 
 [HOME](https://github.com/adamspanier/Distributed-Systems-Security)
 
-## Executive Summary - Distributed Security Controls in Industrial Control Systems
+## Executive Summary
 
 ### ***** NEWS ALERT START *****
 
@@ -16,7 +16,6 @@ Panic grips the population. The phones have been dead for weeks now. Natural gas
 
 ### ***** NEWS ALERT END *****
 
-
 ### The Problem
 
 While the scenario above reads like a chapter from a science-fiction film, the critical systems holding modern society together are only one cyber attack away from complete collapse. These critical systems, often controlled by distributed Industrial Control Systems (ICS), generally use small, computationally limited devices to carry out day-to-day operations. The distributed nature of these ICS networks can make securing these networks very difficult. The limited computing power and real-time nature of these systems renders commonly used cyber security tools useless. The functions of these distributed industrial systems simultaneously make them the _most important_ and the _least secure_ systems in the world. Given one effective cyber attack, the power grid could be down for weeks, if not months, leaving society to crumble in its wake.
@@ -29,7 +28,7 @@ When designing an ICS system, security and functionality are _always_ competing 
 
 **RQ2: What effect, if any, do these combined mechanisms have on the security stance of ICS systems?**
 
-### The Solution: Goals and Objectives
+### The Goals
 
 This Decentralized Cryptographic Security Design investigation aims to:
 
@@ -37,7 +36,7 @@ This Decentralized Cryptographic Security Design investigation aims to:
 2. Observe how different applications and combinations of DCS measures affect ICS networks
 3. Understand the benefits and drawbacks of applying system-level DCS design to ICS networks
 
-### Project Methodology
+### The Project Methodology
 
 To carry out this research, an initial survey of decentralized security measures in industrial control systems is carried out. Using the information discovered, a set of asset/threat pairs is derived based on common distributed industrial control system designs. Next, a decentralized security solution is matched to each asset/threat pair as a means to mitigate the risk posed to each asset. With each threat assigned to a security measure, a system is designed using two possible decentralized security controls. This system is then emulated in code, compared to both control and comparison networks, and analyzed for effectiveness.
 
@@ -46,11 +45,14 @@ To carry out this research, an initial survey of decentralized security measures
 By allowing industrial control system designers to focus on the holistic, system-level security requirements of distributed industrial control systems, the networks they design can take a more robust, consistent, and predictable security profile. By using the method described above, the blind spots, computational bottlenecks, network complexities, and hidden threats common to distributed control systems can be systematically analyzed such that appropriate distributed security controls can be applied without affecting the functions of the system as a whole. By providing a more comprehensive security approach for industrial control system  designers, the critical systems that society relies upon for peace and order can be protected to the level that the people who need them expect.
 
 ## Results / Findings
-(brief overview of outcomes - what did you achieve?, list milestone 1/2/3 outcomes, make an effort to logically collect and organize the findings)
 
-(bulleted lists can also be helpful to structure your results discussion)
-* outcome 1
-* outcome 2
+The use of decentralized security controls (DSC) like blockchains or fingerprinting mechanisms is not new in ICS security operations. The majority of research aimed at better understanding DSC implementations in ICS networks focuses primarily on the effectiveness of a single DSC. Existing research generally focuses on two DSC mechanisms: 1) blockchain-based data validation and 2) fingerprint-based anomaly detection. Both the blockchain validation and fingerprint anomaly detection controls are shown to be effective in ensuring data integrity and in intrusion and anomalous behavior detection functions. 
+
+This research notes the existence of a void in the assessment and understanding of how combinations of these DSC mechanisms effect ICS networks. To fill this void, this research aims to test combinations of DSC mechanisms in conjunction with standard ICS functions as a means to test the holistic effects these combinations have on ICS functions. To do this, an ICS model system is created to emulate the operations of a power substation. The power substation is selected for this research due to its commonality in real-world applications and it's simplicity. Th substation model designed in this work includes PLCs, RTUs, a database, and a Scada controller.
+
+From this design, three docker networks, a python scenario script, a python security evaluation script are created to emulate, operate, and test the model system. The first network is a simple control network comprised of PLCs, an MQTT broker, a database, and a Scada controller. The second network is a comparison network comprised of the same components as the control but secured by encrypted traffic and a VPN. The third network is the experimental network, again comprised of the same components as the control and comparison networks, but instead of encryption and VPN protection, this network implements both a blockchain logging validator and a fingerprint-based anomalous behavior detection server. These two controls are selected due to their prevalence among existing literature. 
+
+System testing reveals that the control system, as predicted, fails all security testing. The comparison network indicated the existence of multiple security flaws including data integrity and anomaly detection failures, but passed data-in-transit testing. The experimental network passed all data integrity checks and successfully detects anomalous behavior and intrustions, but fails data-in-transfer testing. These results indicate that the combination of traditional security models with combined DSC mechanisms provide a more robust security stance for ICS networks.
 
 ## Install Instructions (if applicable)
 ### Requirements
