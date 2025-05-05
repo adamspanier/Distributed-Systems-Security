@@ -41,7 +41,7 @@
     * Build Docker Compose files
 
 ### Hindrances
-  * Time - As the semester is round out, our time is getting more and more tight
+  * Time - As the semester is rounding out, our time is getting tighter
   * Communication - As related to the time constraints above, our communication can sometimes be limited
   * Exhaustion - With all the work we've done up to this point, we are all wearing out
 
@@ -122,14 +122,18 @@
 ## Progress Report Week of 4/28/2025
 
 ### Report Overview
-  * Extensive work on final Paper
+  * Extensive work on final paper
   * System measurement
+  * Begin work on final presentation
 
 ### Outcomes
   * _Paper_
     * Composition of all Sections
+    * Revision of all Sections
   * _System Measurement_
-    * Finalize system measurement and quanitification for data gathering and analysis
+    * Finalize system measurement and quantification for data gathering and analysis
+  * _Final Presentation_
+    * Group member assigned to go through GitHub/paper sections to begin building out the final presentation
 
 ### Hindrances
   * Time
@@ -143,13 +147,26 @@
 ## Progress Report Week of 5/5/2025
 
 ### Report Overview
-  * fill
+  * Extensive work on final paper
+  * Finish final presentation
+  * Final report
 
 ### Outcomes
-  * fill
+  * _Paper_
+    * Final composition of all Sections
+    * Revision of all Sections
+  * _Final Presentation_
+    * Final presentation built out for presentation on Monday
+  * _Final Report_
+    * Final report populated and finished
+    * Data gathering completed
 
 ### Hindrances
-  * fill
+  * Time
+  * Energy
+  * Burnout
+  * Communication
+  * Limitations on timeline
 
 <hr>
 
