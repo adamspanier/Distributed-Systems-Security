@@ -38,13 +38,18 @@ This repository serves the distributed systems security research and development
 
 #### Paper Details
 1. [Paper Outline](Documentation/Milestone2/Outline.md)
-2. [Current Paper Version](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Distributed_Security_Controls_in_Industrial_Control_Systems_3-24-25.pdf)
 
 #### M2 Update and Prototype Video
 
 1. [Video Download](https://uofnebraska-my.sharepoint.com/:v:/g/personal/57974254_nebraska_edu/Efm8_AuFuC1Bk5-jzEVnS9UBbhbo7soEFKHIYzXOlgLXNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ta551y)
 
 ### Milestone 3
+
+#### Deliverables
+1. [Project Realization Progress Report](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Progress_Report.md)
+2. [Final Report: Packaging and Release](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Final_Report.md)
+3. [Presentation Slides]()
+4. [Final Research Paper]()
 
 #### System Emulation and Prototyping
 1. [DCS Deployment Reporting](Documentation/Milestone2/DCS_Deployment_Report.md)
@@ -57,6 +62,8 @@ This repository serves the distributed systems security research and development
 #### Paper Details
 1. [Paper Outline](Documentation/Milestone2/Outline.md)
 2. [Current Paper Version](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Distributed_Security_Controls_in_Industrial_Control_Systems_3-24-25.pdf)
+
+
 
 #### Milestone 3 : Sprint Plan
 
