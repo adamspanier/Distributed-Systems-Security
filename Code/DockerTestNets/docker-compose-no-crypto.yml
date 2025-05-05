@@ -1,6 +1,13 @@
 version: '3.8'
 
 services:
+  data:
+    image: mpopelka/populate_data
+    container_name: populate-data-container_no_crypto
+    networks:
+      - industrial_no_crypto
+    restart: "no"
+  
   plc1:
     image: openplc:v3
     container_name: plc1_no_crypto
@@ -85,5 +92,3 @@ services:
 networks:
   industrial_no_crypto:
     driver: bridge
-
-
