@@ -122,13 +122,21 @@
 ## Progress Report Week of 4/28/2025
 
 ### Report Overview
-  * fill
+  * Extensive work on final Paper
+  * System measurement
 
 ### Outcomes
-  * fill
+  * _Paper_
+    * Composition of all Sections
+  * _System Measurement_
+    * Finalize system measurement and quanitification for data gathering and analysis
 
 ### Hindrances
-  * fill
+  * Time
+  * Energy
+  * Burnout
+  * Communication
+  * Limitations on timeline
 
 <hr>
 
