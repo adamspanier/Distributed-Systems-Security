@@ -8,7 +8,7 @@
 
 **29 JUL 2027: 0300** 
 
-A wave of darkness covers the United States as power sub-station after power sub-station fails. The cascading blackout ripples slowly cross the country, shutting down water, coolant, and industrial production systems in its wake. City after city, home after home, fall eerily quiet as air conditioners, refrigerators, freezers, fans, and electrical devices fall into silence. The people are scared, but with fully charged phone batteries and backup generators, the population remains calm.
+A wave of darkness covers the United States as power substation after power substation fails. The cascading blackout ripples slowly cross the country, shutting down water, coolant, and industrial production systems in its wake. City after city, home after home, fall eerily quiet as air conditioners, refrigerators, freezers, fans, and electrical devices fall into silence. The people are scared, but with fully charged phone batteries and backup generators, the population remains calm.
 
 **27 AUG 2027: 1200** 
 
@@ -18,7 +18,7 @@ Panic grips the population. The phones have been dead for weeks now. Natural gas
 
 ### The Problem
 
-While the scenario above reads like a chapter from a science-fiction film, the critical systems holding modern society together are only one cyber attack away from complete collapse. These critical systems, often controlled by distributed Industrial Control Systems (ICS), generally use small, computationally limited devices to carry out day-to-day operations. The distributed nature of these ICS networks can make securing these networks very difficult. The limited computing power and real-time nature of these systems renders commonly used cyber security tools useless. The functions of these distributed industrial systems simultaneously make them the _most important_ and the _least secure_ systems in the world. Given one effective cyber attack, the power grid could be down for weeks, if not months, leaving society to crumble in its wake.
+While the scenario above reads like a chapter from a science-fiction film, the critical systems holding modern society together are only one cyber attack away from complete collapse. These critical systems, often controlled by distributed Industrial Control Systems (ICS), generally use small, computationally limited devices to carry out day-to-day operations. The distributed nature of these ICS networks can make securing these networks very difficult. The limited computing power and real-time nature of these systems renders commonly used cybersecurity tools useless. The functions of these distributed industrial systems simultaneously make them the _most important_ and the _least secure_ systems in the world. Given one effective cyber attack, the power grid could be down for weeks, if not months, leaving society to crumble in its wake.
 
 When designing an ICS system, security and functionality are _always_ competing requirements. When the computing power of a device is limited, any applied security measure threatens to reduce system functionality. While traditional methods of securing networks aren't useful in ICS networks, there are many new decentralized cryptographic security (DCS) measures that could be used to secure critical systems. Concepts like blockchains, hashes, digital signatures, and device fingerprinting present new and fresh possibilities for securing distributed critical systems. While these types of security measures are not entirely new to industrial control systems, there are a limited number of words considering the application of such security mechanisms from a system-design perspective.
 
@@ -38,7 +38,7 @@ This Decentralized Cryptographic Security Design investigation aims to:
 
 ### The Project Methodology
 
-To carry out this research, an initial survey of decentralized security measures in industrial control systems is carried out. Using the information discovered, a set of asset/threat pairs is derived based on common distributed industrial control system designs. Next, a decentralized security solution is matched to each asset/threat pair as a means to mitigate the risk posed to each asset. With each threat assigned to a security measure, a system is designed using two possible decentralized security controls. This system is then emulated in code, compared to both control and comparison networks, and analyzed for effectiveness.
+To carry out this research, an initial survey of decentralized security measures in industrial control systems was carried out. Using the information discovered, a set of asset/threat pairs is derived based on common distributed industrial control system designs. Next, a decentralized security solution is matched to each asset/threat pair as a means to mitigate the risk posed to each asset. With each threat assigned to a security measure, a system is designed using two possible decentralized security controls. This system is then emulated in code, compared to both control and comparison networks, and analyzed for effectiveness.
 
 ### The Benefits
 
@@ -48,18 +48,26 @@ By allowing industrial control system designers to focus on the holistic, system
 
 The use of decentralized security controls (DSC) like blockchains or fingerprinting mechanisms is not new in ICS security operations. The majority of research aimed at better understanding DSC implementations in ICS networks focuses primarily on the effectiveness of a single DSC. Existing research generally focuses on two DSC mechanisms: 1) blockchain-based data validation and 2) fingerprint-based anomaly detection. Both the blockchain validation and fingerprint anomaly detection controls are shown to be effective in ensuring data integrity and in intrusion and anomalous behavior detection functions. 
 
-This research notes the existence of a void in the assessment and understanding of how combinations of these DSC mechanisms effect ICS networks. To fill this void, this research aims to test combinations of DSC mechanisms in conjunction with standard ICS functions as a means to test the holistic effects these combinations have on ICS functions. To do this, an ICS model system is created to emulate the operations of a power substation. The power substation is selected for this research due to its commonality in real-world applications and it's simplicity. Th substation model designed in this work includes PLCs, RTUs, a database, and a Scada controller.
+This research notes the existence of a void in the assessment and understanding of how combinations of these DSC mechanisms affect ICS networks. To fill this void, this research aims to test combinations of DSC mechanisms in conjunction with standard ICS functions as a means to test the holistic effects these combinations have on ICS functions. To do this, an ICS model system is created to emulate the operations of a power substation. The power substation is selected for this research due to its commonality in real-world applications and its simplicity. The substation model designed in this work includes PLCs, RTUs, a database, and a SCADA controller.
 
-From this design, three docker networks, a python scenario script, a python security evaluation script are created to emulate, operate, and test the model system. The first network is a simple control network comprised of PLCs, an MQTT broker, a database, and a Scada controller. The second network is a comparison network comprised of the same components as the control but secured by encrypted traffic and a VPN. The third network is the experimental network, again comprised of the same components as the control and comparison networks, but instead of encryption and VPN protection, this network implements both a blockchain logging validator and a fingerprint-based anomalous behavior detection server. These two controls are selected due to their prevalence among existing literature. 
+From this design, three Docker networks, a Python scenario script, and a Python security evaluation script are created to emulate, operate, and test the model system. The first network is a simple control network comprised of PLCs, an MQTT broker, a database, and a SCADA controller. The second network is a comparison network comprised of the same components as the control but secured by encrypted traffic and a VPN. The third network is the experimental network, again comprised of the same components as the control and comparison networks, but instead of encryption and VPN protection, this network implements both a blockchain logging validator and a fingerprint-based anomalous behavior detection server. These two controls are selected due to their prevalence in existing literature. 
 
-System testing reveals that the control system, as predicted, fails all security testing. The comparison network indicated the existence of multiple security flaws including data integrity and anomaly detection failures, but passed data-in-transit testing. The experimental network passed all data integrity checks and successfully detects anomalous behavior and intrustions, but fails data-in-transfer testing. These results indicate that the combination of traditional security models with combined DSC mechanisms provide a more robust security stance for ICS networks.
+System testing reveals that the control system, as predicted, fails all security testing. The comparison network indicated the existence of multiple security flaws, including data integrity and anomaly detection failures, but passed data-in-transit testing. The experimental network passed all data integrity checks and successfully detects anomalous behavior and intrusions, but fails data-in-transfer testing. These results indicate that the combination of traditional security models with combined DSC mechanisms provides a more robust security stance for ICS networks.
 
 ## Install Instructions (if applicable)
 ### Requirements
-(list of any software / hardware requirements necessary to run the code/app/etc)
+An environment using any Linux distribution.
+The environment used for testing this experiment was Debian-based (Ubuntu).
+  * Using a non-Debian-based distribution will require edits.
 
 ### Installation Instructions
-(list of steps to install the product/app/code/etc)
+Run sudo apt update
+Run sudo apt install docker
+Run systemctl start docker
 
 ### Getting started
-(list of any steps to run the code after installation and/or manage the apps over their lifecycle)
+Pull down files in the Code\DockerTestNets folder
+Copy the files to the environment they will be run on
+Create a testing directory
+Ensure all files are in the same directory
+Run ./deploy.sh
