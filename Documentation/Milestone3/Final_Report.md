@@ -61,13 +61,13 @@ The environment used for testing this experiment was Debian-based (Ubuntu).
   * Using a non-Debian-based distribution will require edits.
 
 ### Installation Instructions
-Run sudo apt update
-Run sudo apt install docker
-Run systemctl start docker
+* Run sudo apt update
+* Run sudo apt install docker
+* Run systemctl start docker
 
 ### Getting started
-Pull down files in the Code\DockerTestNets folder
-Copy the files to the environment they will be run on
-Create a testing directory
-Ensure all files are in the same directory
-Run ./deploy.sh
+* Pull down files in the Code\DockerTestNets folder
+* Copy the files to the environment they will be run on
+* Create a testing directory
+* Ensure all files are in the same directory
+* Run ./deploy.sh
