@@ -32,7 +32,6 @@
     echo -e "\n ***** Installing OpenPLC 3! ***** \n"
     git clone https://github.com/thiagoralves/OpenPLC_v3.git
     cd OpenPLC_v3
-    #./install.sh linux
     docker build -t openplc:v3 .
     cd ..
 
