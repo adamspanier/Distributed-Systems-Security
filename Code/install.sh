@@ -45,10 +45,7 @@
     cd Code
     cd DockerTestNets
     sudo chmod 777 deploy.sh
-    ./deploy.sh
-    
-    #echo -e "\n ***** Installation Complete: PLEASE REBOOT! ***** \n"
-    
+    ./deploy.sh    
 
 
 
