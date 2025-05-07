@@ -59,7 +59,8 @@ This repository serves the distributed systems security research and development
 
 #### System Testing
 1. [Simulation Details and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
-2. [Outcomes](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Data.md)
+2. [Security and Vulnerability Testing](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Security_and_Vulnerability_Testing.md)
+3. [Outcomes](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Data.md)
 
 #### Paper Details
 1. [Paper Outline](Documentation/Milestone2/Outline.md)
@@ -78,7 +79,7 @@ This repository serves the distributed systems security research and development
         1. [Simulation Details and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
            
     * **Task:** Create System Attack Mechanism
-        1. [Simulation Details and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+        1. [Security and Vulnerability Testing](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Security_and_Vulnerability_Testing.md)
 
     * **Task:** System Measurement Specifics
         1. [Simulation Details and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
@@ -99,6 +100,7 @@ This repository serves the distributed systems security research and development
 
     * **Task:** Create Measurement Scripts
         1. [Simulation Details and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+        2. [Security and Vulnerability Testing](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Security_and_Vulnerability_Testing.md)
      
     * **Task:** Complete Fingerprinting Server Image
         1. [System and Emulation Model Purpose, Design, and Description](Documentation/Milestone2/DCS_Architecture.md)
@@ -113,6 +115,7 @@ This repository serves the distributed systems security research and development
            
     * **Task:** Run Full Tests and Gather Data
         1. [Security and Vulnerability Testing](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Security_and_Vulnerability_Testing.md)
+        2. [Simulation Details and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
 
     * **Task:** Write System Emulation Portion of Paper
         1. [Paper Outline](Documentation/Milestone2/Outline.md)
