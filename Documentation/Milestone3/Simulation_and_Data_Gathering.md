@@ -165,4 +165,5 @@ def test_fingerprinting_valid_pattern():
         time.sleep(0.5)
 
     return results
+# This is a partial copy of the script. The full script can be found at <script location>.
 ```
