@@ -46,6 +46,7 @@ def generate_plc_data(plc_id):
         "timestamp": int(time.time())
     }
 #This is a partial copy of the script. The full script can be found at <script location>.
+```
 ## Encrypted Environment
 
 ## Blockchain/Fingerprinting Environment
