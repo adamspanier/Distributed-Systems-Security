@@ -50,6 +50,7 @@ This repository serves the distributed systems security research and development
 2. [Final Report: Packaging and Release](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Final_Report.md)
 3. [Presentation Slides]()
 4. [Final Research Paper](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Distributed_Security_Controls_in_Industrial_Control_Systems_5-7-2025.pdf)
+5. [Simulation and Data](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
 
 #### System Emulation and Prototyping
 1. [DCS Deployment Reporting](Documentation/Milestone2/DCS_Deployment_Report.md)
