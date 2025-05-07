@@ -30,8 +30,8 @@ sudo fuser -k 5502/tcp 2>/dev/null
 sudo fuser -k 5503/tcp 2>/dev/null
 sudo fuser -k 5504/tcp 2>/dev/null
 
-echo "⬇️ Pulling latest images..."
-docker-compose build --no-cache
+#echo "⬇️ Pulling latest images..."
+#docker-compose build --no-cache
 
 echo "🚀 Starting Docker Compose environments..."
 docker-compose -p no_crypto_env -f docker-compose-no-crypto.yml up -d
