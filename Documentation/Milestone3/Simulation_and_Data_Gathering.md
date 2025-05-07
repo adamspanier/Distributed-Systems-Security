@@ -45,7 +45,7 @@ def generate_plc_data(plc_id):
         "flow_rate": round(random.uniform(5, 50), 2),
         "timestamp": int(time.time())
     }
-# This is a partial copy of the script. The full script can be found at Code\Simulation and Data Gathering.
+# This is a partial copy of the script. The full script can be found at Code/Simulation and Data Gathering.
 ```
 ## Encrypted Environment
 ```python
@@ -92,7 +92,7 @@ def generate_plc_data(plc_id):
         "flow_rate": round(random.uniform(5, 50), 2),
         "timestamp": int(time.time())
     }
-# This is a partial copy of the script. The full script can be found at Code\Simulation and Data Gathering.
+# This is a partial copy of the script. The full script can be found at Code/Simulation and Data Gathering.
 ```
 
 ## Blockchain/Fingerprinting Environment
@@ -165,5 +165,5 @@ def test_fingerprinting_valid_pattern():
         time.sleep(0.5)
 
     return results
-# This is a partial copy of the script. The full script can be found at Code\Simulation and Data Gathering.
+# This is a partial copy of the script. The full script can be found at Code/Simulation and Data Gathering.
 ```
