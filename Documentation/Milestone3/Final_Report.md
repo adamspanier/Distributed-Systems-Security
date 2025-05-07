@@ -55,19 +55,19 @@ From this design, three Docker networks, a Python scenario script, and a Python 
 System testing reveals that the control system, as predicted, fails all security testing. The comparison network indicated the existence of multiple security flaws, including data integrity and anomaly detection failures, but passed data-in-transit testing. The experimental network passed all data integrity checks and successfully detects anomalous behavior and intrusions, but fails data-in-transfer testing. These results indicate that the combination of traditional security models with combined DSC mechanisms provides a more robust security stance for ICS networks.
 
 ## Install Instructions (if applicable)
+
 ### Requirements
-An environment using any Linux distribution.
-The environment used for testing this experiment was Debian-based (Ubuntu).
-  * Using a non-Debian-based distribution will require edits.
+* An environment using any Linux distribution.
+* The environment used for testing this experiment was Debian-based (Ubuntu).
+   * Using a non-Debian-based distribution will require edits.
 
 ### Installation Instructions
-* Run sudo apt update
-* Run sudo apt install docker
-* Run systemctl start docker
+* Make a new working directory and move into the new directory
+* Download the install script found [here](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Code/install.sh) to the new directory
+* Open a Terminal in the new directory
+* Run ```sudo chmod 777 install.sh && ./install.sh```
+* Initial installation will automatically run the test networks
 
-### Getting started
-* Pull down files in the Code\DockerTestNets folder
-* Copy the files to the environment they will be run on
-* Create a testing directory
-* Ensure all files are in the same directory
-* Run ./deploy.sh
+### Getting Started
+* To run the system again, execute the deploy.sh script at _Distributed-Systems-Security/Code/DockerTestNets_
+  * ```./deploy.sh```
