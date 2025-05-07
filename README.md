@@ -1,6 +1,6 @@
 # Decentralized Security Design in Industrial Control Systems
 
-This repository serves the distributed systems security research and development project aiming to investigate decentralized security controls in industrial control systems.
+This repository serves the distributed systems security research and development project, aiming to investigate decentralized security controls in industrial control systems.
 
 **Members:**
 * _Brevin Wagner_
@@ -51,20 +51,21 @@ This repository serves the distributed systems security research and development
 3. [Presentation Slides]()
 4. [Final Research Paper](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Distributed_Security_Controls_in_Industrial_Control_Systems_5-7-2025.pdf)
 5. [Simulation and Data](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+6. [Security and Vulnerability Testing](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Security_and_Vulnerability_Testing.md)
 
 #### System Emulation and Prototyping
 1. [DCS Deployment Reporting](Documentation/Milestone2/DCS_Deployment_Report.md)
 2. [Packet Capture and Analysis](Documentation/Milestone2/Packet_Capture.md)
 
 #### System Testing
-1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+1. [Simulation Details and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
 2. [Outcomes](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Data.md)
 
 #### Paper Details
 1. [Paper Outline](Documentation/Milestone2/Outline.md)
 2. [Current Paper Version](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Distributed_Security_Controls_in_Industrial_Control_Systems_3-24-25.pdf)
 
-#### Milestone 3 : Sprint Plan
+#### Milestone 3: Sprint Plan
 
 1. **Week 1** - Planning and System Operations
 
@@ -74,13 +75,13 @@ This repository serves the distributed systems security research and development
         3. [Update Progress Report](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Progress_Report.md)
 
     * **Task:** Create System Scenario Script
-        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+        1. [Simulation Details and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
            
     * **Task:** Create System Attack Mechanism
-        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+        1. [Simulation Details and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
 
     * **Task:** System Measurement Specifics
-        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+        1. [Simulation Details and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
      
     * **Task:** Complete Blockchain Server Image
         1. [System and Emulation Model Purpose, Design, and Description](Documentation/Milestone2/DCS_Architecture.md)
@@ -91,13 +92,13 @@ This repository serves the distributed systems security research and development
 2. **Week 2** - System Operations and Deployment
 
     * **Task:** Deploy System Scenario Script
-        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+        1. [Simulation Details and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
            
     * **Task:** Deploy System Attack Mechanism
-        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+        1. [Security and Vulnerability Testing](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Security_and_Vulnerability_Testing.md)
 
     * **Task:** Create Measurement Scripts
-        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+        1. [Simulation Details and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
      
     * **Task:** Complete Fingerprinting Server Image
         1. [System and Emulation Model Purpose, Design, and Description](Documentation/Milestone2/DCS_Architecture.md)
@@ -111,7 +112,7 @@ This repository serves the distributed systems security research and development
         1. [DCS Deployment Reporting](Documentation/Milestone2/DCS_Deployment_Report.md)
            
     * **Task:** Run Full Tests and Gather Data
-        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+        1. [Security and Vulnerability Testing](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Security_and_Vulnerability_Testing.md)
 
     * **Task:** Write System Emulation Portion of Paper
         1. [Paper Outline](Documentation/Milestone2/Outline.md)
@@ -119,10 +120,11 @@ This repository serves the distributed systems security research and development
     * **Task:** Team Progress Documentation
         1. [Progress Report](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Progress_Report.md)
 
-4. **Week 4** - System Attack and Measuremen and Paper
+4. **Week 4** - System Attack and Measurement and Paper
 
     * **Task:** Run Full Tests and Gather Data
-        1. [Simulation Details and Data Gatering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+        1. [Simulation Details and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+        2. [Security and Vulnerability Testing](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Security_and_Vulnerability_Testing.md)
 
     * **Task:** Write System Emulation Portion of Paper
         1. [Paper Outline](Documentation/Milestone2/Outline.md)
@@ -136,7 +138,7 @@ This repository serves the distributed systems security research and development
     * **Task:** Team Progress Documentation
         1. [Progress Report](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Progress_Report.md)
      
-5. **Week 5** - System Attack and Measuremen and Paper
+5. **Week 5** - System Attack and Measurement and Paper
 
     * **Task:** Write Discussion Portion of Paper
         1. [Paper Outline](Documentation/Milestone2/Outline.md)
@@ -152,13 +154,13 @@ This repository serves the distributed systems security research and development
      
     * **Task:** Make Final Presentation
   
-6. **Week 6** - System Attack and Measuremen and Paper
+6. **Week 6** - System Attack and Measurement and Paper
      
-    * **Task:** Final Presentation - Monday, May 12 at 7pm
+    * **Task:** Final Presentation - Monday, May 12 at 7 pm
 
 <hr>
 
-#### Milestone 2 : Sprint Plan
+#### Milestone 2: Sprint Plan
 
 1. **Week 1** - ICS Investigation and Environment Exploration
 
@@ -172,7 +174,7 @@ This repository serves the distributed systems security research and development
     * **Task:** Team Progress Documentation
         1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
      
-2. **Week 2** - Decentralized Controls Investigation and Environemnt Exploration
+2. **Week 2** - Decentralized Controls Investigation and Environment Exploration
 
     * **Task:** Decentralized Controls
         1. [Identify Decentralized Controls for each Threat/Asset Pair](Documentation/Milestone2/Assets_Threats_Controls.md)
@@ -229,7 +231,7 @@ This repository serves the distributed systems security research and development
 
     * **Task:** Repository Revisions and Corrections
 
-    * **Task:** Paper - Introduction and Backtround rough draft 
+    * **Task:** Paper - Introduction and Background rough draft 
      
     * **Task:** Team Progress Documentation
         1. [Progress Report](Documentation/Milestone2/Prototype_Progress_Report.md)
