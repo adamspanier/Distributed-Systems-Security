@@ -9,6 +9,16 @@ This repository serves the distributed systems security research and development
 * _Perry Donahue_
 * _Adam Spanier_
 
+ ******************************************* 
+ ### Final Deliverables - Shortcut
+1. [Project Realization Progress Report](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Progress_Report.md)
+2. [Final Report: Packaging and Release](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Final_Report.md)
+3. [Presentation Slides]()
+4. [Final Research Paper](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Distributed_Security_Controls_in_Industrial_Control_Systems_5-7-2025.pdf)
+5. [Simulation and Data](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Simulation_and_Data_Gathering.md)
+6. [Security and Vulnerability Testing](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Documentation/Milestone3/Security_and_Vulnerability_Testing.md)
+ ******************************************* 
+
 ## Table of Contents
 
 ### I. Initial Proposal
