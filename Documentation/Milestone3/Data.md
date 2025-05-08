@@ -2,7 +2,7 @@
 
 [HOME](https://github.com/adamspanier/Distributed-Systems-Security)
 
-## Unencrypted Environment - [Security and Vulnerability Test](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Code/Security_and_Vulnerability_Testing/NoCrypto%20Results.json)
+## Unencrypted Environment - [Security and Vulnerability Test](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Code/Security_and_Vulnerability_Testing/NoCrypto/NoCrypto%20Results.json)
 The unencrypted environment (172.18.0.0/16) showed several security issues:
 
 - **PLC1**:
@@ -50,7 +50,7 @@ The unencrypted environment (172.18.0.0/16) showed several security issues:
   - Network Segmentation: PASS (All expected devices found: 7/7)
   - Vulnerability Scan: INFO (Scan completed on 7 IPs. Results in /tmp/nmap_vuln_results.xml)
 
-## Encrypted Environment - [Security and Vulnerability Test](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Code/Security_and_Vulnerability_Testing/Crypto%20Results.json)
+## Encrypted Environment - [Security and Vulnerability Test](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Code/Security_and_Vulnerability_Testing/Crypto/Crypto%20Results.json)
 The encrypted environment (172.19.0.0/16) revealed these findings:
 
 ### Summary
@@ -139,7 +139,7 @@ The encrypted environment (172.19.0.0/16) revealed these findings:
 13. OPC_UA_Server: TCP Port Accessibility - Expected: [4840], Open: []
 14. OPC_UA_Server: Connectivity - Port not accessible
 
-## Blockchain/Fingerprinting Environment - [Security and Vulnerability Test](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Code/Security_and_Vulnerability_Testing/Blockchain%20results.json)
+## Blockchain/Fingerprinting Environment - [Security and Vulnerability Test](https://github.com/adamspanier/Distributed-Systems-Security/blob/main/Code/Security_and_Vulnerability_Testing/Blockchain/Blockchain%20results.json)
 The blockchain/fingerprinting environment (172.20.0.0/16) testing revealed:
 
 ### Dependencies Check
