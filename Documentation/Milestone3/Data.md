@@ -233,3 +233,15 @@ The blockchain/fingerprinting environment (172.20.0.0/16) testing revealed:
 7. MQTT_Broker: Connectivity - MQTT ports not accessible
 8. Grafana: HTTPS - Grafana does not use HTTPS
 
+# Packet Capture Data
+The three packet captures seen below were taken from the unencrypted, encrypted, and novel blockchain/fingerprinting environments, respectively. The full packet capture is available at <insert link here>.
+
+## Unencrypted Packet Capture
+![image](https://github.com/user-attachments/assets/d329e2f2-b1e4-43dd-977c-35d586c0ef2f)
+
+# Encrypted Packet Capture
+![image](https://github.com/user-attachments/assets/1a28fe72-4dac-46f7-98fb-f7ac4530d44e)
+
+# Novel Blockchain/Fingerprinting Capture
+![image](https://github.com/user-attachments/assets/50cf27b5-c660-458d-b419-c2d720369821)
+
