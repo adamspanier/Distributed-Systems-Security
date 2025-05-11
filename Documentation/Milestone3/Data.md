@@ -234,7 +234,7 @@ The blockchain/fingerprinting environment (172.20.0.0/16) testing revealed:
 8. Grafana: HTTPS - Grafana does not use HTTPS
 
 # Packet Capture Data
-The three packet captures seen below were taken from the unencrypted, encrypted, and novel blockchain/fingerprinting environments, respectively. The full packet capture is available at <insert link here>.
+The three packet captures seen below were taken from the unencrypted, encrypted, and novel blockchain/fingerprinting environments, respectively. The full packet captures are available at [Code/Simulation and Data Gathering](https://github.com/adamspanier/Distributed-Systems-Security/tree/main/Code/Simulation%20and%20Data%20Gathering).
 
 ## Unencrypted Packet Capture
 ![image](https://github.com/user-attachments/assets/d329e2f2-b1e4-43dd-977c-35d586c0ef2f)
